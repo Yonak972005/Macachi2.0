@@ -218,9 +218,7 @@ body {
     width: 100vw;
     margin-left: calc(-50vw + 50%);
     overflow: hidden;
-    border-bottom: 1px solid var(--border);
     background: var(--primary);
-    /* Remove fixed height */
 }
 
 .slider {
@@ -259,7 +257,6 @@ body {
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease;
-    /* Remove extra space: no padding, no border, no margin */
 }
 
 .slide-link:hover {
