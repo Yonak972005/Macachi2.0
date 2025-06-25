@@ -545,7 +545,7 @@ SLIDER STYLES
 .slider {
     position: relative;
     width: 100%;
-    height: 250px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -571,8 +571,10 @@ SLIDER STYLES
 .slide img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
     display: block;
+    background: var(--primary);
 }
 
 /* Botones de navegación - MOBILE */
@@ -616,20 +618,23 @@ SLIDER STYLES
 
 /* Indicadores - MOBILE */
 .slider-indicators {
-    position: absolute;
-    bottom: 15px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
     display: flex;
+    justify-content: center;
     gap: 8px;
     z-index: 10;
+    padding: 15px 0;
+    background: var(--primary);
 }
 
 .indicator {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.5);
+    background: var(--text-light);
     cursor: pointer;
     transition: all 0.3s ease;
     border: 2px solid transparent;
@@ -637,7 +642,7 @@ SLIDER STYLES
 
 .indicator.active {
     background: var(--secondary);
-    border-color: var(--text-light);
+    border-color: transparent;
     transform: scale(1.2);
 }
 
@@ -657,16 +662,17 @@ SLIDER STYLES
 }
 
 .slide-link:hover {
-    transform: scale(1.02);
     opacity: 0.95;
 }
 
 .slide-link img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
     display: block;
     transition: all 0.3s ease;
+    background: var(--primary);
 }
 
 .slide-link:hover img {
@@ -684,7 +690,7 @@ SLIDER - TABLET (768px y más)
     }
 
     .slider {
-        height: 350px;
+        height: 400px;
     }
 
     .slider-btn {
@@ -706,7 +712,7 @@ SLIDER - TABLET (768px y más)
     }
 
     .slider-indicators {
-        bottom: 20px;
+        padding: 20px 0;
         gap: 10px;
     }
 
@@ -727,7 +733,7 @@ SLIDER - DESKTOP (1024px y más)
     }
 
     .slider {
-        height: 400px;
+        height: 450px;
     }
 
     .slider-btn {
@@ -749,7 +755,7 @@ SLIDER - DESKTOP (1024px y más)
     }
 
     .slider-indicators {
-        bottom: 25px;
+        padding: 25px 0;
         gap: 12px;
     }
 
@@ -771,7 +777,7 @@ SLIDER - ULTRA WIDE (1440px y más)
     }
 
     .slider {
-        height: 450px;
+        height: 500px;
     }
 
     .slider-btn {
@@ -793,7 +799,7 @@ SLIDER - ULTRA WIDE (1440px y más)
     }
 
     .slider-indicators {
-        bottom: 30px;
+        padding: 30px 0;
         gap: 15px;
     }
 
