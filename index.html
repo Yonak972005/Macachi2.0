@@ -64,9 +64,94 @@
         </form>
     </div>
 
+    <!-- Slider -->
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide active">
+                <a href="#productos-asesoria" class="slide-link">
+                    <img src="https://i.postimg.cc/zBPStmZp/Presentaci-n-Asesor-a.jpg" alt="Slide 1">
+                </a>
+            </div>
+            <div class="slide">
+                <a href="#ofertas-especiales" class="slide-link">
+                    <img src="https://i.postimg.cc/0yqY5nVZ/Banner-horizontal-web-50-OFF-tienda-de-tecnolog-a-gradiente-y-moderno-turquesa-y-azul.jpg" alt="Slide 2">
+                </a>
+            </div>
+            <div class="slide">
+                <a href="#productos-destacados" class="slide-link">
+                    <img src="https://i.postimg.cc/tR8FsQ3t/freepik-br-f913a4fa-7212-4e09-851b-37e8a635ef51.png" alt="Slide 3">
+                </a>
+            </div>
+            <div class="slide">
+                <a href="#nuevos-productos" class="slide-link">
+                    <img src="https://i.postimg.cc/zBPStmZp/Presentaci-n-Asesor-a.jpg" alt="Slide 4">
+                </a>
+            </div>
+        </div>
+        
+        <!-- Botones de navegación -->
+        <button class="slider-btn prev" onclick="changeSlide(-1)">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <polyline points="15,18 9,12 15,6"></polyline>
+            </svg>
+        </button>
+        <button class="slider-btn next" onclick="changeSlide(1)">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <polyline points="9,18 15,12 9,6"></polyline>
+            </svg>
+        </button>
+        
+        <!-- Indicadores -->
+        <div class="slider-indicators">
+            <span class="indicator active" onclick="currentSlide(1)"></span>
+            <span class="indicator" onclick="currentSlide(2)"></span>
+            <span class="indicator" onclick="currentSlide(3)"></span>
+            <span class="indicator" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+
     <div class="main-content">
         <h1>Bienvenido a Macachi 2.0</h1>
         <p>¡Tu página está lista para comenzar!</p>
     </div>
+
+    <script>
+        let currentSlideIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        const indicators = document.querySelectorAll('.indicator');
+        const totalSlides = slides.length;
+
+        function showSlide(index) {
+            // Ocultar todas las slides
+            slides.forEach(slide => slide.classList.remove('active'));
+            indicators.forEach(indicator => indicator.classList.remove('active'));
+            
+            // Mostrar la slide actual
+            slides[index].classList.add('active');
+            indicators[index].classList.add('active');
+        }
+
+        function changeSlide(direction) {
+            currentSlideIndex += direction;
+            
+            if (currentSlideIndex >= totalSlides) {
+                currentSlideIndex = 0;
+            } else if (currentSlideIndex < 0) {
+                currentSlideIndex = totalSlides - 1;
+            }
+            
+            showSlide(currentSlideIndex);
+        }
+
+        function currentSlide(index) {
+            currentSlideIndex = index - 1;
+            showSlide(currentSlideIndex);
+        }
+
+        // Auto-play del slider (opcional)
+        setInterval(() => {
+            changeSlide(1);
+        }, 5000); // Cambia cada 5 segundos
+    </script>
 </body>
 </html>

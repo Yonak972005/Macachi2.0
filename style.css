@@ -526,3 +526,279 @@ ULTRA WIDE / 4K - 1440px y más
         margin: 0 auto;
     }
 }
+
+/* ============================================
+SLIDER STYLES
+============================================ */
+
+/* Slider Container - MOBILE */
+.slider-container {
+    position: relative;
+    width: 100vw;
+    max-width: none;
+    margin: 0;
+    margin-left: calc(-50vw + 50%);
+    overflow: hidden;
+    border-bottom: 1px solid var(--border);
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Botones de navegación - MOBILE */
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(26, 26, 26, 0.8);
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.slider-btn:hover {
+    background: var(--secondary);
+    color: var(--text-light);
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 4px 12px rgba(197, 48, 48, 0.4);
+}
+
+.slider-btn.prev {
+    left: 12px;
+}
+
+.slider-btn.next {
+    right: 12px;
+}
+
+.slider-btn svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Indicadores - MOBILE */
+.slider-indicators {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.indicator.active {
+    background: var(--secondary);
+    border-color: var(--text-light);
+    transform: scale(1.2);
+}
+
+.indicator:hover {
+    background: var(--accent);
+    transform: scale(1.1);
+}
+
+/* Enlaces clickeables en el slider */
+.slide-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.slide-link:hover {
+    transform: scale(1.02);
+    opacity: 0.95;
+}
+
+.slide-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.slide-link:hover img {
+    filter: brightness(1.05);
+}
+
+/* ============================================
+SLIDER - TABLET (768px y más)
+============================================ */
+@media (min-width: 768px) {
+    .slider-container {
+        width: 100vw;
+        max-width: none;
+        margin-left: calc(-50vw + 50%);
+    }
+
+    .slider {
+        height: 350px;
+    }
+
+    .slider-btn {
+        width: 48px;
+        height: 48px;
+    }
+
+    .slider-btn.prev {
+        left: 24px;
+    }
+
+    .slider-btn.next {
+        right: 24px;
+    }
+
+    .slider-btn svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .slider-indicators {
+        bottom: 20px;
+        gap: 10px;
+    }
+
+    .indicator {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+/* ============================================
+SLIDER - DESKTOP (1024px y más)
+============================================ */
+@media (min-width: 1024px) {
+    .slider-container {
+        width: 100vw;
+        max-width: none;
+        margin-left: calc(-50vw + 50%);
+    }
+
+    .slider {
+        height: 400px;
+    }
+
+    .slider-btn {
+        width: 52px;
+        height: 52px;
+    }
+
+    .slider-btn.prev {
+        left: 48px;
+    }
+
+    .slider-btn.next {
+        right: 48px;
+    }
+
+    .slider-btn svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .slider-indicators {
+        bottom: 25px;
+        gap: 12px;
+    }
+
+    .indicator {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+/* ============================================
+SLIDER - ULTRA WIDE (1440px y más)
+============================================ */
+@media (min-width: 1440px) {
+    .slider-container {
+        width: 100vw;
+        max-width: none;
+        margin: 0;
+        margin-left: calc(-50vw + 50%);
+    }
+
+    .slider {
+        height: 450px;
+    }
+
+    .slider-btn {
+        width: 56px;
+        height: 56px;
+    }
+
+    .slider-btn.prev {
+        left: 80px;
+    }
+
+    .slider-btn.next {
+        right: 80px;
+    }
+
+    .slider-btn svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .slider-indicators {
+        bottom: 30px;
+        gap: 15px;
+    }
+
+    .indicator {
+        width: 16px;
+        height: 16px;
+    }
+}
