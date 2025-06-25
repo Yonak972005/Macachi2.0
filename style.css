@@ -1,8 +1,6 @@
 /* ============================================
-ESTILOS BASE - MOBILE FIRST
+   VARIABLES DE COLOR - CLASSIC MOTO PALETTE
    ============================================ */
-
-/* Variables de Color - CLASSIC MOTO Palette */
 :root {
     --primary: #1a1a1a;      /* Negro carbón (body) */
     --secondary: #c53030;    /* Rojo sobrio */
@@ -15,7 +13,9 @@ ESTILOS BASE - MOBILE FIRST
     --hover: #e53e3e;        /* Rojo más claro para hover */
 }
 
-/* Reset y estilos generales */
+/* ============================================
+   RESET Y ESTILOS BASE
+   ============================================ */
 *,
 *::before,
 *::after {
@@ -24,7 +24,8 @@ ESTILOS BASE - MOBILE FIRST
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -35,15 +36,14 @@ body {
     line-height: 1.6;
     color: var(--text-light);
     background: var(--primary);
-    width: 100%;
-    min-width: 100%;
-    margin: 0;
-    padding: 0;
     overflow-x: hidden;
-    box-sizing: border-box;
 }
 
-/* Header superior - MOBILE */
+/* ============================================
+   LAYOUT PRINCIPAL - MOBILE FIRST
+   ============================================ */
+
+/* 1. TOP HEADER */
 .top-header {
     background: var(--neutral);
     padding: 8px 12px;
@@ -53,9 +53,6 @@ body {
     font-size: 12px;
     color: var(--text-muted);
     border-bottom: 1px solid var(--border);
-    width: 100%;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 .top-header-left {
@@ -104,20 +101,15 @@ body {
     height: 14px;
 }
 
-/* Header principal - MOBILE */
+/* 2. MAIN HEADER */
 .main-header {
     background: var(--primary);
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    min-width: 100%;
-    margin: 0;
-    box-sizing: border-box;
 }
 
-/* Logo - MOBILE */
 .logo {
     flex: 0 0 auto;
 }
@@ -127,15 +119,47 @@ body {
     max-width: 100%;
 }
 
+.cart {
+    flex: 0 0 auto;
+}
 
-/* Formulario de búsqueda - MOBILE */
-/* Sub-header - MOBILE */
+.cart-link {
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid var(--secondary);
+    border-radius: 50%;
+    background: var(--primary);
+    transition: all 0.3s ease;
+    position: relative;
+    width: 44px;
+    height: 44px;
+}
+
+.cart-link:hover {
+    background: var(--secondary);
+    color: var(--text-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(197, 48, 48, 0.4);
+}
+
+.cart-text {
+    display: none;
+}
+
+.cart-link svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* 3. SUB-HEADER Y BÚSQUEDA */
 .sub-header {
     background: var(--primary);
-    padding: 16px 16px;
-    width: 100%;
-    margin: 0;
-    box-sizing: border-box;
+    padding: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,7 +172,7 @@ body {
     max-width: 400px;
     gap: 8px;
     align-items: center;
-    margin: 0 16px; /* Márgenes laterales en móvil */
+    margin: 0 16px;
 }
 
 .search-input {
@@ -156,7 +180,7 @@ body {
     padding: 14px 18px;
     border: 2px solid var(--text-light);
     border-radius: 25px;
-    font-size: 16px; /* Evita zoom en iOS */
+    font-size: 16px;
     outline: none;
     background: var(--neutral);
     color: var(--text-dark);
@@ -182,361 +206,16 @@ body {
     transition: all 0.3s ease;
 }
 
-.search-button:active,
 .search-button:hover {
     background: var(--hover);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(197, 48, 48, 0.3);
 }
 
-/* Carrito - MOBILE */
-.cart {
-    flex: 0 0 auto;
-}
-
-.cart-link {
-    text-decoration: none;
-    color: var(--secondary);
-    font-size: 16px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border: 2px solid var(--secondary);
-    border-radius: 50%;
-    background: var(--primary);
-    transition: all 0.3s ease;
-    position: relative;
-    width: 44px;
-    height: 44px;
-}
-
-.cart-link:active,
-.cart-link:hover {
-    background: var(--secondary);
-    color: var(--text-light);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(197, 48, 48, 0.4);
-}
-
-.cart-text {
-    display: none; /* Ocultar texto del carrito */
-}
-
-.cart-link svg {
-    width: 20px;
-    height: 20px;
-}
-
-/* Contenido principal - MOBILE */
-.main-content {
-    padding: 24px 16px;
-    text-align: center;
-}
-
-.main-content h1 {
-    font-size: 24px;
-    color: var(--text-light);
-    margin-bottom: 12px;
-    font-weight: 600;
-}
-
-.main-content p {
-    color: var(--text-muted);
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-/* ============================================
-TABLET - 768px y más
-   ============================================ */
-@media (min-width: 768px) {
-    .top-header {
-        padding: 8px 24px;
-        font-size: 13px;
-    }
-
-    .top-header-left span {
-        font-size: 13px;
-    }
-
-    .truck-icon {
-        width: 18px;
-        height: 18px;
-    }
-
-    .top-header-right {
-        gap: 12px;
-    }
-
-    .social-link {
-        padding: 6px;
-    }
-
-    .social-link svg {
-        width: 16px;
-        height: 16px;
-    }
-
-    /* Sub-header - TABLET */
-    .sub-header {
-        padding: 16px 24px;
-    }
-
-    .search-form {
-        max-width: 500px;
-        margin: 0 24px;
-    }
-
-    .main-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 24px 32px;
-        width: 100%;
-        min-width: 100%;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    .logo {
-        flex: 0 0 auto;
-    }
-
-    .logo img {
-        height: 48px;
-    }
-
-    .cart {
-        flex: 0 0 auto;
-    }
-
-    .cart-link {
-        background: transparent;
-        border: 2px solid var(--secondary);
-        width: 48px;
-        height: 48px;
-        border-radius: 50%;
-        color: var(--secondary);
-    }
-
-    .cart-link:hover {
-        color: var(--accent);
-        border-color: var(--accent);
-        box-shadow: 0 0 15px rgba(192, 192, 192, 0.5);
-        background: rgba(192, 192, 192, 0.1);
-    }
-
-    .cart-link svg {
-        width: 22px;
-        height: 22px;
-    }
-
-    .main-content {
-        padding: 32px 24px;
-    }
-
-    .main-content h1 {
-        font-size: 28px;
-        margin-bottom: 16px;
-    }
-}
-
-/* ============================================
-DESKTOP - 1024px y más
-   ============================================ */
-@media (min-width: 1024px) {
-    .top-header {
-        font-size: 14px;
-        padding: 10px 48px;
-    }
-
-    .top-header-left span {
-        font-size: 14px;
-    }
-
-    .truck-icon {
-        width: 20px;
-        height: 20px;
-    }
-
-    .social-link svg {
-        width: 18px;
-        height: 18px;
-    }
-
-    /* Sub-header - DESKTOP */
-    .sub-header {
-        padding: 16px 48px;
-    }
-
-    .search-form {
-        max-width: 600px;
-        margin: 0 32px;
-    }
-
-    .main-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 24px 60px;
-        width: 100%;
-        min-width: 100%;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    .main-header {
-        padding: 24px 60px;
-        width: 100%;
-        min-width: 100%;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    .logo img {
-        height: 52px;
-    }
-
-    .search-input {
-        font-size: 15px;
-    }
-
-    .cart-link {
-        width: 52px;
-        height: 52px;
-    }
-
-    .cart-link svg {
-        width: 24px;
-        height: 24px;
-    }
-
-    .cart-text {
-        display: none;
-    }
-
-    .main-content {
-        padding: 48px;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    .main-content h1 {
-        font-size: 32px;
-        margin-bottom: 20px;
-    }
-
-    .main-content p {
-        font-size: 18px;
-    }
-}
-
-/* ============================================
-ULTRA WIDE / 4K - 1440px y más
-============================================ */
-@media (min-width: 1440px) {
-    .top-header {
-        padding: 12px 80px;
-        font-size: 15px;
-    }
-
-    .top-header-left span {
-        font-size: 15px;
-    }
-
-    .truck-icon {
-        width: 22px;
-        height: 22px;
-    }
-
-    .social-link svg {
-        width: 20px;
-        height: 20px;
-    }
-
-    /* Sub-header - ULTRA WIDE */
-    .sub-header {
-        padding: 20px 80px;
-        max-width: 1600px;
-        margin: 0 auto;
-        box-sizing: border-box;
-        margin-top: -100px;
-    }
-
-    .search-form {
-        max-width: 700px;
-        margin: 0 40px;
-    }
-
-    .main-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 30px 100px;
-        width: 100%;
-        min-width: 100%;
-        max-width: 1600px;
-        margin: 0 auto;
-        box-sizing: border-box;
-    }
-
-    .logo img {
-        height: 56px;
-    }
-
-    .search-input {
-        padding: 14px 16px;
-        font-size: 16px;
-    }
-
-    .search-button {
-        padding: 14px 20px;
-        font-size: 15px;
-    }
-
-    .cart-link {
-        width: 56px;
-        height: 56px;
-    }
-
-    .cart-link svg {
-        width: 26px;
-        height: 26px;
-    }
-
-    .cart-text {
-        display: none;
-    }
-
-    .main-content {
-        padding: 64px 80px;
-        max-width: 1600px;
-        margin: 0 auto;
-    }
-
-    .main-content h1 {
-        font-size: 40px;
-        margin-bottom: 24px;
-    }
-
-    .main-content p {
-        font-size: 20px;
-        max-width: 800px;
-        margin: 0 auto;
-    }
-}
-
-/* ============================================
-SLIDER STYLES
-============================================ */
-
-/* Slider Container - MOBILE */
+/* 4. SLIDER */
 .slider-container {
     position: relative;
     width: 100vw;
-    max-width: none;
-    margin: 0;
     margin-left: calc(-50vw + 50%);
     overflow: hidden;
     border-bottom: 1px solid var(--border);
@@ -568,16 +247,34 @@ SLIDER STYLES
     opacity: 1;
 }
 
-.slide img {
+.slide-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.slide-link:hover {
+    opacity: 0.95;
+}
+
+.slide img,
+.slide-link img {
     width: 100%;
     height: 100%;
     object-fit: contain;
     object-position: center;
     display: block;
     background: var(--primary);
+    transition: all 0.3s ease;
 }
 
-/* Botones de navegación - MOBILE */
+.slide-link:hover img {
+    filter: brightness(1.05);
+}
+
 .slider-btn {
     position: absolute;
     top: 50%;
@@ -616,12 +313,7 @@ SLIDER STYLES
     height: 18px;
 }
 
-/* Indicadores - MOBILE */
 .slider-indicators {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    transform: none;
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -642,7 +334,6 @@ SLIDER STYLES
 
 .indicator.active {
     background: var(--secondary);
-    border-color: transparent;
     transform: scale(1.2);
 }
 
@@ -651,42 +342,96 @@ SLIDER STYLES
     transform: scale(1.1);
 }
 
-/* Enlaces clickeables en el slider */
-.slide-link {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
+/* 5. CONTENIDO PRINCIPAL */
+.main-content {
+    padding: 24px 16px;
+    text-align: center;
 }
 
-.slide-link:hover {
-    opacity: 0.95;
+.main-content h1 {
+    font-size: 24px;
+    color: var(--text-light);
+    margin-bottom: 12px;
+    font-weight: 600;
 }
 
-.slide-link img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-    display: block;
-    transition: all 0.3s ease;
-    background: var(--primary);
-}
-
-.slide-link:hover img {
-    filter: brightness(1.05);
+.main-content p {
+    color: var(--text-muted);
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* ============================================
-SLIDER - TABLET (768px y más)
-============================================ */
+   RESPONSIVE BREAKPOINTS
+   ============================================ */
+
+/* TABLET - 768px y más */
 @media (min-width: 768px) {
-    .slider-container {
-        width: 100vw;
-        max-width: none;
-        margin-left: calc(-50vw + 50%);
+    .top-header {
+        padding: 8px 24px;
+        font-size: 13px;
+    }
+
+    .top-header-left span {
+        font-size: 13px;
+    }
+
+    .truck-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .top-header-right {
+        gap: 12px;
+    }
+
+    .social-link svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .main-header {
+        padding: 24px 32px;
+    }
+
+    .logo img {
+        height: 48px;
+    }
+
+    .sub-header {
+        padding: 16px 24px;
+    }
+
+    .search-form {
+        max-width: 500px;
+        margin: 0 24px;
+    }
+
+    .cart-link {
+        width: 48px;
+        height: 48px;
+        background: transparent;
+    }
+
+    .cart-link:hover {
+        color: var(--accent);
+        border-color: var(--accent);
+        box-shadow: 0 0 15px rgba(192, 192, 192, 0.5);
+        background: rgba(192, 192, 192, 0.1);
+    }
+
+    .cart-link svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .main-content {
+        padding: 32px 24px;
+    }
+
+    .main-content h1 {
+        font-size: 28px;
+        margin-bottom: 16px;
     }
 
     .slider {
@@ -722,14 +467,71 @@ SLIDER - TABLET (768px y más)
     }
 }
 
-/* ============================================
-SLIDER - DESKTOP (1024px y más)
-============================================ */
+/* DESKTOP - 1024px y más */
 @media (min-width: 1024px) {
-    .slider-container {
-        width: 100vw;
-        max-width: none;
-        margin-left: calc(-50vw + 50%);
+    .top-header {
+        font-size: 14px;
+        padding: 10px 48px;
+    }
+
+    .top-header-left span {
+        font-size: 14px;
+    }
+
+    .truck-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .social-link svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .main-header {
+        padding: 24px 60px;
+    }
+
+    .logo img {
+        height: 52px;
+    }
+
+    .sub-header {
+        padding: 16px 48px;
+    }
+
+    .search-form {
+        max-width: 600px;
+        margin: 0 32px;
+    }
+
+    .search-input {
+        font-size: 15px;
+    }
+
+    .cart-link {
+        width: 52px;
+        height: 52px;
+    }
+
+    .cart-link svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .main-content {
+        padding: 48px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .main-content h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .main-content p {
+        font-size: 18px;
     }
 
     .slider {
@@ -765,15 +567,81 @@ SLIDER - DESKTOP (1024px y más)
     }
 }
 
-/* ============================================
-SLIDER - ULTRA WIDE (1440px y más)
-============================================ */
+/* ULTRA WIDE / 4K - 1440px y más */
 @media (min-width: 1440px) {
-    .slider-container {
-        width: 100vw;
-        max-width: none;
-        margin: 0;
-        margin-left: calc(-50vw + 50%);
+    .top-header {
+        padding: 12px 80px;
+        font-size: 15px;
+    }
+
+    .top-header-left span {
+        font-size: 15px;
+    }
+
+    .truck-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .social-link svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .main-header {
+        padding: 30px 100px;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    .logo img {
+        height: 56px;
+    }
+
+    .sub-header {
+        padding: 20px 80px;
+        max-width: 1600px;
+        margin: 0 auto;
+        margin-top: -25px;
+    }
+
+    .search-form {
+        max-width: 700px;
+        margin: 0 40px;
+    }
+
+    .search-input {
+        font-size: 16px;
+    }
+
+    .search-button {
+        font-size: 15px;
+    }
+
+    .cart-link {
+        width: 56px;
+        height: 56px;
+    }
+
+    .cart-link svg {
+        width: 26px;
+        height: 26px;
+    }
+
+    .main-content {
+        padding: 64px 80px;
+        max-width: 1600px;
+    }
+
+    .main-content h1 {
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+
+    .main-content p {
+        font-size: 20px;
+        max-width: 800px;
+        margin: 0 auto;
     }
 
     .slider {
@@ -808,3 +676,4 @@ SLIDER - ULTRA WIDE (1440px y más)
         height: 16px;
     }
 }
+
