@@ -219,15 +219,17 @@ body {
     margin-left: calc(-50vw + 50%);
     overflow: hidden;
     border-bottom: 1px solid var(--border);
+    background: var(--primary);
+    /* Remove fixed height */
 }
 
 .slider {
     position: relative;
     width: 100%;
-    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+    aspect-ratio: 16/7; /* fallback aspect ratio, can be adjusted */
 }
 
 .slide {
@@ -245,15 +247,19 @@ body {
 
 .slide.active {
     opacity: 1;
+    z-index: 1;
 }
 
 .slide-link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease;
+    /* Remove extra space: no padding, no border, no margin */
 }
 
 .slide-link:hover {
@@ -262,11 +268,12 @@ body {
 
 .slide img,
 .slide-link img {
+    display: block;
     width: 100%;
-    height: 100%;
+    height: auto;
+    max-height: 80vh;
     object-fit: contain;
     object-position: center;
-    display: block;
     background: var(--primary);
     transition: all 0.3s ease;
 }
@@ -277,11 +284,11 @@ body {
 
 .slider-btn {
     position: absolute;
-    top: 50%;
+    top: calc(50% - 10px);
     transform: translateY(-50%);
     background: rgba(26, 26, 26, 0.8);
-    border: 2px solid var(--secondary);
-    color: var(--secondary);
+    border: 2px solid var(--text-light);
+    color: var(--text-light);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -294,10 +301,9 @@ body {
 }
 
 .slider-btn:hover {
-    background: var(--secondary);
     color: var(--text-light);
     transform: translateY(-50%) scale(1.1);
-    box-shadow: 0 4px 12px rgba(197, 48, 48, 0.4);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.4);
 }
 
 .slider-btn.prev {
@@ -318,8 +324,9 @@ body {
     justify-content: center;
     gap: 8px;
     z-index: 10;
-    padding: 15px 0;
+    padding: 4px 0 10px 0; /* Reduce top padding */
     background: var(--primary);
+    margin-top: -10px; /* Pull indicators closer to the slider */
 }
 
 .indicator {
@@ -538,9 +545,14 @@ body {
         height: 450px;
     }
 
+    .slide-link {
+    width: 85%;
+    }
+
     .slider-btn {
         width: 52px;
         height: 52px;
+        top: calc(50% - 35px);
     }
 
     .slider-btn.prev {
@@ -559,6 +571,7 @@ body {
     .slider-indicators {
         padding: 25px 0;
         gap: 12px;
+        margin-top: 0px; /* Pull indicators closer to the slider */
     }
 
     .indicator {
