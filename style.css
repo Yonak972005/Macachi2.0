@@ -1,0 +1,500 @@
+/* ============================================
+ESTILOS BASE - MOBILE FIRST
+   ============================================ */
+
+/* Variables de Color - CLASSIC MOTO Palette */
+:root {
+    --primary: #1a1a1a;      /* Negro carbón (body) */
+    --secondary: #c53030;    /* Rojo sobrio */
+    --accent: #c0c0c0;       /* Plateado elegante */
+    --neutral: #d4d4d4;      /* Gris medio (top header) */
+    --text-light: #ffffff;   /* Blanco */
+    --text-dark: #1a1a1a;    /* Negro */
+    --text-muted: #666666;   /* Gris medio */
+    --border: #333333;       /* Bordes oscuros */
+    --hover: #e53e3e;        /* Rojo más claro para hover */
+}
+
+/* Reset y estilos generales */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--text-light);
+    background: var(--primary);
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/* Header superior - MOBILE */
+.top-header {
+    background: var(--neutral);
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-header-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.truck-icon {
+    color: var(--secondary);
+    flex-shrink: 0;
+}
+
+.top-header-left span {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.top-header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-link {
+    color: var(--secondary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    width: 28px;
+    height: 28px;
+}
+
+.social-link:hover {
+    background: rgba(197, 48, 48, 0.15);
+    transform: translateY(-2px) scale(1.1);
+    box-shadow: 0 4px 8px rgba(197, 48, 48, 0.2);
+}
+
+.social-link svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Header principal - MOBILE */
+.main-header {
+    background: var(--primary);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+}
+
+/* Logo - MOBILE */
+.logo {
+    flex: 0 0 auto;
+}
+
+.logo img {
+    height: 40px;
+    max-width: 100%;
+}
+
+/* Formulario de búsqueda - MOBILE */
+.search-form {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    padding: 14px 18px;
+    border: 2px solid var(--text-light);
+    border-radius: 25px;
+    font-size: 16px; /* Evita zoom en iOS */
+    outline: none;
+    background: var(--neutral);
+    color: var(--text-dark);
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    border-color: var(--secondary);
+    box-shadow: 0 0 0 3px rgba(197, 48, 48, 0.15);
+    transform: scale(1.02);
+}
+
+.search-button {
+    padding: 14px 20px;
+    border: none;
+    background: var(--secondary);
+    color: var(--text-light);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+    transition: all 0.3s ease;
+}
+
+.search-button:active,
+.search-button:hover {
+    background: var(--hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(197, 48, 48, 0.3);
+}
+
+/* Carrito - MOBILE */
+.cart {
+    flex: 0 0 auto;
+}
+
+.cart-link {
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid var(--secondary);
+    border-radius: 50%;
+    background: var(--primary);
+    transition: all 0.3s ease;
+    position: relative;
+    width: 44px;
+    height: 44px;
+}
+
+.cart-link:active,
+.cart-link:hover {
+    background: var(--secondary);
+    color: var(--text-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(197, 48, 48, 0.4);
+}
+
+.cart-text {
+    display: none; /* Ocultar texto del carrito */
+}
+
+.cart-link svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Contenido principal - MOBILE */
+.main-content {
+    padding: 24px 16px;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 24px;
+    color: var(--text-light);
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.main-content p {
+    color: var(--text-muted);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* ============================================
+TABLET - 768px y más
+   ============================================ */
+@media (min-width: 768px) {
+    .top-header {
+        padding: 8px 24px;
+        font-size: 13px;
+    }
+
+    .top-header-left span {
+        font-size: 13px;
+    }
+
+    .truck-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .top-header-right {
+        gap: 12px;
+    }
+
+    .social-link {
+        padding: 6px;
+    }
+
+    .social-link svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .main-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 24px;
+        width: 100%;
+        min-width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .logo {
+        flex: 0 0 auto;
+    }
+
+    .logo img {
+        height: 45px;
+    }
+
+    .search-form {
+        display: flex;
+        flex: 1 1 auto;
+        justify-content: center;
+        align-items: center;
+        margin: 0 24px;
+        max-width: 400px;
+    }
+
+    .search-input {
+        width: 100%;
+        margin: 0;
+    }
+
+    .cart {
+        flex: 0 0 auto;
+    }
+
+    .cart-link {
+        background: transparent;
+        border: 2px solid var(--secondary);
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        color: var(--secondary);
+    }
+
+    .cart-link:hover {
+        color: var(--accent);
+        border-color: var(--accent);
+        box-shadow: 0 0 15px rgba(192, 192, 192, 0.5);
+        background: rgba(192, 192, 192, 0.1);
+    }
+
+    .cart-link svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .main-content {
+        padding: 32px 24px;
+    }
+
+    .main-content h1 {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+}
+
+/* ============================================
+DESKTOP - 1024px y más
+   ============================================ */
+@media (min-width: 1024px) {
+    .top-header {
+        font-size: 14px;
+        padding: 10px 48px;
+    }
+
+    .top-header-left span {
+        font-size: 14px;
+    }
+
+    .truck-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .social-link svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .main-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 48px;
+        width: 100%;
+        min-width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .main-header {
+        padding: 16px 48px;
+        width: 100%;
+        min-width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+
+    .search-form {
+        max-width: 500px;
+    }
+
+    .search-input {
+        font-size: 15px;
+    }
+
+    .cart-link {
+        width: 52px;
+        height: 52px;
+    }
+
+    .cart-link svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .cart-text {
+        display: none;
+    }
+
+    .main-content {
+        padding: 48px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .main-content h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .main-content p {
+        font-size: 18px;
+    }
+}
+
+/* ============================================
+ULTRA WIDE / 4K - 1440px y más
+============================================ */
+@media (min-width: 1440px) {
+    .top-header {
+        padding: 12px 80px;
+        font-size: 15px;
+    }
+
+    .top-header-left span {
+        font-size: 15px;
+    }
+
+    .truck-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .social-link svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .main-header {
+        padding: 20px 80px;
+        width: 100%;
+        min-width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    .search-form {
+        max-width: 600px;
+        margin: 0 40px;
+    }
+
+    .search-input {
+        padding: 14px 16px;
+        font-size: 16px;
+    }
+
+    .search-button {
+        padding: 14px 20px;
+        font-size: 15px;
+    }
+
+    .cart-link {
+        width: 56px;
+        height: 56px;
+    }
+
+    .cart-link svg {
+        width: 26px;
+        height: 26px;
+    }
+
+    .cart-text {
+        display: none;
+    }
+
+    .main-content {
+        padding: 64px 80px;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    .main-content h1 {
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+
+    .main-content p {
+        font-size: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
