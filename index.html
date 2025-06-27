@@ -110,48 +110,136 @@
         </div>
     </div>
 
-    <div class="main-content">
-        <h1>Bienvenido a Macachi 2.0</h1>
-        <p>¡Tu página está lista para comenzar!</p>
-    </div>
+    <!-- Sección de productos -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="products-grid">
+                
+                <!-- Producto 1 -->
+                <div class="product-card" onclick="navigateToProduct('#producto-casco-racing')">
+                    <img src="https://i.postimg.cc/RCpxQ8Ls/casco1.jpg" alt="Casco Integral Racing Pro" class="product-image" loading="lazy">
+                    <div class="product-info">
+                        <h3 class="product-title">Casco Integral Racing Pro</h3>
+                        <p class="product-description">Casco de alta gama con tecnología avanzada para máxima protección y comodidad.</p>
+                        <ul class="product-features">
+                            <li>Certificación DOT/ECE</li>
+                            <li>Visera anti-empañante</li>
+                            <li>Sistema de ventilación</li>
+                            <li>Peso ligero 1.3kg</li>
+                        </ul>
+                    </div>
+                </div>
 
-    <script>
-        let currentSlideIndex = 0;
-        const slides = document.querySelectorAll('.slide');
-        const indicators = document.querySelectorAll('.indicator');
-        const totalSlides = slides.length;
+                <!-- Producto 2 -->
+                <div class="product-card" onclick="navigateToProduct('#producto-guantes-premium')">
+                    <img src="https://i.postimg.cc/sgx8nMf1/guantes1.jpg" alt="Guantes de Cuero Premium" class="product-image" loading="lazy">
+                    <div class="product-info">
+                        <h3 class="product-title">Guantes de Cuero Premium</h3>
+                        <p class="product-description">Guantes de cuero genuino con protecciones en nudillos y palma reforzada.</p>
+                        <ul class="product-features">
+                            <li>Cuero genuino</li>
+                            <li>Protección en nudillos</li>
+                            <li>Palma reforzada</li>
+                            <li>Transpirable</li>
+                        </ul>
+                    </div>
+                </div>
 
-        function showSlide(index) {
-            // Ocultar todas las slides
-            slides.forEach(slide => slide.classList.remove('active'));
-            indicators.forEach(indicator => indicator.classList.remove('active'));
-            
-            // Mostrar la slide actual
-            slides[index].classList.add('active');
-            indicators[index].classList.add('active');
-        }
+                <!-- Producto 3 -->
+                <div class="product-card" onclick="navigateToProduct('#producto-chaqueta-moto')">
+                    <img src="https://i.postimg.cc/DynWxd8X/chaqueta1.jpg" alt="Chaqueta Motociclista" class="product-image" loading="lazy">
+                    <div class="product-info">
+                        <h3 class="product-title">Chaqueta Motociclista</h3>
+                        <p class="product-description">Chaqueta resistente al viento y agua con protecciones CE en hombros y codos.</p>
+                        <ul class="product-features">
+                            <li>Protecciones CE</li>
+                            <li>Resistente al agua</li>
+                            <li>Ventilación ajustable</li>
+                            <li>Reflectivos 3M</li>
+                        </ul>
+                    </div>
+                </div>
 
-        function changeSlide(direction) {
-            currentSlideIndex += direction;
-            
-            if (currentSlideIndex >= totalSlides) {
-                currentSlideIndex = 0;
-            } else if (currentSlideIndex < 0) {
-                currentSlideIndex = totalSlides - 1;
-            }
-            
-            showSlide(currentSlideIndex);
-        }
+                <!-- Producto 4 -->
+                <div class="product-card" onclick="navigateToProduct('#producto-botas-moto')">
+                    <img src="https://i.postimg.cc/sfP3jCQM/botas1.jpg" alt="Botas de Motociclismo" class="product-image" loading="lazy">
+                    <div class="product-info">
+                        <h3 class="product-title">Botas de Motociclismo</h3>
+                        <p class="product-description">Botas reforzadas con protección en tobillo y suela antideslizante.</p>
+                        <ul class="product-features">
+                            <li>Protección tobillo</li>
+                            <li>Suela antideslizante</li>
+                            <li>Resistente al agua</li>
+                            <li>Cierre rápido</li>
+                        </ul>
+                    </div>
+                </div>
 
-        function currentSlide(index) {
-            currentSlideIndex = index - 1;
-            showSlide(currentSlideIndex);
-        }
+                <!-- Producto 5 -->
+                <div class="product-card" onclick="navigateToProduct('#producto-kit-herramientas')">
+                    <img src="https://i.postimg.cc/YCcPnGV1/herramientas1.jpg" alt="Kit de Herramientas" class="product-image" loading="lazy">
+                    <div class="product-info">
+                        <h3 class="product-title">Kit de Herramientas</h3>
+                        <p class="product-description">Kit completo de herramientas para mantenimiento básico de motocicletas.</p>
+                        <ul class="product-features">
+                            <li>23 herramientas</li>
+                            <li>Estuche compacto</li>
+                            <li>Acero inoxidable</li>
+                            <li>Portátil</li>
+                        </ul>
+                    </div>
+                </div>
 
-        // Auto-play del slider (opcional)
-        setInterval(() => {
-            changeSlide(1);
-        }, 5000); // Cambia cada 5 segundos
-    </script>
+                <!-- Producto 6 -->
+                <div class="product-card" onclick="navigateToProduct('#producto-aceite-motor')">
+                    <img src="https://i.postimg.cc/J4sK5wz9/aceite1.jpg" alt="Aceite Motor 4T Premium" class="product-image" loading="lazy">
+                    <div class="product-info">
+                        <h3 class="product-title">Aceite Motor 4T Premium</h3>
+                        <p class="product-description">Aceite sintético de alta calidad para motores de 4 tiempos.</p>
+                        <ul class="product-features">
+                            <li>100% sintético</li>
+                            <li>Viscosidad 10W-40</li>
+                            <li>1 litro</li>
+                            <li>Máxima protección</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Producto 7 -->
+                <div class="product-card" onclick="navigateToProduct('#producto-soporte-celular')">
+                    <img src="https://i.postimg.cc/Kj8GnHLd/soporte1.jpg" alt="Soporte para Celular" class="product-image" loading="lazy">
+                    <div class="product-info">
+                        <h3 class="product-title">Soporte para Celular</h3>
+                        <p class="product-description">Soporte universal impermeable para smartphone con carga inalámbrica.</p>
+                        <ul class="product-features">
+                            <li>Carga inalámbrica</li>
+                            <li>Impermeable IPX6</li>
+                            <li>Rotación 360°</li>
+                            <li>Universal</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Producto 8 -->
+                <div class="product-card" onclick="navigateToProduct('#producto-intercomunicador')">
+                    <img src="https://i.postimg.cc/3wKvKnhq/intercom1.jpg" alt="Intercomunicador Bluetooth" class="product-image" loading="lazy">
+                    <div class="product-info">
+                        <h3 class="product-title">Intercomunicador Bluetooth</h3>
+                        <p class="product-description">Sistema de comunicación Bluetooth para casco con cancelación de ruido.</p>
+                        <ul class="product-features">
+                            <li>Bluetooth 5.0</li>
+                            <li>15h autonomía</li>
+                            <li>Cancelación ruido</li>
+                            <li>Resistente agua</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="funcionalidades.js"></script>
 </body>
 </html>
