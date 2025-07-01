@@ -396,7 +396,6 @@ body {
     display: block;
     width: 60px;
     height: 3px;
-    background: var(--secondary);
     margin: 10px auto 0;
 }
 
