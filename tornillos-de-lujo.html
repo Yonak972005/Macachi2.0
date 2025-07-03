@@ -3,30 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Macachi - Tornillos de lujo y accesorios para motocicletas. Envíos a toda Colombia. Calidad premium para tu moto.">
-    <meta name="keywords" content="tornillos moto, accesorios motocicleta, tuercas moto, tornillos lujo, repuestos moto Colombia">
-    <meta name="author" content="Macachi SAS">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://macachi.com/">
-    <meta property="og:title" content="Macachi 2.0 - Tornillos de Lujo para Motocicletas">
-    <meta property="og:description" content="Los mejores tornillos y accesorios de lujo para tu motocicleta. Calidad premium con envíos a toda Colombia.">
-    <meta property="og:image" content="https://i.postimg.cc/QNJ34NCr/icon.png">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://macachi.com/">
-    <meta property="twitter:title" content="Macachi 2.0 - Tornillos de Lujo para Motocicletas">
-    <meta property="twitter:description" content="Los mejores tornillos y accesorios de lujo para tu motocicleta. Calidad premium con envíos a toda Colombia.">
-    <meta property="twitter:image" content="https://i.postimg.cc/QNJ34NCr/icon.png">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/QNJ34NCr/icon.png">
-    <link rel="apple-touch-icon" href="https://i.postimg.cc/QNJ34NCr/icon.png">
-    <link rel="manifest" href="manifest.json">
-    
-    <title>Macachi 2.0 - Tornillos de Lujo para Motocicletas | Envíos Colombia</title>
+    <title>Macachi 2.0</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -87,56 +64,10 @@
         </form>
     </div>
 
-    <!-- Slider -->
-    <div class="slider-container">
-        <div class="slider">
-            <div class="slide active">
-                <a href="#productos-asesoria" class="slide-link">
-                    <img src="https://i.postimg.cc/L6sKvnXg/slider1.png" alt="Slide 1">
-                </a>
-            </div>
-            <div class="slide">
-                <a href="#ofertas-especiales" class="slide-link">
-                    <img src="https://i.postimg.cc/rwvB8j95/slider2.png" alt="Slide 2">
-                </a>
-            </div>
-            <div class="slide">
-                <a href="#productos-destacados" class="slide-link">
-                    <img src="https://i.postimg.cc/HnsKShp1/slider3.png" alt="Slide 3">
-                </a>
-            </div>
-            <div class="slide">
-                <a href="#nuevos-productos" class="slide-link">
-                    <img src="https://i.postimg.cc/hvyYN1jz/slider4.png" alt="Slide 4">
-                </a>
-            </div>
-        </div>
-        
-        <!-- Botones de navegación -->
-        <button class="slider-btn prev" onclick="changeSlide(-1)">
-            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <polyline points="15,18 9,12 15,6"></polyline>
-            </svg>
-        </button>
-        <button class="slider-btn next" onclick="changeSlide(1)">
-            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <polyline points="9,18 15,12 9,6"></polyline>
-            </svg>
-        </button>
-        
-        <!-- Indicadores -->
-        <div class="slider-indicators">
-            <span class="indicator active" onclick="currentSlide(1)"></span>
-            <span class="indicator" onclick="currentSlide(2)"></span>
-            <span class="indicator" onclick="currentSlide(3)"></span>
-            <span class="indicator" onclick="currentSlide(4)"></span>
-        </div>
-    </div>
-
-    <!-- Sección de productos -->
+        <!-- Sección de productos -->
     <section class="products-section">
         <div class="container">
-            <h2 class="section-title">Nuestros Productos</h2>
+            <h2 class="section-title">Tornillos de lujo</h2>
             <div class="products-grid">
                 
                 <!-- Producto 1 -->
@@ -500,7 +431,7 @@
             </div>
         </div>
     </section>
-    
+
     <footer class="footer">
         <div class="footer-box">
             <div class="footer-accordion">
@@ -570,56 +501,5 @@
     </footer>
 
     <script src="funcionalidades.js"></script>
-    
-    <!-- Google Analytics (reemplaza con tu ID) -->
-    <!-- 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'GA_TRACKING_ID');
-    </script>
-    -->
-    
-    <!-- Service Worker para PWA -->
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function() {
-                navigator.serviceWorker.register('/sw.js')
-                    .then(function(registration) {
-                        console.log('ServiceWorker registrado exitosamente');
-                    })
-                    .catch(function(error) {
-                        console.log('ServiceWorker falló al registrarse');
-                    });
-            });
-        }
-    </script>
-    
-    <!-- Botón "Ir arriba" -->
-    <button id="btn-arriba" onclick="scrollToTop()">
-        <span>↑</span>
-    </button>
-    
-    <script>
-        // Mostrar/ocultar botón "ir arriba"
-        window.addEventListener('scroll', function() {
-            const btnArriba = document.getElementById('btn-arriba');
-            if (window.pageYOffset > 300) {
-                btnArriba.style.display = 'flex';
-            } else {
-                btnArriba.style.display = 'none';
-            }
-        });
-        
-        // Función para ir arriba
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        }
-    </script>
 </body>
 </html>

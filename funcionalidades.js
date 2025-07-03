@@ -41,15 +41,29 @@ setInterval(() => {
 // ============================================
 
 // Función para navegar a un producto específico
-function navigateToProduct(link) {
-    // Aquí puedes definir hacia dónde redirigir
-    // Por ahora, abrirá en una nueva pestaña con un enlace de ejemplo
-    const productUrl = `producto.html${link}`;
-    window.open(productUrl, '_blank');
+function navigateToProduct(productId) {
+    // Definir las páginas de productos específicas
+    const productPages = {
+        '#tornillos-de-lujo': 'tornillos-de-lujo.html',
+        '#tapa-valvulas': 'tapa-valvulas.html',
+        '#lujos-varios': 'lujos-varios.html',
+        '#tuercas': 'tuercas.html',
+        '#tornillos': 'tornillos.html',
+        '#chapetas': 'chapetas.html',
+        '#tornillos-especiales': 'tornillos-especiales.html',
+        '#esparragos-pernos': 'esparragos-pernos.html'
+        // Agrega más productos según necesites
+    };
     
-    // Alternativa: Redirigir en la misma pestaña
-    // window.location.href = productUrl;
+    // Obtener la URL del producto
+    const productUrl = productPages[productId];
     
-    // Para debug: mostrar en consola
-    console.log(`Navegando a: ${link}`);
+    if (productUrl) {
+        // Redirigir en la misma pestaña
+        window.location.href = productUrl;
+    } else {
+        // Si no existe la página, mostrar mensaje
+        console.log(`Página no encontrada para: ${productId}`);
+        alert('Página de producto en construcción');
+    }
 }
