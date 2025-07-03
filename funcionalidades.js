@@ -10,8 +10,8 @@ function showSlide(index) {
     indicators.forEach(indicator => indicator.classList.remove('active'));
     
     // Mostrar la slide actual
-    slides[index].classList.add('active');
-    indicators[index].classList.add('active');
+    if (slides[index]) slides[index].classList.add('active');
+    if (indicators[index]) indicators[index].classList.add('active');
 }
 
 function changeSlide(direction) {
@@ -32,21 +32,24 @@ function currentSlide(index) {
 }
 
 // Auto-play del slider (opcional)
-setInterval(() => {
-    changeSlide(1);
-}, 5000); // Cambia cada 5 segundos
+if (totalSlides > 0) {
+    setInterval(() => {
+        changeSlide(1);
+    }, 5000); // Cambia cada 5 segundos
+}
 
 // ============================================
-// FUNCIONALIDADES DE PRODUCTOS
+// FUNCIONALIDADES GENERALES
 // ============================================
 
-// Función para navegar a un producto específico
+// Función para navegación (mantenida para compatibilidad con productos futuros)
 function navigateToProduct(productId) {
-    // Definir las páginas de productos específicas
+    // Para productos que no están en el modal, mantener la funcionalidad original
     const productPages = {
         '#tornillos-de-lujo': 'tornillos-de-lujo.html',
         '#tapa-valvulas': 'tapa-valvulas.html',
         '#lujos-varios': 'lujos-varios.html',
+        '#tuercas': 'tuercas.html',
         '#tuercas': 'tuercas.html',
         '#tornillos': 'tornillos.html',
         '#chapetas': 'chapetas.html',
