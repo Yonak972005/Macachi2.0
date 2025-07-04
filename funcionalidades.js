@@ -42,35 +42,6 @@ if (totalSlides > 0) {
 // FUNCIONALIDADES GENERALES
 // ============================================
 
-// Función para navegación (mantenida para compatibilidad con productos futuros)
-function navigateToProduct(productId) {
-    // Para productos que no están en el modal, mantener la funcionalidad original
-    const productPages = {
-        '#tornillos-de-lujo': 'tornillos-de-lujo.html',
-        '#tapa-valvulas': 'tapa-valvulas.html',
-        '#lujos-varios': 'lujos-varios.html',
-        '#tuercas': 'tuercas.html',
-        '#tuercas': 'tuercas.html',
-        '#tornillos': 'tornillos.html',
-        '#chapetas': 'chapetas.html',
-        '#tornillos-especiales': 'tornillos-especiales.html',
-        '#esparragos-pernos': 'esparragos-pernos.html'
-        // Agrega más productos según necesites
-    };
-    
-    // Obtener la URL del producto
-    const productUrl = productPages[productId];
-    
-    if (productUrl) {
-        // Redirigir en la misma pestaña
-        window.location.href = productUrl;
-    } else {
-        // Si no existe la página, mostrar mensaje
-        console.log(`Página no encontrada para: ${productId}`);
-        alert('Página de producto en construcción');
-    }
-}
-
 // ============================================
 // FUNCIONALIDAD BOTÓN "IR ARRIBA"
 // ============================================
