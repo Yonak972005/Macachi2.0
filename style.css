@@ -438,7 +438,7 @@ body {
 }
 
 .product-image {
-    width: 190px;
+    width: 70%;
     height: 190px;
     object-fit: contain;
     object-position: center;
