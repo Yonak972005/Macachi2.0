@@ -70,3 +70,36 @@ function navigateToProduct(productId) {
         alert('Página de producto en construcción');
     }
 }
+
+// ============================================
+// FUNCIONALIDAD BOTÓN "IR ARRIBA"
+// ============================================
+
+// Esperar a que el DOM esté cargado
+document.addEventListener('DOMContentLoaded', function() {
+    // Mostrar/ocultar botón "ir arriba"
+    window.addEventListener('scroll', function() {
+        const btnArriba = document.getElementById('btn-arriba');
+        if (btnArriba) {
+            // Solo mostrar en móviles (768px o menos)
+            if (window.innerWidth <= 768) {
+                if (window.pageYOffset > 300) {
+                    btnArriba.classList.add('show');
+                } else {
+                    btnArriba.classList.remove('show');
+                }
+            } else {
+                // En desktop, asegurar que esté oculto
+                btnArriba.classList.remove('show');
+            }
+        }
+    });
+});
+
+// Función para ir arriba
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}

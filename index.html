@@ -570,19 +570,7 @@
     </footer>
 
     <script src="funcionalidades.js"></script>
-    
-    <!-- Google Analytics (reemplaza con tu ID) -->
-    <!-- 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'GA_TRACKING_ID');
-    </script>
-    -->
-    
-    <!-- Service Worker para PWA -->
+
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
@@ -601,25 +589,5 @@
     <button id="btn-arriba" onclick="scrollToTop()">
         <span>↑</span>
     </button>
-    
-    <script>
-        // Mostrar/ocultar botón "ir arriba"
-        window.addEventListener('scroll', function() {
-            const btnArriba = document.getElementById('btn-arriba');
-            if (window.pageYOffset > 300) {
-                btnArriba.style.display = 'flex';
-            } else {
-                btnArriba.style.display = 'none';
-            }
-        });
-        
-        // Función para ir arriba
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        }
-    </script>
 </body>
 </html>

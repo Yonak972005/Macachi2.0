@@ -618,31 +618,54 @@ body {
     display: none;
 }
 
+/* ============================================
+   BOTÓN "IR ARRIBA" - SOLO MÓVILES
+   ============================================ */
+
+/* Ocultar por defecto en desktop */
 #btn-arriba {
-    display: none;
-    position: fixed;
-    bottom: 80px;
-    right: 20px;
-    z-index: 9999;
-    background: #ff6600;
-    border: none;
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
+    display: none !important;
 }
 
-#btn-arriba span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+/* Mostrar solo en dispositivos móviles */
+@media (max-width: 768px) {
+    #btn-arriba {
+        position: fixed !important;
+        bottom: 20px !important;
+        right: 20px !important;
+        width: 50px !important;
+        height: 50px !important;
+        background: var(--secondary) !important;
+        color: var(--text-light) !important;
+        border: none !important;
+        border-radius: 50% !important;
+        cursor: pointer !important;
+        z-index: 1000 !important;
+        display: none !important; /* Inicialmente oculto, será mostrado por JS */
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: 20px !important;
+        font-weight: bold !important;
+        transition: all 0.3s ease !important;
+        box-shadow: 0 4px 12px rgba(197, 48, 48, 0.3) !important;
+    }
+
+    #btn-arriba:hover {
+        background: var(--hover) !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 6px 16px rgba(197, 48, 48, 0.4) !important;
+    }
+
+    #btn-arriba span {
+        font-size: 32px !important;
+        font-weight: bold !important;
+        line-height: 1 !important;
+    }
+    
+    /* Clase para mostrar el botón cuando JS lo active */
+    #btn-arriba.show {
+        display: flex !important;
+    }
 }
 
 /* ============================================
