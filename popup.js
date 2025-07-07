@@ -151,7 +151,6 @@ const productsData = {
 };
 
 // Variables globales
-let cart = [];
 let selectedSize = null;
 let currentProductId = null;
 
@@ -262,7 +261,20 @@ function addToCart() {
     const quantityInput = document.getElementById('quantity');
     const quantity = parseInt(quantityInput ? quantityInput.value : 1) || 1;
     
-    // Crear item del carrito
+    // Usar la nueva clase ShoppingCart si está disponible
+    if (typeof cart !== 'undefined' && cart.addItem) {
+        const productData = {
+            id: currentProductId,
+            title: product.title,
+            image: product.image
+        };
+        
+        cart.addItem(productData, quantity, selectedSize);
+        closeProductModal();
+        return;
+    }
+    
+    // Fallback para compatibilidad (código anterior)
     const cartItem = {
         id: `${currentProductId}-${selectedSize}`,
         productId: currentProductId,
@@ -272,20 +284,31 @@ function addToCart() {
         image: product.image
     };
     
+    // Inicializar carrito si no existe
+    let localCart = [];
+    try {
+        const savedCart = localStorage.getItem('macachi_cart');
+        localCart = savedCart ? JSON.parse(savedCart) : [];
+    } catch (e) {
+        console.error('Error cargando carrito:', e);
+    }
+    
     // Verificar si el item ya existe en el carrito
-    const existingItemIndex = cart.findIndex(item => item.id === cartItem.id);
+    const existingItemIndex = localCart.findIndex(item => 
+        item.productId === currentProductId && item.size === selectedSize
+    );
     
     if (existingItemIndex > -1) {
         // Si existe, incrementar la cantidad
-        cart[existingItemIndex].quantity += quantity;
+        localCart[existingItemIndex].quantity += quantity;
     } else {
         // Si no existe, agregarlo
-        cart.push(cartItem);
+        localCart.push(cartItem);
     }
     
     // Guardar en localStorage
     try {
-        localStorage.setItem('macachi_cart', JSON.stringify(cart));
+        localStorage.setItem('macachi_cart', JSON.stringify(localCart));
     } catch (e) {
         console.error('Error guardando en localStorage:', e);
     }
