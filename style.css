@@ -99,15 +99,16 @@ body {
     color: var(--text-light);
     padding: 14px 28px;
     font-size: 1rem;
-    box-shadow: var(--shadow-red);
-    border: 2px solid transparent;
+    border: none;
+    border-radius: 10px;
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, var(--hover), #ff4444);
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-red-hover);
-    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: var(--neutral); 
+    scale: 1.02;
+    transition: all 0.1s ease;
+    box-shadow: 0 6px 20px rgba(192, 192, 192, 0.3);
+
 }
 
 .btn-primary:active {
@@ -116,20 +117,20 @@ body {
 }
 
 .btn-secondary {
-    background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.05));
+    background-color: var(--primary);
     color: var(--text-light);
-    border: 2px solid var(--border);
+    border: 2px solid var(--accent);
     padding: 14px 28px;
     font-size: 1rem;
-    backdrop-filter: blur(10px);
+    border-radius: 10px;
 }
 
 .btn-secondary:hover {
-    background: linear-gradient(135deg, var(--border), var(--neutral));
     color: var(--text-light);
     border-color: var(--accent);
-    transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(192, 192, 192, 0.3);
+    scale: 1.02;
+    transition: all 0.1s ease;
 }
 
 .btn-secondary:active {
@@ -277,12 +278,63 @@ body {
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.5);
     transition: var(--transition-normal);
+    line-height: 1;
+    text-align: center;
 }
 
 .modal-close:hover,
 .modal-close:focus {
     background-color: var(--secondary);
     transform: scale(1.1);
+}
+
+/* Estilos para botones de cierre genéricos */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: var(--text-light);
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 1001;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: var(--transition-normal);
+    border: none;
+    outline: none;
+    line-height: 1;
+    text-align: center;
+}
+
+.close:hover,
+.close:focus {
+    background-color: var(--secondary);
+    transform: scale(1.1);
+    color: var(--text-light);
+}
+
+/* Estilos específicos para el botón de cierre del carrito */
+.close-cart {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-left: auto;
+    background-color: transparent;
+    border: 2px solid var(--border);
+    line-height: 1;
+    text-align: center;
+}
+
+.close-cart:hover,
+.close-cart:focus {
+    border-color: var(--secondary);
+    background-color: var(--secondary);
 }
 
 /* ============================================
@@ -1684,10 +1736,6 @@ body {
     .main-content h1 {
         font-size: 32px;
         margin-bottom: 20px;
-    }
-    
-    .main-content p {
-        font-size: 18px;
     }
     
     /* Slider */
