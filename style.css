@@ -988,10 +988,13 @@ body {
         box-shadow: var(--shadow-red-hover);
     }
 
-    #btn-arriba span {
-        font-size: 32px;
-        font-weight: bold;
-        line-height: 1;
+    #btn-arriba::before {
+        content: '';
+        width: 12px;
+        height: 12px;
+        border-left: 2px solid var(--text-light);
+        border-top: 2px solid var(--text-light);
+        transform: rotate(45deg);
     }
     
     #btn-arriba.show {
