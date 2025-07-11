@@ -60,73 +60,73 @@ const productsData = {
     'Tipo-Bala-Alta': {
         title: 'Tipo Bala Alta 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/7hNJ5tY2/TIPO-BALA-ALTA.png',
+        image: 'https://i.postimg.cc/bN2KjXrr/TIPO-BALA-ALTA.png',
         sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
     },
     'tipo-proyectil': {
         title: 'Tipo Proyectil 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/rpdVBnB9/TIPOPREYECTIL.png',
+        image: 'https://i.postimg.cc/gcfGhH6w/TIPOPREYECTIL.png',
         sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
     },
     'tipo-bala-con-punta': {
         title: 'Tipo bala con punta 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/T1jYkKzM/TIPOBALACONPUNTA.png',
+        image: 'https://i.postimg.cc/YCKTrXL3/TIPOBALACONPUNTA.png',
         sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
     },
     'tipo-tornasol': {
         title: 'Tipo tornasol 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/FzXHgynV/MOTIVOTORNASOL.png',
+        image: 'https://i.postimg.cc/T3VFprrX/MOTIVOTORNASOL.png',
         sizes: ['Cilindro', 'Hexagono', 'Proyectil corta', 'Cohete', 'Punta']
     },
     'tipo-calavera': {
         title: 'Tipo calavera 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/j57j7gvj/TIPOCALAVERA.png',
+        image: 'https://i.postimg.cc/25CJvVwL/TIPOCALAVERA.png',
         sizes: ['Negro', 'Plateado']
     },
     'tipo-cohete': {
         title: 'Tipo cohete 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/dQG1QfLH/TIPOCOHETE.png',
+        image: 'https://i.postimg.cc/W4Sy7TWW/TIPOCOHETE.png',
         sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
     },
     'tipo-granada': {
         title: 'Tipo granada 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/Wbj4d7Z2/TIPOGRANADA.png',
+        image: 'https://i.postimg.cc/pV92y6yb/TIPOGRANADA.png',
         sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
     },
     'tipo-dado': {
         title: 'Tipo dado 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/P55r4rK9/TIPODADO.png',
+        image: 'https://i.postimg.cc/SsvtwVpc/TIPODADO.png',
         sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
     },
     'tipo-fusil': {
         title: 'Tipo fusil 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/5N32LF58/TIPOFUSIL.png',
+        image: 'https://i.postimg.cc/Fzknmc98/TIPOFUSIL.png',
         sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
     },
     'tipo-cilindro': {
         title: 'Tipo cilindro 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/QMPtVGQP/TIPOCILINDRO.png',
+        image: 'https://i.postimg.cc/KzzHqwCZ/TIPOCILINDRO.png',
         sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
     },
     'tipo-neon': {
         title: 'Tipo neon 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/VkZsHQV6/TIPONEON.png',
+        image: 'https://i.postimg.cc/vDR2mBTB/TIPONEON.png',
         sizes: ['Verde', 'Blanco', 'Verde', 'Rosado', 'Trasparente']
     },
     'tipo-seguridad': {
         title: 'Tipo seguridad 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/Jh9rM3mC/TIPOSEGURIDAD.png',
+        image: 'https://i.postimg.cc/dtrwjZ85/TIPOSEGURIDAD.png',
         sizes: ['Negro Seguridad']
     }
 };
