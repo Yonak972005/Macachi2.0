@@ -130,78 +130,139 @@ const productsData = {
         sizes: ['Negro Seguridad']
     },
     // LUJOS VARIOS
-    'Tipo-Bala-Alta': {
-        title: 'Tipo Bala Alta 4UNI',
-        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/bN2KjXrr/TIPO-BALA-ALTA.png',
-        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    'Lujo-para-botella': {
+        title: 'Lujo para botella PAR',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/LUJOPARABOTELLA.png',
+        sizes: ['Roja', 'Azul', 'Verde', 'Amarilla', 'Humo', 'Negra', 'Blanca', 'Naranja', 'Fucsia', 'Morado', 'Neon']
     },
-    'tipo-proyectil': {
-        title: 'Tipo Proyectil 4UNI',
-        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/gcfGhH6w/TIPOPREYECTIL.png',
-        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    'medias-para-barras': {
+        title: 'Medias para barras',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/MEDIASPARABARRA.png',
+        sizes: ['Pequeña', 'Mediana', 'Larga']
     },
-    'tipo-bala-con-punta': {
-        title: 'Tipo bala con punta 4UNI',
-        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/YCKTrXL3/TIPOBALACONPUNTA.png',
-        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    'mangos': {
+        title: 'Mangos',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/MANGOS.png',
+        sizes: ['Univerasal (Color)', 'PROTAPER']
     },
-    'tipo-tornasol': {
-        title: 'Tipo tornasol 4UNI',
-        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/T3VFprrX/MOTIVOTORNASOL.png',
-        sizes: ['Cilindro', 'Hexagono', 'Proyectil corta', 'Cohete', 'Punta']
+    'tapa-tornillos': {
+        title: 'Tapa tornillos',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/TAPATORNILLOS.png',
+        sizes: ['Roja', 'Azul', 'Verde', 'Dorado', 'Morado', 'Negra', 'Plateada', 'Tornasol']
     },
-    'tipo-calavera': {
-        title: 'Tipo calavera 4UNI',
-        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/25CJvVwL/TIPOCALAVERA.png',
-        sizes: ['Negro', 'Plateado']
+    'Cuelleros': {
+        title: 'Cuelleros',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/CUELLEROS.png',
+        sizes: ['Corto 50cm', 'Mediano 75cm', 'Largo 100cm']
     },
-    'tipo-cohete': {
-        title: 'Tipo cohete 4UNI',
-        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/W4Sy7TWW/TIPOCOHETE.png',
-        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    'reatas-moto': {
+        title: 'Reatas moto',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/REATAS.png',
+        sizes: ['Único']
     },
-    'tipo-granada': {
-        title: 'Tipo granada 4UNI',
-        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/pV92y6yb/TIPOGRANADA.png',
-        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    'Cinta-Cinta-rines': {
+        title: 'Cinta rines',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/CINTARINES.png',
+        sizes: ['Único']
     },
-    'tipo-dado': {
-        title: 'Tipo dado 4UNI',
-        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/SsvtwVpc/TIPODADO.png',
-        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    'slider-para-rueda': {
+        title: 'Slider para rueda',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/SLIDER.png',
+        sizes: ['Roja', 'Azul', 'Verde', 'Plateado', 'Morado', 'Dorado', 'Naranja', 'Tornasol', 'Negro']
     },
-    'tipo-fusil': {
-        title: 'Tipo fusil 4UNI',
-        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/Fzknmc98/TIPOFUSIL.png',
-        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    'slider-bombon': {
+        title: 'Slider Bombon',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/SLIDERBONBON.png',
+        sizes: ['Roja', 'Azul', 'Verde', 'Plateado', 'Morado', 'Dorado', 'Naranja', 'Tornasol', 'Negro']
     },
-    'tipo-cilindro': {
-        title: 'Tipo cilindro 4UNI',
-        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/KzzHqwCZ/TIPOCILINDRO.png',
-        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    'llavero-elastico-largo': {
+        title: 'Llavero elastico largo',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/LLAVEROELASTICOLARGO.png',
+        sizes: ['Universal (Color)']
     },
-    'tipo-neon': {
-        title: 'Tipo neon 4UNI',
-        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/vDR2mBTB/TIPONEON.png',
-        sizes: ['Verde', 'Blanco', 'Verde', 'Rosado', 'Trasparente']
+    'tillavero-elastico-corto': {
+        title: 'Tipo neon',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/LLAVEROELASTICOCORTO.png',
+        sizes: ['Universal (Color)']
     },
-    'tipo-seguridad': {
-        title: 'Tipo seguridad 4UNI',
-        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/dtrwjZ85/TIPOSEGURIDAD.png',
-        sizes: ['Negro Seguridad']
-    }
+    'llavero-manilla': {
+        title: 'Llavero manilla',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/LLAVEROMANILLA.png',
+        sizes: ['Universal (Color)']
+    },
+    'llavero-con-motivos': {
+        title: 'Llavero con motivos',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/LLAVEROMOTIVOS.png',
+        sizes: ['Universal (Diseño)']
+    },
+    'Cortavientos': {
+        title: 'Cortavientos',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/CORTAVIENTOS.png',
+        sizes: ['Roja', 'Azul', 'Verde', 'Plateado', 'Morado', 'Dorado', 'Tornasol', 'Negro']
+    },
+    'pitillo-pitillo-radio': {
+        title: 'Pitillo radio',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/PITILLORADIO.png',
+        sizes: ['Roja', 'Azul', 'Verde', 'Plateado', 'Morado', 'Dorado', 'Naranja', 'Tornasol', 'Negro']
+    },
+    'pato-motero': {
+        title: 'Pato motero',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/PATOMOTERO.png',
+        sizes: ['Único']
+    },
+    'forro-para-tanque': {
+        title: 'Forro para tanque',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/FORRO.png',
+        sizes: ['Único']
+    },
+    // TUERCAS
+    'Lujo-para-botella': {
+        title: 'Lujo para botella PAR',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/LUJOPARABOTELLA.png',
+        sizes: ['Roja', 'Azul', 'Verde', 'Amarilla', 'Humo', 'Negra', 'Blanca', 'Naranja', 'Fucsia', 'Morado', 'Neon']
+    },
+    'medias-para-barras': {
+        title: 'Medias para barras',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/MEDIASPARABARRA.png',
+        sizes: ['Pequeña', 'Mediana', 'Larga']
+    },
+    'mangos': {
+        title: 'Mangos',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/MANGOS.png',
+        sizes: ['Univerasal (Color)', 'PROTAPER']
+    },
+    'tapa-tornillos': {
+        title: 'Tapa tornillos',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/TAPATORNILLOS.png',
+        sizes: ['Roja', 'Azul', 'Verde', 'Dorado', 'Morado', 'Negra', 'Plateada', 'Tornasol']
+    },
+    'Cuelleros': {
+        title: 'Cuelleros',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'lujos-varios/CUELLEROS.png',
+        sizes: ['Corto 50cm', 'Mediano 75cm', 'Largo 100cm']
+    },
 };
 
 // Variables globales
