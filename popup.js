@@ -10,53 +10,126 @@ const productsData = {
     'tornillos-boton5mm': {
         title: 'Tornillos Boton Plano 5MM',
         description: 'Tornillos de boton para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/7hNJ5tY2/TIPO-BALA-ALTA.png',
+        image: 'tornillosdelujo/TORNILLO DE LUJO.jpg',
         sizes: ['Dorado', 'Naranja', 'Rojo', 'Fucsia', 'Morado', 'Azul', 'Verde', 'Plateado', 'Negro']
     },
     'tornillos-boton6mm': {
         title: 'Tornillos Boton Plano 6MM',
         description: 'Tornillos de boton para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/DZKJf3dg/TORNILLO-DE-LUJO.png',
+        image: 'tornillosdelujo/TORNILLO DE LUJO.jpg',
         sizes: ['Dorado', 'Naranja', 'Rojo', 'Fucsia', 'Morado', 'Azul', 'Verde', 'Plateado', 'Negro']
     },
     'boton-rayitos': {
         title: 'Boton importado rayitos',
         description: 'Tornillos de lujo para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/66c2KS7r/TORNILLORAYITOS.png',
+        image: 'tornillosdelujo/TORNILLORAYITOS.png',
         sizes: ['Rojo', 'Azul', 'Morado', 'Dorado', 'Negro', 'Plateado', 'Verde']
     },
     'tornillo-pesa': {
         title: 'Tornillo tipo pesa o copa',
         description: 'Tornillos de lujo para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/BbSjD5zP/TORNILLO-PESA.png',
+        image: 'tornillosdelujo/TORNILLO PESA.png',
         sizes: ['Dorado', 'Naranja', 'Rojo', 'Fucsia', 'Morado', 'Azul', 'Verde', 'Plateado', 'Negro']
     },
     'tornillo-pesa-sin-rayas': {
         title: 'Tornillo tipo pesa o copa sin rayas',
         description: 'Tornillos de lujo para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/brmsRDXC/TORNILLOPESASINRAYOS.png',
+        image: 'tornillosdelujo/TORNILLOPESASINRAYOS.png',
         sizes: ['Dorado', 'Naranja', 'Rojo', 'Fucsia', 'Morado', 'Azul', 'Verde', 'Plateado', 'Negro']
     },
     'tornillo-diamante': {
         title: 'Tornillos diamante',
         description: 'Tornillos de lujo para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/CK8nVxD5/TORNILLO-DIAMANTE.png',
+        image: 'tornillosdelujo/TORNILLO DIAMANTE.png',
         sizes: ['Rojo', 'Plateado', 'Azul', 'Verde', 'Dorado', 'Morado', 'Negro']
     },
     'boton-allen': {
         title: 'Boton allen',
         description: 'Tornillos de lujo para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/vZkxjV4C/TORNILLO-BOTON-ALLEN.png',
+        image: 'tornillosdelujo/TORNILLO BOTON ALLEN.png',
         sizes: ['Rojo', 'Plateado', 'Azul', 'Verde', 'Dorado', 'Morado', 'Negro', 'Tornasol']
     },
     'tornillos-golosos': {
         title: 'Tornillos golosos',
         description: 'Tornillos de lujo para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'https://i.postimg.cc/tTt1YvBH/TORNILLO-GOLOSO.png',
+        image: 'tornillosdelujo/TORNILLO GOLOSO.png',
         sizes: ['10 x 5/8"']
     },
 
     // TAPA VALVULAS
+    'Tipo-Bala-Alta': {
+        title: 'Tipo Bala Alta 4UNI',
+        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tapavalvulas/TIPO BALA ALTA.png',
+        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    },
+    'tipo-proyectil': {
+        title: 'Tipo Proyectil 4UNI',
+        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tapavalvulas/TIPOPREYECTIL.png',
+        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    },
+    'tipo-bala-con-punta': {
+        title: 'Tipo bala con punta 4UNI',
+        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tapavalvulas/TIPOBALACONPUNTA.png',
+        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    },
+    'tipo-tornasol': {
+        title: 'Tipo tornasol 4UNI',
+        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tapavalvulas/MOTIVOTORNASOL.png',
+        sizes: ['Cilindro', 'Hexagono', 'Proyectil corta', 'Cohete', 'Punta']
+    },
+    'tipo-calavera': {
+        title: 'Tipo calavera 4UNI',
+        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tapavalvulas/TIPOCALAVERA.png',
+        sizes: ['Negro', 'Plateado']
+    },
+    'tipo-cohete': {
+        title: 'Tipo cohete 4UNI',
+        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tapavalvulas/TIPOCOHETE.png',
+        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    },
+    'tipo-granada': {
+        title: 'Tipo granada 4UNI',
+        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tapavalvulas/TIPOGRANADA.png',
+        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    },
+    'tipo-dado': {
+        title: 'Tipo dado 4UNI',
+        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tapavalvulas/TIPODADO.png',
+        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    },
+    'tipo-fusil': {
+        title: 'Tipo fusil 4UNI',
+        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tapavalvulas/TIPOFUSIL.png',
+        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    },
+    'tipo-cilindro': {
+        title: 'Tipo cilindro 4UNI',
+        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tapavalvulas/TIPOCILINDRO.png',
+        sizes: ['Verde', 'Plateado', 'Humo', 'Dorado', 'Negro', 'Azul', 'Rojo', 'Morado', 'Tornasol']
+    },
+    'tipo-neon': {
+        title: 'Tipo neon 4UNI',
+        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tapavalvulas/TIPONEON.png',
+        sizes: ['Verde', 'Blanco', 'Verde', 'Rosado', 'Trasparente']
+    },
+    'tipo-seguridad': {
+        title: 'Tipo seguridad 4UNI',
+        description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tapavalvulas/TIPOSEGURIDAD.png',
+        sizes: ['Negro Seguridad']
+    },
+    // LUJOS VARIOS
     'Tipo-Bala-Alta': {
         title: 'Tipo Bala Alta 4UNI',
         description: 'Tapa valvulas para motocicletas, diseñados para ofrecer un estilo elegante.',
