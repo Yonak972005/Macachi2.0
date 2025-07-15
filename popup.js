@@ -233,35 +233,198 @@ const productsData = {
         sizes: ['Único']
     },
     // TUERCAS
-    'Lujo-para-botella': {
-        title: 'Lujo para botella PAR',
-        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'lujos-varios/LUJOPARABOTELLA.png',
-        sizes: ['Roja', 'Azul', 'Verde', 'Amarilla', 'Humo', 'Negra', 'Blanca', 'Naranja', 'Fucsia', 'Morado', 'Neon']
+    'tuerca-flange': {
+        title: 'Tuerca Flange',
+        description: 'Tuerca para motocicletas, diseñada para ofrecer seguridad.',
+        image: 'tuerca/TUERCAFLANGE.png',
+        sizes: ['5MM (100uni)', '6MM (100uni)', '8MM (100uni)', '10MM (50uni)', '12MM (30uni)', '14MM (20uni)']
     },
-    'medias-para-barras': {
-        title: 'Medias para barras',
-        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'lujos-varios/MEDIASPARABARRA.png',
-        sizes: ['Pequeña', 'Mediana', 'Larga']
+    'tuerca-con-teflon': {
+        title: 'Tuerca con teflon',
+        description: 'Tuerca para motocicletas, diseñada para ofrecer seguridad.',
+        image: 'tuerca/TUERCACONTEFLON.jpeg',
+        sizes: ['4MM (100uni)', '5MM (100uni)', '6MM (100uni)', '8MM (100uni)', '10MM (50uni)', '12MM (30uni)', '14MM (20uni)', '16MM (20uni)']
     },
-    'mangos': {
-        title: 'Mangos',
-        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'lujos-varios/MANGOS.png',
-        sizes: ['Univerasal (Color)', 'PROTAPER']
+    'tuerca-especial': {
+        title: 'Tuerca especial con seguridad',
+        description: 'Tuerca para motocicletas, diseñada para ofrecer seguridad.',
+        image: 'tuerca/TUERCAESPECIAL.png',
+        sizes: ['6MM (20uni)', '8MM (20uni)', '10MM (20uni)', '12MM (20uni)', '14MM (20uni)', '16MM (20uni)']
     },
-    'tapa-tornillos': {
-        title: 'Tapa tornillos',
-        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'lujos-varios/TAPATORNILLOS.png',
-        sizes: ['Roja', 'Azul', 'Verde', 'Dorado', 'Morado', 'Negra', 'Plateada', 'Tornasol']
+    'tuerca-hexagonal': {
+        title: 'Tuerca hexagonal',
+        description: 'Tuerca para motocicletas, diseñada para ofrecer seguridad.',
+        image: 'tuerca/TUERCAHEXAGONAL.png',
+        sizes: ['4MM (100uni)', '5MM (100uni)', '6MM (100uni)', '8MM (50uni)', '10MM (30uni)', '12MM (50uni)']
     },
-    'Cuelleros': {
-        title: 'Cuelleros',
-        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
-        image: 'lujos-varios/CUELLEROS.png',
-        sizes: ['Corto 50cm', 'Mediano 75cm', 'Largo 100cm']
+    'tuerca-ciega': {
+        title: 'Tuerca ciega',
+        description: 'Tuerca para motocicletas, diseñada para ofrecer seguridad.',
+        image: 'tuerca/CIEGAS.png',
+        sizes: ['6MM (20uni)', '9MM (20uni)', '10MM (20uni)', '12MM (20uni)']
+    },
+    // TUERCAS
+    'tornillo-flange-hexagonal-5mm': {
+        title: 'Tornillo Flange hexagonal 5mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/5 MM ROSCA TOTAL LLAVE 8.png',
+        sizes: ['5mm']
+    },
+    'tornillo-flange-hexagonal-6mm': {
+        title: 'Tornillo Flange hexagonal 6mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/6 MM ROSCA TOTAL IRIS LLAVE 10.png',
+        sizes: ['6mm']
+    },
+    'tornillo-flange-hexagonal-8mm': {
+        title: 'Tornillo Flange hexagonal 8mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/8 MM ROSCA PARCIAL LLAVE 12.png',
+        sizes: ['8mm']
+    },
+    'tornillo-flange-hexagonal-10mm': {
+        title: 'Tornillo Flange hexagonal 10mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/10 MM R.P. LLAVE 14 1.25.png',
+        sizes: ['10mm']
+    },
+    'tornillo-flange-ep': {
+        title: 'Tornillo Flange EP',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/tornillospor.jpg',
+        sizes: ['EP']
+    },
+    'tornillo-paragua': {
+        title: 'Tornillo Paragua Phillips 5mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/TORNILLOPARAGUA.png',
+        sizes: ['5mm']
+    },
+    'tornillo-alleen-ep': {
+        title: 'Tornillo Allen EP',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/ALLEN EP CROMADO.png',
+        sizes: ['EP']
+    },
+    'tornillo-lenteja': {
+        title: 'Tornillo lenteja cromado',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/LENTEJA PHILIPS CROMADO.png',
+        sizes: ['Cromado']
+    },
+    'tornillo-hexagonal-milimetrico-llave-13': {
+        title: 'Tornillo hexagonal milimétrico llave 13',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/ROSCA TOTAL 8.8 LLAVE 13.png',
+        sizes: ['Llave 13']
+    },
+    'tornillo-hexagonal-milimetrico-llave-12': {
+        title: 'Tornillo hexagonal milimétrico llave 12',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/ROSCA TOTAL 10.9 LLAVE 12.png',
+        sizes: ['Llave 12']
+    },
+    'tornillo-hexagonal-milimetrico-especial-7mm': {
+        title: 'Tornillo hexagonal milimétrico especial 7mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/ESPECIAL 7 MM.png',
+        sizes: ['7mm']
+    },
+    'tornillo-hexagonal-milimetrico-6mm': {
+        title: 'Tornillo hexagonal milimétrico 6mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/HEXAGONAL 6 MM.png',
+        sizes: ['6mm']
+    },
+    'tornillo-hexagonal-milimetrico-10mm': {
+        title: 'Tornillo hexagonal milimétrico 10mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/10 MM ROSCA PARCIAL 10.9 LLAVE 14.png',
+        sizes: ['10mm']
+    },
+    'tornillo-bristol-5mm': {
+        title: 'Tornillo Bristol 5mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/BRISTROL.png',
+        sizes: ['5mm']
+    },
+    'tornillo-bristol-6mm': {
+        title: 'Tornillo Bristol 6mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/BRISTROL.png',
+        sizes: ['6mm']
+    },
+    'tornillo-bristol-8mm': {
+        title: 'Tornillo Bristol 8mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/BRISTROL.png',
+        sizes: ['8mm']
+    },
+    'tornillo-cilindro-phillips-4mm': {
+        title: 'Tornillo Cilindro Phillips 4mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/4 MM ROSCA TOTAL.png',
+        sizes: ['4mm']
+    },
+    'tornillo-cilindro-phillips-5mm': {
+        title: 'Tornillo Cilindro Phillips 5mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/4 MM ROSCA TOTAL.png',
+        sizes: ['5mm']
+    },
+    'tornillo-cilindro-phillips-6mm': {
+        title: 'Tornillo Cilindro Phillips 6mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/4 MM ROSCA TOTAL.png',
+        sizes: ['6mm']
+    },
+    'tornillo-conico-avellanado-phillips-4mm': {
+        title: 'Tornillo Cónico Avellanado Phillips 4mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/AVELLANADO 4 MM ROSCA TOTAL.png',
+        sizes: ['4mm']
+    },
+    'tornillo-conico-avellanado-phillips-5mm': {
+        title: 'Tornillo Cónico Avellanado Phillips 5mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/AVELLANADO 5 MM ROSCA TOTAL.png',
+        sizes: ['5mm']
+    },
+    'tornillo-conico-avellanado-phillips-6mm': {
+        title: 'Tornillo Cónico Avellanado Phillips 6mm',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/AVELLANADO 6 MM ROSCA TOTAL.png',
+        sizes: ['6mm']
+    },
+    'tornillo-goloso-cabeza-lenteja-#8': {
+        title: 'Tornillo Goloso Cabeza Lenteja #8',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/GOLOSO LAMINA 8.png',
+        sizes: ['#8']
+    },
+    'tornillo-goloso-cabeza-lenteja-#10': {
+        title: 'Tornillo Goloso Cabeza Lenteja #10',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/GOLOSO LAMINA 8.png',
+        sizes: ['#10']
+    },
+    'tornillo-goloso-cabeza-lenteja-#12': {
+        title: 'Tornillo Goloso Cabeza Lenteja #12',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/GOLOSO LAMINA 8.png',
+        sizes: ['#12']
+    },
+    'tornillo-goloso-cabeza-lenteja-#14': {
+        title: 'Tornillo Goloso Cabeza Lenteja #14',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/GOLOSO LAMINA 8.png',
+        sizes: ['#14']
+    },
+    'tornillo-con-buje': {
+        title: 'Tornillo con Buje',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        image: 'tornillos/TORNILLOBUJE.png',
+        sizes: ['Único']
     },
 };
 
