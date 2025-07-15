@@ -268,49 +268,49 @@ const productsData = {
         title: 'Tornillo Flange hexagonal 5mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/5 MM ROSCA TOTAL LLAVE 8.png',
-        sizes: ['5mm']
+        sizes: ['5x10MM (50uni)', '5x15MM (50uni)', '5x20MM (50uni)', '5x25MM (50uni)', '5x30MM (50uni)', '5x35MM (50uni)']
     },
     'tornillo-flange-hexagonal-6mm': {
         title: 'Tornillo Flange hexagonal 6mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/6 MM ROSCA TOTAL IRIS LLAVE 10.png',
-        sizes: ['6mm']
+        sizes: ['6x8MM (50uni)', '6x10MM (50uni)','6x12MM (50uni)', '6x15MM (50uni)', '6x20MM (50uni)', '6x25MM (50uni)', '6x30MM (50uni)', '6x35MM (50uni)', '6x40MM (50uni)', '6x45MM (50uni)', '6x50MM (50uni)', '6x60MM (50uni)']
     },
     'tornillo-flange-hexagonal-8mm': {
         title: 'Tornillo Flange hexagonal 8mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/8 MM ROSCA PARCIAL LLAVE 12.png',
-        sizes: ['8mm']
+        sizes: ['8x12MM (50uni)', '8x15MM (50uni)', '8x20MM (50uni)', '8x25MM (50uni)', '8x30MM (50uni)', '8x35MM (30uni)', '8x40MM (30uni)', '8x45MM (30uni)', '8x50MM (30uni)', '8x55MM (30uni)', '8x60MM (30uni)', '8x70MM (30uni)', '8x80MM (20uni)', '8x90MM (20uni)', '8x100MM (20uni)', '8x110MM (10uni)', '8x120MM (10uni)']
     },
     'tornillo-flange-hexagonal-10mm': {
         title: 'Tornillo Flange hexagonal 10mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/10 MM R.P. LLAVE 14 1.25.png',
-        sizes: ['10mm']
+        sizes: ['10x15MM (30uni)', '10x20MM (30uni)', '10x25MM (30uni)', '10x30MM (30uni)', '10x35MM (20uni)', '10x40MM (20uni)', '10x45MM (20uni)', '10x50MM (20uni)', '10x60MM (20uni)', '10x70MM (20uni)', '10x80MM (20uni)', '10x90MM (20uni)', '10x100MM (20uni)', '10x110MM (20uni)', '10x120MM (20uni)']
     },
     'tornillo-flange-ep': {
         title: 'Tornillo Flange EP',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/tornillospor.jpg',
-        sizes: ['EP']
+        sizes: ['6x10MM (30uni)', '6x12MM (30uni)', '6x15MM (30uni)', '6x20MM (30uni)', '6x25MM (30uni)', '6x30MM (30uni)', '6x35MM (30uni)', '6x40MM (30uni)', '6x45MM (30uni)', '6x50MM (30uni)', '6x55MM (30uni)', '6x60MM (30uni)', '6x65MM (30uni)', '6x70MM (30uni)', '6x80MM (20uni)', '6x90MM (10uni)', '6x100MM (10uni)']
     },
     'tornillo-paragua': {
         title: 'Tornillo Paragua Phillips 5mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/TORNILLOPARAGUA.png',
-        sizes: ['5mm']
+        sizes: ['6x10MM (50uni)', '6x15MM (50uni)', '6x20MM (50uni)', '6x25MM (50uni)', '6x30MM (50uni)']
     },
     'tornillo-alleen-ep': {
         title: 'Tornillo Allen EP',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/ALLEN EP CROMADO.png',
-        sizes: ['EP']
+        sizes: ['5x10MM (30uni)', '5x15MM (30uni)', '6x10MM (30uni)', '6x15MM (30uni)', '6x20MM (30uni)', '6x25MM (30uni)']
     },
     'tornillo-lenteja': {
         title: 'Tornillo lenteja cromado',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/LENTEJA PHILIPS CROMADO.png',
-        sizes: ['Cromado']
+        sizes: ['5x10MM (50uni)', '5x12MM (50uni)', '5x15MM (50uni)', '5x20MM (50uni)', '5x25MM (50uni)', '5x30MM (50uni)']
     },
     'tornillo-hexagonal-milimetrico-llave-13': {
         title: 'Tornillo hexagonal milimétrico llave 13',
