@@ -346,85 +346,85 @@ const productsData = {
         title: 'Tornillo Bristol 5mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/BRISTROL.png',
-        sizes: ['5mm']
+        sizes: ['5x10MM (50uni)', '5x12MM (50uni)', '5x15MM (50uni)', '5x20MM (50uni)', '5x25MM (50uni)', '5x30MM (50uni)', '5x35MM (50uni)', '5x40MM (50uni)', '5x45MM (50uni)', '5x50MM (50uni)']
     },
     'tornillo-bristol-6mm': {
         title: 'Tornillo Bristol 6mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/BRISTROL.png',
-        sizes: ['6mm']
+        sizes: ['6x10MM (50uni)', '6x12MM (50uni)', '6x15MM (50uni)', '6x20MM (50uni)', '6x25MM (50uni)', '6x30MM (50uni)', '6x35MM (30uni)', '6x40MM (30uni)', '6x45MM (30uni)', '6x50MM (30uni)', '6x55MM (30uni)', '6x60MM (30uni)', '6x65MM (30uni)', '6x70MM (30uni)', '6x75MM (30uni)']
     },
     'tornillo-bristol-8mm': {
         title: 'Tornillo Bristol 8mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/BRISTROL.png',
-        sizes: ['8mm']
+        sizes: ['8x10MM (50uni)', '8x15MM (50uni)', '8x20MM (50uni)', '8x25MM (50uni)', '8x30MM (50uni)', '8x35MM (30uni)', '8x40MM (30uni)', '8x45MM (30uni)', '8x50MM (30uni)', '8x55MM (30uni)', '8x60MM (30uni)', '8x70MM (20uni)', '8x80MM (20uni)', '8x90MM (20uni)', '8x100MM (20uni)']
     },
     'tornillo-cilindro-phillips-4mm': {
         title: 'Tornillo Cilindro Phillips 4mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/4 MM ROSCA TOTAL.png',
-        sizes: ['4mm']
+        sizes: [ '4x10MM (50uni)', '4x12MM (50uni)', '4x15MM (50uni)', '4x20MM (50uni)', '4x25MM (50uni)', '4x30MM (50uni)', '4x35MM (30uni)', '4x40MM (30uni)', '4x45MM (30uni)', '4x50MM (30uni)']
     },
     'tornillo-cilindro-phillips-5mm': {
         title: 'Tornillo Cilindro Phillips 5mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/4 MM ROSCA TOTAL.png',
-        sizes: ['5mm']
+        sizes: [ '5x10MM (50uni)', '5x12MM (50uni)', '5x15MM (50uni)', '5x20MM (50uni)', '5x25MM (50uni)', '5x30MM (50uni)', '5x35MM (30uni)', '5x40MM (30uni)', '5x45MM (30uni)', '5x50MM (30uni)', '5x60MM (30uni)', '5x70MM (30uni)']
     },
     'tornillo-cilindro-phillips-6mm': {
         title: 'Tornillo Cilindro Phillips 6mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/4 MM ROSCA TOTAL.png',
-        sizes: ['6mm']
+        sizes: [ '6x10MM (50uni)', '6x12MM (50uni)', '6x15MM (50uni)', '6x20MM (50uni)', '6x25MM (50uni)', '6x30MM (50uni)', '6x35MM (30uni)', '6x40MM (30uni)', '6x45MM (30uni)', '6x50MM (30uni)', '6x60MM (30uni)',  '6x70MM (30uni)']
     },
     'tornillo-conico-avellanado-phillips-4mm': {
         title: 'Tornillo Cónico Avellanado Phillips 4mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/AVELLANADO 4 MM ROSCA TOTAL.png',
-        sizes: ['4mm']
+        sizes: [ '4x10MM (50uni)', '4x12MM (50uni)', '4x15MM (50uni)', '4x20MM (50uni)']
     },
     'tornillo-conico-avellanado-phillips-5mm': {
         title: 'Tornillo Cónico Avellanado Phillips 5mm',
-        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
+        description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.', 
         image: 'tornillos/AVELLANADO 5 MM ROSCA TOTAL.png',
-        sizes: ['5mm']
+        sizes: [ '5x10MM (50uni)', '5x12MM (50uni)', '5x15MM (50uni)', '5x20MM (50uni)', '5x25MM (50uni)', '5x30MM (50uni)']
     },
     'tornillo-conico-avellanado-phillips-6mm': {
         title: 'Tornillo Cónico Avellanado Phillips 6mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/AVELLANADO 6 MM ROSCA TOTAL.png',
-        sizes: ['6mm']
+        sizes: [ '6x10MM (50uni)', '6x15MM (50uni)', '6x20MM (50uni)', '6x25MM (50uni)', '6x30MM (50uni)']
     },
     'tornillo-goloso-cabeza-lenteja-#8': {
         title: 'Tornillo Goloso Cabeza Lenteja #8',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/GOLOSO LAMINA 8.png',
-        sizes: ['#8']
+        sizes: [ '8x1/2MM (50uni)', '8x5/8MM (50uni)', '8x3/4MM (50uni)', '8x1,5MM (50uni)']
     },
     'tornillo-goloso-cabeza-lenteja-#10': {
         title: 'Tornillo Goloso Cabeza Lenteja #10',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/GOLOSO LAMINA 8.png',
-        sizes: ['#10']
+        sizes: [ '10x1/2MM (50uni)', '10x5/8MM (50uni)', '10x3/4MM (50uni)', '10x1,5MM (50uni)']
     },
     'tornillo-goloso-cabeza-lenteja-#12': {
         title: 'Tornillo Goloso Cabeza Lenteja #12',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/GOLOSO LAMINA 8.png',
-        sizes: ['#12']
+        sizes: [ '12x1/2MM (50uni)', '12x5/8MM (50uni)', '12x3/4MM (50uni)', '12x1,5MM (50uni)']
     },
     'tornillo-goloso-cabeza-lenteja-#14': {
         title: 'Tornillo Goloso Cabeza Lenteja #14',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/GOLOSO LAMINA 8.png',
-        sizes: ['#14']
+        sizes: [ '14x5/8MM (50uni)', '14x3/4MM (50uni)', '14x1,5MM (50uni)']
     },
-    'tornillo-con-buje': {
-        title: 'Tornillo con Buje',
+    'tornillo-con-buje': { 
+        title: 'Tornillo con Buje 5MM-6MM',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/TORNILLOBUJE.png',
-        sizes: ['Único']
+        sizes: [ '5x12MM (20uni)', '5x15MM (20uni)', '5x20MM (20uni)', '5x25MM (20uni)', '6x13MM (20uni)', '6x15MM (20uni)', '6x19MM (20uni)', '6x25MM (20uni)']
     },
 };
 
@@ -457,7 +457,12 @@ function openProductModal(productId) {
     const sizesContainer = document.getElementById('sizesContainer');
     if (sizesContainer) {
         sizesContainer.innerHTML = '';
-        
+        // Si hay muchas medidas, aplicar clase para scroll
+        if (product.sizes.length > 8) {
+            sizesContainer.classList.add('sizes-scroll');
+        } else {
+            sizesContainer.classList.remove('sizes-scroll');
+        }
         product.sizes.forEach(size => {
             const sizeElement = document.createElement('div');
             sizeElement.className = 'size-option';
@@ -635,6 +640,58 @@ function showCartNotification() {
         }, 300);
     }, 3000);
 }
+
+// --- Estilos para barra de desplazamiento en medidas (inserta en el head si no existe) ---
+function injectSizesScrollStyle() {
+    if (document.getElementById('sizes-scroll-style')) return;
+    const style = document.createElement('style');
+    style.id = 'sizes-scroll-style';
+    style.textContent = `
+        /* Centrado y estilo de la X de cierre del modal de producto */
+        #productModal .close {
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #c53030;
+            cursor: pointer;
+            z-index: 10;
+            background: none;
+            border: none;
+            line-height: 1;
+            transition: color 0.2s;
+        }
+        #productModal .close:hover {
+            color: #ffffffff;
+            scale: 1.1;
+        }
+
+        .sizes-scroll {
+            max-height: 220px;
+            overflow-y: auto;
+            padding-right: 6px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px;
+        }
+        .sizes-scroll::-webkit-scrollbar {
+            width: 8px;
+            background: #eee;
+            border-radius: 4px;
+        }
+        .sizes-scroll::-webkit-scrollbar-thumb {
+            background: #c53030;
+            border-radius: 4px;
+        }
+        .sizes-scroll .size-option {
+            min-width: 0;
+            text-align: center;
+        }
+    `;
+    document.head.appendChild(style);
+}
+injectSizesScrollStyle();
 
 // Eventos para cerrar modal
 document.addEventListener('DOMContentLoaded', function() {
