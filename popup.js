@@ -316,31 +316,31 @@ const productsData = {
         title: 'Tornillo hexagonal milimétrico llave 13',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/ROSCA TOTAL 8.8 LLAVE 13.png',
-        sizes: ['Llave 13']
+        sizes: ['8x50MM (30uni)', '8x55MM (30uni)', '8x60MM (30uni)', '8x70MM (30uni)', '8x80MM (30uni)']
     },
     'tornillo-hexagonal-milimetrico-llave-12': {
         title: 'Tornillo hexagonal milimétrico llave 12',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/ROSCA TOTAL 10.9 LLAVE 12.png',
-        sizes: ['Llave 12']
+        sizes: ['8x15MM (50uni)', '8x20MM (50uni)', '8x25MM (50uni)', '8x30MM (50uni)', '8x35MM (30uni)', '8x40MM (30uni)', '8x45MM (30uni)', '8x50MM (30uni)', '8x55MM (30uni)', '8x60MM (30uni)']
     },
     'tornillo-hexagonal-milimetrico-especial-7mm': {
         title: 'Tornillo hexagonal milimétrico especial 7mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/ESPECIAL 7 MM.png',
-        sizes: ['7mm']
+        sizes: ['7x15MM (30uni)', '7x20MM (30uni)', '7x25MM (30uni)', '7x30MM (30uni)', '7x35MM (30uni)', '7x40MM (30uni)']
     },
     'tornillo-hexagonal-milimetrico-6mm': {
         title: 'Tornillo hexagonal milimétrico 6mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/HEXAGONAL 6 MM.png',
-        sizes: ['6mm']
+        sizes: ['6x10MM (50uni)', '6x15MM (50uni)', '6x20MM (50uni)', '6x25MM (50uni)', '6x30MM (50uni)', '6x35MM (30uni)', '6x40MM (30uni)']
     },
     'tornillo-hexagonal-milimetrico-10mm': {
         title: 'Tornillo hexagonal milimétrico 10mm',
         description: 'Tornillo para motocicletas, diseñado para ofrecer seguridad.',
         image: 'tornillos/10 MM ROSCA PARCIAL 10.9 LLAVE 14.png',
-        sizes: ['10mm']
+        sizes: ['10x20MM (30uni)', '10x25MM (30uni)', '10x30MM (30uni)', '10x35MM (30uni)', '10x40MM (30uni)', '10x45MM (30uni)', '10x50MM (20uni)', '10x55MM (20uni)', '10x60MM (20uni)', '10x70MM (20uni)', '10x80MM (20uni)', '10x90MM (20uni)', '10x100MM (20uni)']
     },
     'tornillo-bristol-5mm': {
         title: 'Tornillo Bristol 5mm',
