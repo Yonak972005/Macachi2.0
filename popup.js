@@ -426,6 +426,25 @@ const productsData = {
         image: 'tornillos/TORNILLOBUJE.png',
         sizes: [ '5x12MM (20uni)', '5x15MM (20uni)', '5x20MM (20uni)', '5x25MM (20uni)', '6x13MM (20uni)', '6x15MM (20uni)', '6x19MM (20uni)', '6x25MM (20uni)']
     },
+    // CHAPETAS
+    'chapeta-tornillo-goloso': {
+        title: 'Chapeta Tornillo Goloso',
+        description: 'Chapeta para motocicletas, diseñada para ofrecer seguridad.',
+        image: 'chapetas/CHAPETA TORNILLO GOLOSO.png',
+        sizes: ['N8 Corta (30uni)', 'N8 Larga (30uni)', 'N10 Corta (30uni)', 'N10 Larga (30uni)', 'N12 Corta (30uni)', 'N12 Larga (30uni)']
+    },
+    'chapeta-especial': {
+        title: 'Chapeta Especial',
+        description: 'Chapeta para motocicletas, diseñada para ofrecer seguridad.',
+        image: 'chapetas/CHAPETAESPECIAL.png',
+        sizes: ['N5 Corta (20uni)', 'N5 Larga (20uni)', 'N6 Corta (20uni)', 'N6 Larga (20uni)', 'Chapeta Farola Honda (20uni)']
+    },
+    'chapeta-milimetrica': {
+        title: 'Chapeta Milimétrica',
+        description: 'Chapeta para motocicletas, diseñada para ofrecer seguridad.',
+        image: 'chapetas/CHAPETAMILIMETRICA.png',
+        sizes: ['N4 Corta (20uni)', 'N5 Corta (20uni)', 'N5 Larga (20uni)', 'N6 Corta (20uni)', 'N6 Larga (20uni)', 'N8 Corta (20uni)', 'N8 Larga (20uni)']
+    },
 };
 
 // Variables globales
