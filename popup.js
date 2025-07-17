@@ -445,6 +445,195 @@ const productsData = {
         image: 'chapetas/CHAPETAMILIMETRICA.png',
         sizes: ['N4 Corta (20uni)', 'N5 Corta (20uni)', 'N5 Larga (20uni)', 'N6 Corta (20uni)', 'N6 Larga (20uni)', 'N8 Corta (20uni)', 'N8 Larga (20uni)']
     },
+    // TORNILLOS ESPECIALES
+    'tornillo-cadenilla-tvs': {
+        title: 'Tornillo Cadenilla TVS',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/TORNILLOCADENILLA.png',
+        sizes: ['Único (5uni)']
+    },
+    'tornillo-manigueta': {
+        title: 'Tornillo Manigueta',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/TORNILLOMANIGUETA.png',
+        sizes: ['5MM BOXER-DISCOVER (10uni)', '5MM Pulsar izq (10uni)', '6MM Pulsar der (10uni)', 'Fz-Pulsar (10uni)', '6MM DT (10uni)', '5MM TT (10uni)', 'GN 125 (10uni)','6MM TS (10uni)', '6MM Honda izq (10uni)', '6MM Evo der (10uni)', '6MM NKD (10uni)', '5MM AX100 (10uni)', '6MM Eco, C90, XL 10 (10uni)', 'yamaha (10uni)', '6MM Rx (10uni)']
+    },
+    'tornillo-bamba-de-lubricacion': {
+        title: 'Tornillo Bamba de Lubricación',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/TORNILLOLUBRICACION.png',
+        sizes: ['BOXER 8MM (10uni)', 'AKT 10MM (10uni)']
+    },
+    'tornillo-tapa': {
+        title: 'Tornillo Tapa',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/TORNILLOTAPAAKT.png',
+        sizes: ['CR4 5X20 (10uni)']
+    },
+    'tornillo-mordaza': {
+        title: 'Tornillo Mordaza',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/TORNILLOS PASADOR MORDAZA.png',
+        sizes: ['Universal (5uni)', 'Xtz-best (5uni)', 'Akt Universal (5uni)', 'Pulsar 125 (5uni)', 'TT (5uni)', 'NKD Corto (5uni)', 'Honda universal (5uni)','Invicta (5uni)', 'Xt Xm (5uni)', 'NKD Largo (5uni)', 'Pulsar ns, FZ 180 (5uni)', 'NS Nueva (5uni)', 'NS Vieja (5uni)', 'TS (5uni)', 'YBR Libero crypton (5uni)', 'NS Vieja (5uni)', 'RX 115 (5uni)', 'NMax (5uni)']
+    },
+    'tornillo-portabanda': {
+        title: 'Tornillo Portabanda',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/TORNILLOPORTABANDA.png',
+        sizes: ['N8 Corto (20uni)', 'N8 Medio (20uni)', 'N8 Largo (20uni)', '10x35 boxer (20uni)']
+    },
+    'tornillo-pata-lateral': {
+        title: 'Tornillo Pata Lateral',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/TORNILLOPATALATERAL.png',
+        sizes: ['N10 Corto (20uni)', 'N10 Largo (20uni)', '10 A 8 (20uni)']
+    },
+    'grapa-para-defensa': {
+        title: 'Grapa para defensa',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/GUIAPARADEFENSA.png',
+        sizes: ['8MM X 2 1/4" X 1 1/2"(5uni)', '8MM X 2 1/4" X 2" (6uni)',]
+    },
+    'tornillo-pasante-motor': {
+        title: 'Tornillo Pasante Motor',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/TORNILLOPASANTEMOTOR.png',
+        sizes: [ '8x130 (5uni)', '8x140 (5uni)', '8x150 (5uni)', '8x160 (5uni)', '8x170 (5uni)', '8x180 (5uni)', '8x190 (5uni)', '8x200 (5uni)', '8x210 (5uni)', '8x220 (5uni)']
+    },
+    'tornillo-balancin': {
+        title: 'Tornillo Balancín',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/TORNILLOBALANCIN.png',
+        sizes: ['Auteco Eco 100 (10uni)','Auteco Deluxe (10uni)','Auteco C70 C90 (10uni)','Akt (10uni)']
+    },
+    'tornillo-barra-telescopica': {
+        title: 'Tornillo Barra Telescópica',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/TORNILLOBARRATELESCOPICA.png',
+        sizes: ['Universal (10uni)','AKT (10uni)']
+    },
+    'adaptador-de-espejo': {
+        title: 'Adaptador de Espejo',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/ADAPTADORDEESPEJO.png',
+        sizes: [
+            '10 der / 10 izq (5uni)',
+            '10 izq / 10 der (5uni)',
+            '10 der / 10 der (5uni)',
+            '8 der / 7/16 rf (5uni)',
+            '10 der / 7/16 rf (5uni)',
+            '8 der / 8 der (5uni)',
+            '8 izq / 8 izq (5uni)',
+            '10 der / 8 izq (5uni)',
+            '10 izq / 8 der (5uni)',
+            '8 izq / 10 der (5uni)',
+            '8 izq / 7/16rf (5uni)',
+            '8 izq / 7/16ro (5uni)',
+            '8 der / 10 der (5uni)',
+            '10 der / 8 der (5uni)',
+            '10 izq / 7/16 ro (5uni)',
+            '8 der  /10 izq (5uni)',
+            '8 der / 7/16 ro (5uni)',
+            '8 izq / 8 der (5uni)',
+            '8 der / 8 izq (5uni)',
+            '10izq / 10izq (5uni)',
+            '10 izq / 7/16 rf (5uni)',
+            '10 der / 7/16 ro (5uni)'
+        ]
+    },
+    'tuerca-de-cigueñal-derecha': {
+        title: 'Tuerca de Cigueñal Derecha',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/TUERCACIGUEÑAL.png',
+        sizes: ['Pulsar derecha (20uni)']
+    },
+    'tuerca-para-freno': {
+        title: 'Tuerca para varilla de Freno',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/TUERCACIGUEÑAL1.png',
+        sizes: ['5MM (20uni)', '6MM (20uni)', '7MM (20uni)', '8MM (20uni)']
+    },
+    'bulon-varilla-de-freno': {
+        title: 'Bulon varilla de Freno',
+        description: 'Lujos para motocicletas, diseñados para ofrecer un estilo elegante.',
+        image: 'tornillosespeciales/BULLONFRENO.png',
+        sizes: ['5MM (10uni)', '6MM (10uni)', '7MM (10uni)', '8MM (10uni)']
+    },
+    'kit-varilla-de-freno': {
+        title: 'Kit varilla de Freno',
+        description: 'Esparragos para motocicletas.',
+        image: 'tornillosespeciales/KITVARILLAFRENO.png',
+        sizes: ['5MM (5uni)', '6MM (5uni)', '7MM (5uni)', '8MM (5uni)']
+    },
+    // TORNILLOS ESPECIALES
+    'esparragos-combinados': {
+        title: 'Esparragos Combinados',
+        description: 'Esparragos para motocicletas.',
+        image: 'esparragos/ESPARRAGOS10.png',
+        sizes: [
+            '1/4 X 6 X 40 (5uni)',
+            '1/4 X 6 X 50 (5uni)',
+            '1/4 X 6 X 60 (5uni)',
+            '8 X 3/8 X 40 (5uni)',
+            '18 X 3/8 X 50 (5uni)',
+            '8 X 3/8 X 60 (5uni)',
+            '8 X 7/16 X 40 (5uni)',
+            '8 X 7/16 X 50 (5uni)',
+            '8 X 7/16 X 60 (5uni)',
+            '8 X 1/2 X 40 (5uni)',
+            '8 X 1/2 X 50 (5uni)',
+            '8 X 1/2 X 60 (5uni)',
+            '6 X 8 X 40 (5uni)',
+            '6 X 8 X 45 (5uni)',
+            '6 X 8 X 50 (5uni)',
+            '6 X 8 X 60 (5uni)'
+        ]
+    },
+    'esparragos-parejos': {
+        title: 'Esparragos parejos',
+        description: 'Esparragos para motocicletas.',
+        image: 'esparragos/ESPARRAGOS8.png',
+        sizes: [
+            '6 X 30 (10uni)',
+            '6 X 35 (10uni)',
+            '6 X 40 (10uni)',
+            '6 X 45 (10uni)',
+            '6 X 50 (10uni)',
+            '6 X 60 (10uni)',
+            '6 X 60 (10uni)',
+            '6 X 80 (10uni)',
+            '6 X130 (5uni)',
+            '8 X 30 (10uni)',
+            '8 X 35 (10uni)',
+            '8 X 40 (10uni)',
+            '8 X 45 (10uni)',
+            '8 X 50 (10uni)',
+            '8 X 60 (10uni)',
+            '8 X 70 (10uni)',
+            '8 X 80 (10uni)',
+            '8 X 140 (5uni)',
+            '10 X 30 (5uni)',
+            '10 X 35 (5uni)',
+            '10 X 40 (5uni)',
+            '10 X 45 (5uni)',
+            '10 X 50 (5uni)',
+            '10 X 60 (5uni)',
+            '10 X 70 (5uni)',
+            '10 X 80 (5uni)'
+        ]
+    },
+    'perno-moto-carro': {
+        title: 'Perno moto carro',
+        description: 'Perno moto carro.',
+        image: 'esparragos/PERNOMOTOCARRO.png',
+        sizes: ['10x30 (20uni)', '10MM (20uni)']
+    },
+    'perno-moto-carguero': {
+        title: 'Perno moto carguero',
+        description: 'Perno moto carguero.',
+        image: 'esparragos/ESPARRAGOMOTOCARGUERO.png',
+        sizes: ['12x32 (20uni)', '12MM (20uni)']
+    },
 };
 
 // Variables globales
