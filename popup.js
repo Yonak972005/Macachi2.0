@@ -634,6 +634,63 @@ const productsData = {
         image: 'esparragos/ESPARRAGOMOTOCARGUERO.png',
         sizes: ['12x32 (20uni)', '12MM (20uni)']
     },
+    //ARRANDELASGUIAS
+    'guias-cilindro': {
+        title: 'Guías Cilindro',
+        description: 'Guías cilindro para motocicletas.',
+        image: 'arandelas/GUIACILINDRO.png',
+        sizes: ['UNICO (10uni)']
+    },
+    'uniones-cadena': {
+        title: 'Uniones de Cadena',
+        description: 'Uniones para cadenas de motocicletas.',
+        image: 'arandelas/UNIONES DE CADENA.png',
+        sizes: ['420H (10uni)', '428H (10uni)', '520H (10uni)']
+    },
+    'arandelas-piñon': {
+        title: 'Arandelas Piñón',
+        description: 'Arandelas para piñones de motocicletas.',
+        image: 'arandelas/ARANDELASPIÑON.png',
+        sizes: ['DT-AX (10uni)', 'BOXER (10uni)', 'YBR (10uni)', 'FZ (10uni)', 'GN125 (10uni)', 'HAYATE (10uni)', 'APACHE (10uni)', 'XT 660 (10uni)', 'SZR (10uni)', 'XL 125 (10uni)', 'ECO (10uni)',]
+    },
+    'arandelas-amplias': {
+        title: 'Arandelas Amplias',
+        description: 'Arandelas amplias para motocicletas.',
+        image: 'arandelas/ARANDELASAMPLIAS.png',
+        sizes: ['AA5 5MM (100uni)', 'AA6 6MM (100uni)', 'AA8 8MM(100uni)', 'AA10 10MM(100uni)', 'AA12 12MM(100uni)']
+    },
+    'arandelas-milimetricas': {
+        title: 'Arandelas Milimétricas AP',
+        description: 'Arandelas milimétricas para motocicletas.',
+        image: 'arandelas/ARANDELASMILIMETRICAS.png',
+        sizes: ['4MM (100uni)', '5MM (100uni)', '6MM (100uni)', '8MM (100uni)', '10MM (50uni)', '12MM (30uni)', '14MM (30uni)', '16MM (20uni)', '18MM (20uni)', '20MM (20uni)', '22MM (20uni)']
+    },
+    'arandelas-presion': {
+        title: 'Arandelas de Presión W',
+        description: 'Arandelas de presión para motocicletas.',
+        image: 'arandelas/ARANDELAPRESION.png',
+        sizes: ['5MM (100uni)', '6MM (100uni)', '8MM (100uni)', '10MM (50uni)', '12MM (30uni)', '14MM (20uni)']
+    },
+    'arandelas-cobre': {
+        title: 'Arandelas de Cobre AC',
+        description: 'Arandelas de cobre para motocicletas.',
+        image: 'arandelas/ARANDELACOBRE.png',
+        sizes: ['5MM (10uni)', '6MM (10uni)', '8MM (10uni)', '10MM (10uni)', '12MM (10uni)', '14MM (10uni)', '16MM (10uni)', '18MM (10uni)', '20MM (10uni)', '22MM (10uni)', '24MM (10uni)',
+            '1/4" (10uni)', '5/16" (10uni)', '3/8" (10uni)', '7/16" (10uni)', '1/2" (10uni)', '9/16" (10uni)', '5/8" (10uni)', '3/4" (10uni)', '7/8" (10uni)', '1" (10uni)'
+        ]
+    },
+    'arandelas-de-aluminio': {
+        title: 'Arandelas de Aluminio AL',
+        description: 'Arandelas de aluminio para motocicletas.',
+        image: 'arandelas/ARANDELASDEALUMINIO.png',
+        sizes: ['6MM (100uni)', '8MM (100uni)', '10MM (50uni)', '12MM (30uni)', '14MM (30uni)']
+    },
+    'arandelas-balancin': {
+        title: 'Arandelas de Balancín',
+        description: 'Arandelas de balancín para motocicletas.',
+        image: 'arandelas/ARANDELASBALANCIN.png',
+        sizes: ['BALAN (10uni)']
+    }
 };
 
 // Variables globales
