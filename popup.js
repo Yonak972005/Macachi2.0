@@ -690,7 +690,273 @@ const productsData = {
         description: 'Arandelas de balancín para motocicletas.',
         image: 'arandelas/ARANDELASBALANCIN.png',
         sizes: ['BALAN (10uni)']
-    }
+    },
+    //RESORTES
+    'pata-lateral-boxer': {
+        title: 'Resorte Pata lateral Boxer',
+        description: 'Resorte Pata Boxer Pulsar Win Discover Akt Eco.',
+        image: 'resortes/RPB.png',
+        sizes: ['Unica']
+    },
+    'pata-lateral-gn-gs-gixxer': {
+        title: 'Resorte Pata Y Gato Gn Gs 125 Dr 200, Gixxer, Rtx150',
+        description: 'Resorte Pata lateral GN125/GS125/Gixxer/DR200/RTX150.',
+        image: 'resortes/RPGN.png',
+        sizes: ['Unica']
+    },
+    'pata-lateral-akt-nkd-evo-cbr-kimko-vivas-cbz': {
+        title: 'Resorte Pata Akt 125, Nkd Sl, Evo, Cbr, Kimko, Vivas, Cbz',
+        description: 'Resorte Pata Akt 125, Nkd Sl, Evo, Cbr, Kimko, Vivas, Cbz',
+        image: 'resortes/RPSL.png',
+        sizes: ['Unica']
+    },
+    'pata-lateral-Fz-Ax-Rx-Libero-Cripton-Ts-C90': {
+        title: 'Resorte Pata Libero Fz Ax Rx Libero Cripton Ts C90',
+        description: 'Resorte Pata Libero Fz Ax Rx Libero Cripton Ts C90',
+        image: 'resortes/RPFZ.png',
+        sizes: ['Unica']
+    },
+    'pata-lateral-Szr-150-Xtz-125-150-Dr-Xr-Enduro': {
+        title: 'Resorte Pata Szr 150, Xtz 125, 150 Dr, Xr, Enduro',
+        description: 'Resorte Pata Szr 150, Xtz 125, 150 Dr, Xr, Enduro.',
+        image: 'resortes/RPSZR.png',
+        sizes: ['Unica']
+    },
+    'pata-lateral-dt': {
+        title: 'Resorte pata lateral Dt',
+        description: 'Resorte pata lateral Dt para motocicletas.',
+        image: 'resortes/RPDT.png',
+        sizes: ['Unica']
+    },
+    'pedal-freno-discover': {
+        title: 'Resorte Pedal Freno Discover, Pulsar 135 - 180',
+        description: 'Resorte Pedal Freno Discover, Pulsar 135 - 180.',
+        image: 'resortes/RPFD.png',
+        sizes: ['Unica']
+    },
+    'pedal-freno-honda': {
+        title: 'Resorte Pedal Honda Cbz Cbf Eco',
+        description: 'Resorte Pedal Honda Cbz Cbf Eco.',
+        image: 'resortes/RPFH.png',
+        sizes: ['Unica']
+    },
+    'pedal-freno-evo': {
+        title: 'Resorte Pedal Freno Evo, Ne 125 - 150, Akt 110, Tvs 160',
+        description: 'Resorte Pedal Freno Evo, Ne 125 - 150, Akt 110, Tvs 160.',
+        image: 'resortes/RPFE.png',
+        sizes: ['Unica']
+    },
+    'pedal-freno-fz': {
+        title: 'Resorte Pedal Freno  Fz 16, Szr, Fazer',
+        description: 'Resorte Pedal Freno  Fz 16, Szr, Fazer.',
+        image: 'resortes/RPFFZ.png',
+        sizes: ['Unica']
+    },
+    'pedal-freno-akt125': {
+        title: 'Resorte Pedal Freno Akt 125, Nkd Sl',
+        description: 'Resorte Pedal Freno Akt 125, Nkd Sl.',
+        image: 'resortes/RPFSL.png',
+        sizes: ['Unica']
+    },
+    'pedal-freno-gn': {
+        title: 'Resorte Pedal Freno Gn, Gs, Evo 125 1-2',
+        description: 'Resorte Pedal Freno Gn, Gs, Evo 125 1-2.',
+        image: 'resortes/RPFGN.png',
+        sizes: ['Unica']
+    },
+    'pedal-freno-rpfb': {
+        title: 'Resorte Pedal Freno Boxer Win Platino',
+        description: 'Resorte Pedal Freno Boxer Win Platino.',
+        image: 'resortes/RPFB.png',
+        sizes: ['Unica']
+    },
+    'pedal-freno-ybr': {
+        title: 'Resorte Pedal Freno Ybr Libero Crypton',
+        description: 'Resorte Pedal Freno Ybr Libero Crypton.',
+        image: 'resortes/RPFYBR.png',
+        sizes: ['Unica']
+    },
+    'pedal-freno-eco': {
+        title: 'Resorte Pedal Freno Ax 100, 115',
+        description: 'Resorte Pedal Freno Ax 100, 115.',
+        image: 'resortes/RPFAX.png',
+        sizes: ['Unica']
+    },
+    'resorte-especial-rlv': {
+        title: 'Resorte Especial larga vida',
+        description: 'Resorte Especial larga vida.',
+        image: 'resortes/RLV.png',
+        sizes: ['Unica']
+    },
+    'resorte-especial-rae': {
+        title: 'Resorte Para Varilla Freno',
+        description: 'Resorte Para Varilla Freno.',
+        image: 'resortes/RAE.png',
+        sizes: ['Unica']
+    },
+    'resorte-especial-rvf': {
+        title: 'Resorte Pera Freno Universal',
+        description: 'Resorte Pera Freno Universal.',
+        image: 'resortes/RVF.png',
+        sizes: ['Unica']
+    },
+    'resorte-especial-rp': {
+        title: 'Resorte Pedal Freno Gixxer',
+        description: 'Resorte Pedal Freno Gixxer.',
+        image: 'resortes/RP.png',
+        sizes: ['Unica']
+    },
+    'pedal-especial-rlc': {
+        title: 'Resorte Leva Clutch Pulsar 180',
+        description: 'Resorte Leva Clutch Pulsar 180.',
+        image: 'resortes/RLC.png',
+        sizes: ['Unica']
+    },
+    'pedal-especial-rga': {
+        title: 'Resorte Gato Central Auteco',
+        description: 'Resorte Gato Central Auteco.',
+        image: 'resortes/RGA.png',
+        sizes: ['Unica']
+    },
+    'pedal-especial-cg': {
+        title: 'Resorte Gato Akt Sl,Nkd',
+        description: 'Resorte Gato Akt Sl,Nkd.',
+        image: 'resortes/RGSL.png',
+        sizes: ['Unica']
+    },
+    'pin-de-ojo': {
+        title: 'Pin de ojo',
+        description: 'Pin de ojo.',
+        image: 'resortes/PINDEOJO.png',
+        sizes: ['Primario (20uni)','Araña clutch (20uni)','Piñon loco y salida (20uni)','Crank Yamaha (20uni)','Eje crack interno (20uni)','Campana Honda (10uni)','Campana akt (10uni)']
+    },
+    'pin-medialuna': {
+        title: 'Pin medialuna',
+        description: 'Pin medialuna.',
+        image: 'resortes/PINMEDIALUNA.png',
+        sizes: ['Agujas carburador (20uni)','Automatico Fz(20uni)','Automatico Suzuki (20uni)','Crank DT (20uni)','Selectro Cambios RX (20uni)','Pata RX (10uni)','Pata DT (10uni)']
+    },
+    'pines-telescopicos': {
+        title: 'Pin telescópico',
+        description: 'Pin telescópico.',
+        image: 'resortes/PINTELESCOPIO.png',
+        sizes: ['FZ (20uni)','Pulsar (20uni)']
+    },
+    'chavetta': {
+        title: 'Chavetta',
+        description: 'Chavetta.',
+        image: 'resortes/CHAVETTA.png',
+        sizes: ['1/16 x 1/2" (50uni)','1/16 x 1" (50uni)','3/32 x 1" (50uni)','1/8 x 1" (50uni)']
+    },
+    'pin-rr': {
+        title: 'Pin RR',
+        description: 'Pin RR.',
+        image: 'resortes/PINRR.png',
+        sizes: ['Plano (10uni)','Doblado (10uni)']
+    },
+    'pin-plastico': {
+        title: 'Pin plástico',
+        description: 'Pin plástico.',
+        image: 'resortes/PINPLASTICO.png',
+        sizes: ['Pequeño (20uni)','Mediano (20uni)','Grande (20uni)']
+    },
+    //FUELLOS Y CAUCHOS
+    'fuelle-delantero': {
+        title: 'Fuelle delantero',
+        description: 'Fuelle delantero para motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/FUELLES.png',
+        sizes: ['Pequeño (par)']
+    },
+    'caucho-pasaguayas': {
+        title: 'Caucho pasaguayas',
+        description: 'Caucho pasaguayas para motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/CAUCHOPASAGUAYAS.png',
+        sizes: ['Mediano (par)']
+    },
+    'caucho-para-crank': {
+        title: 'Caucho para crank',
+        description: 'Caucho para crank de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/CAUCHOPARACRANK.png',
+        sizes: ['Grande (par)']
+    },
+    'caucho-para-palanca-cambio': {
+        title: 'Caucho para palanca de cambio',
+        description: 'Caucho para palanca de cambio de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/CAUCHOPARAPALANCACAMBIO.png',
+        sizes: ['Universal (par)']
+    },
+    'caucho-para-palanca-cambio-curvo': {
+        title: 'Caucho para palanca de cambios curvo',
+        description: 'Caucho para palanca de cambios curvo de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/CAUCHOPARAPALANCACAMBIOCURVO.png',
+        sizes: ['AKT (par)']
+    },
+    'caucho-para-manigueta-colores': {
+        title: 'Caucho para manigueta colores',
+        description: 'Caucho para manigueta de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/CAUCHOMANIGUETA.png',
+        sizes: ['Pulsar (par)']
+    },
+    'caucho-para-manigueta-liso': {
+        title: 'Caucho para manigueta liso',
+        description: 'Caucho para manigueta de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/CAUCHOMANIGUETA.png',
+        sizes: ['NKD (par)']
+    },
+    'caucho-protector-palanca': {
+        title: 'Caucho protector de palanca',
+        description: 'Caucho protector de palanca de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/CAUCHOPROTECTORDEPALANCA.png',
+        sizes: ['Eco (par)']
+    },
+    'caucho-protector': {
+        title: 'Caucho protector',
+        description: 'Caucho protector de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/CAUCHOPROTECTOR.png',
+        sizes: ['DT (par)']
+    },
+    'caucho-pasaguayas-2': {
+        title: 'Caucho pasaguayas 2',
+        description: 'Caucho pasaguayas 2 de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/CAUCHOPASAGUAYAS2.png',
+        sizes: ['Yamaha (par)']
+    },
+    'correas-bateria': {
+        title: 'Correas de batería',
+        description: 'Correas de batería de motocicletas, diseñadas para ofrecer un estilo elegante.',
+        image: 'cauchos/CORREASBATERIA.png',
+        sizes: ['Honda (par)']
+    },
+    'caucho-reposapies': {
+        title: 'Caucho reposapies',
+        description: 'Caucho reposapies de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/CAUCHOREPOSAPIES.png',
+        sizes: ['Suzuki (par)']
+    },
+    'caucho-reposapies-traseros': {
+        title: 'Caucho reposapies traseros',
+        description: 'Caucho reposapies traseros de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/REPOSAPIESTRASERO.png',
+        sizes: ['Boxer (par)']
+    },
+    'deslizador-cadena': {
+        title: 'Deslizador de cadena',
+        description: 'Deslizador de cadena de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/DESLIZADOR CADENA.png',
+        sizes: ['Discover (par)']
+    },
+    'guarda-polvos': {
+        title: 'Guarda polvos',
+        description: 'Guarda polvos de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/GUARDAPOLVOS.png',
+        sizes: ['FZ (par)']
+    },
+    'pulpos': {
+        title: 'Pulpos',
+        description: 'Pulpos de motocicletas, diseñado para ofrecer un estilo elegante.',
+        image: 'cauchos/PULPOS.png',
+        sizes: ['FZ (par)']
+    },
 };
 
 // Variables globales
