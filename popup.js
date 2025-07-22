@@ -862,100 +862,100 @@ const productsData = {
     },
     //FUELLOS Y CAUCHOS
     'fuelle-delantero': {
-        title: 'Fuelle delantero',
+        title: 'Fuelle delantero PAR',
         description: 'Fuelle delantero para motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/FUELLES.png',
-        sizes: ['Pequeño (par)']
+        sizes: ['BROSS', 'DT', 'AKT', 'PULSAR/GN', 'AX', 'BOXER', 'DISCOVER', 'BWS', 'ENDURO']
     },
     'caucho-pasaguayas': {
-        title: 'Caucho pasaguayas',
+        title: 'Caucho pasaguayas 5uni',
         description: 'Caucho pasaguayas para motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/CAUCHOPASAGUAYAS.png',
-        sizes: ['Mediano (par)']
+        sizes: ['Roja', 'Azul', 'Negro', 'Gris', 'Naranja', 'Amarillo', 'Verde', 'Morado', 'Rosado', 'Verde Neon']
     },
     'caucho-para-crank': {
-        title: 'Caucho para crank',
+        title: 'Caucho para crank 5uni',
         description: 'Caucho para crank de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/CAUCHOPARACRANK.png',
-        sizes: ['Grande (par)']
+        sizes: ['Roja', 'Azul', 'Negro', 'Gris', 'Naranja', 'Amarillo', 'Verde', 'Morado', 'Rosado', 'Verde Neon']
     },
     'caucho-para-palanca-cambio': {
-        title: 'Caucho para palanca de cambio',
+        title: 'Caucho para palanca de cambio 5uni',
         description: 'Caucho para palanca de cambio de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/CAUCHOPARAPALANCACAMBIO.png',
-        sizes: ['Universal (par)']
+        sizes: ['Roja', 'Azul', 'Negro', 'Gris', 'Naranja', 'Amarillo', 'Verde', 'Morado', 'Rosado', 'Verde Neon']
     },
     'caucho-para-palanca-cambio-curvo': {
-        title: 'Caucho para palanca de cambios curvo',
+        title: 'Caucho para palanca de cambios curvo 5uni',
         description: 'Caucho para palanca de cambios curvo de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/CAUCHOPARAPALANCACAMBIOCURVO.png',
-        sizes: ['AKT (par)']
+        sizes: ['Roja', 'Azul', 'Negro', 'Gris', 'Naranja', 'Amarillo', 'Verde', 'Morado', 'Rosado', 'Verde Neon']
     },
     'caucho-para-manigueta-colores': {
-        title: 'Caucho para manigueta colores',
+        title: 'Caucho para manigueta colores 5uni',
         description: 'Caucho para manigueta de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/CAUCHOMANIGUETA.png',
-        sizes: ['Pulsar (par)']
+        sizes: ['Roja', 'Azul', 'Negro', 'Gris', 'Naranja', 'Amarillo', 'Verde', 'Morado', 'Rosado', 'Verde Neon']
     },
     'caucho-para-manigueta-liso': {
-        title: 'Caucho para manigueta liso',
+        title: 'Caucho para manigueta liso 5uni',
         description: 'Caucho para manigueta de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/CAUCHOMANIGUETA.png',
-        sizes: ['NKD (par)']
+        sizes: ['Roja', 'Azul', 'Negro', 'Gris', 'Naranja', 'Amarillo', 'Verde', 'Morado', 'Rosado', 'Verde Neon']
     },
     'caucho-protector-palanca': {
-        title: 'Caucho protector de palanca',
+        title: 'Caucho protector de palanca 5uni',
         description: 'Caucho protector de palanca de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/CAUCHOPROTECTORDEPALANCA.png',
-        sizes: ['Eco (par)']
+        sizes: ['Roja', 'Azul', 'Negro', 'Gris', 'Naranja', 'Amarillo', 'Verde', 'Morado', 'Rosado', 'Verde Neon']
     },
     'caucho-protector': {
-        title: 'Caucho protector',
+        title: 'Caucho protector 5uni',
         description: 'Caucho protector de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/CAUCHOPROTECTOR.png',
-        sizes: ['DT (par)']
+        sizes: ['Roja', 'Azul', 'Negro', 'Gris', 'Naranja', 'Amarillo', 'Verde', 'Morado', 'Rosado', 'Verde Neon']
     },
     'caucho-pasaguayas-2': {
-        title: 'Caucho pasaguayas 2',
+        title: 'Caucho pasaguayas 5uni',
         description: 'Caucho pasaguayas 2 de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/CAUCHOPASAGUAYAS2.png',
-        sizes: ['Yamaha (par)']
+        sizes: ['Mediano', 'Doble NKD 125']
     },
     'correas-bateria': {
-        title: 'Correas de batería',
+        title: 'Correas de batería 5uni',
         description: 'Correas de batería de motocicletas, diseñadas para ofrecer un estilo elegante.',
         image: 'cauchos/CORREASBATERIA.png',
-        sizes: ['Honda (par)']
+        sizes: ['14CM', '18CM', '21CM']
     },
     'caucho-reposapies': {
-        title: 'Caucho reposapies',
+        title: 'Caucho reposapies delantero PAR',
         description: 'Caucho reposapies de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/CAUCHOREPOSAPIES.png',
-        sizes: ['Suzuki (par)']
+        sizes: ['Universal', 'Akt 125', 'Akt 110', 'GS 125', 'Pulsar', 'Boxer', 'Eco', 'Libero', 'AX 100 115 COLORES']
     },
     'caucho-reposapies-traseros': {
-        title: 'Caucho reposapies traseros',
+        title: 'Caucho reposapies traseros PAR',
         description: 'Caucho reposapies traseros de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/REPOSAPIESTRASERO.png',
-        sizes: ['Boxer (par)']
+        sizes: ['Negro']
     },
     'deslizador-cadena': {
         title: 'Deslizador de cadena',
         description: 'Deslizador de cadena de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/DESLIZADOR CADENA.png',
-        sizes: ['Discover (par)']
+        sizes: ['AKT Unidad']
     },
     'guarda-polvos': {
         title: 'Guarda polvos',
         description: 'Guarda polvos de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/GUARDAPOLVOS.png',
-        sizes: ['FZ (par)']
+        sizes: ['En pasta', 'Sin marca de moto', 'Marca de moto', 'Refuerzo de acero', 'Suzuki kit del/tras']
     },
     'pulpos': {
         title: 'Pulpos',
         description: 'Pulpos de motocicletas, diseñado para ofrecer un estilo elegante.',
         image: 'cauchos/PULPOS.png',
-        sizes: ['FZ (par)']
+        sizes: ['Malla tejida', 'Malla caucho', 'Plano caucho', 'Redondo caucho']
     },
 };
 
