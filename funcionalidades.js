@@ -70,3 +70,24 @@ function scrollToTop() {
         behavior: 'smooth'
     });
 }
+
+// ==========================
+// Acordeón del footer
+// ==========================
+document.querySelectorAll('.accordion-title').forEach(btn => {
+    btn.addEventListener('click', function () {
+        const isActive = this.classList.contains('active');
+        document.querySelectorAll('.accordion-title').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.accordion-content').forEach(c => {
+            c.style.maxHeight = '0px';
+            c.classList.remove('open');
+        });
+        if (!isActive) {
+            this.classList.add('active');
+            const content = this.nextElementSibling;
+            content.classList.add('open');
+            const padding = 32;
+            content.style.maxHeight = (content.scrollHeight + padding) + "px";
+        }
+    });
+});
