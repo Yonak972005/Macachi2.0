@@ -957,6 +957,56 @@ const productsData = {
         image: 'cauchos/PULPOS.png',
         sizes: ['Malla tejida', 'Malla caucho', 'Plano caucho', 'Redondo caucho']
     },
+    //FUELLOS Y CAUCHOS
+    'caucho-tapa-lateral': {
+        title: 'Caucho tapa lateral',
+        description: 'Cauchos internos para motocicletas, diseñados para ofrecer seguridad.',
+        image: 'cauchosinternos/CAUCHOTAPALATERAL.png',
+        sizes: ['GN,AX,AKT (50uni)', 'DT,RX (50uni)', 'Discover, pulsar (50uni)', 'NS,Exosto (50uni)', 'Boxer,Pulsar,Discover (50uni)', 'Guarda barros (50uni)', 'Ovalado, Akt corto (50uni)', 'Akt largo 125,Tt,Xl 250 (50uni)', 'NKD (50uni)', 'Gs, Suzuki (50uni)', 'Con buje (50uni)', 'Sin buje carenaje (50uni)', 'Sin buje carnaje cruz (50uni)']
+    },
+    'caucho-sillin-gato': {
+        title: 'Caucho',
+        description: 'Cauchos internos para motocicletas, diseñados para ofrecer seguridad.',
+        image: 'cauchosinternos/CAUCHOSILLIN.png',
+        sizes: ['Sillin Gs grande (20uni)', 'Sillin Muescado (20uni)', 'Sillin Acanalado (20uni)', 'Sillin gn (20uni)', 'Burro Bws, Auteco, Boxer, Pulsar (20uni)', 'Gato central agility (20uni)', 'Burro alto (30uni)', 'Burro corto (30uni)', 'Sillin, Gato pulsar corto (30uni)', 'Sillin auteco/nkd (30uni)']
+    },
+    'caucho-varios': {
+        title: 'Cauchos varios',
+        description: 'Cauchos internos para motocicletas, diseñados para ofrecer seguridad.',
+        image: 'cauchosinternos/CAUCHOSVARIOS.png',
+        sizes: ['Tapa cadena eco (20uni)', 'Caucho antivibrante (10 juegos)', 'Kit de farola AKT (5 juegos)', 'Kit de mordaza universal (5 juegos)', 'Caucho tapa cadena (20uni)', 'Combo tornillo carenaje (20uni)', 'cauchos maletero (30uni)', 'cauchos tacometro (30uni)', 'cauchos flauta cadenilla (20uni)']
+    },
+    'caucho-para-tanque': {
+        title: 'Caucho',
+        description: 'Cauchos internos para motocicletas, diseñados para ofrecer seguridad.',
+        image: 'cauchosinternos/CAUCHOSTANQUE.png',
+        sizes: ['tanque Buje Gn 125, Suzuki (20unid)', 'Exosto ns200 (20unid)', 'Tope manubrio largo (50unid)', 'tope manubrio interno auteco (50uni)', 'Amortiguador 4 tiempos (30uni)', 'Amortiguador 2 tiempos (30uni)', 'Tanque Dt (10uni)', 'Tanque Boxer, Pulsar (10uni)', 'Tanque Ax, Gn (10uni)', 'Tanque RX (10uni)', 'Tanque Akt, XI (10uni)']
+    },
+    'caucho-campana': {
+        title: 'Caucho campana 5uni',
+        description: 'Cauchos internos para motocicletas, diseñados para ofrecer seguridad.',
+        image: 'cauchosinternos/CAUCHOCAMPANA.png',
+        sizes: ['campana 4 huecos bajaj', 'GN GS AKT EVO RTX RTR', 'AX100-115, AKT 100, VIVAS, GR80', '6 huecos pulsar, ns', 'Suzuki gixer', 'Boxer ct100 platino ', 'Exo 100, Akt 110, C70, C90', 'Honda cb 110, Ax4, wave', 'Honda cbf 125', 'cbf 150-160', 'Rx 100-115, Cirpton 115', 'FZ 2.0', 'Fz 1ibero 125', 'cr4', 'cr5', 'Gs Akt Evo 150', 'Akt Nkd' ]
+    },
+    //PARTES ACELERADOR
+    'cable-de-guaya': {
+        title: 'Cable de guaya',
+        description: 'Partes de acelerador',
+        image: 'guaya/GUAYA.png',
+        sizes: ['Acelerador 1.5MT (20uni)', 'Closh 1.5MT  (20uni)', 'Ax 1.5MT (20uni)', 'Choke 2MT (20uni)', 'Acelerador 3MT (20uni)', 'Closh 3MT (20uni)']
+    },
+    'Tensor-de-guaya': {
+        title: 'Tensor de Manigueta',
+        description: 'Partes de acelerador',
+        image: 'guaya/TENSORGUAYA.png',
+        sizes: ['longitud 27mm (10uni)', 'Tensor Boxer/Ct-100/PLatino 35mm(10uni)']
+    },
+    'micos': {
+        title: 'Caucho campana 5uni',
+        description: 'Partes de acelerador',
+        image: 'guaya/MICO.png',
+        sizes: ['Mico acelerador 3/16 pequeño (100uni)', 'Mico clutch 1/4 mediano (100uni)', 'Mico clutch 5/16 Grande (100uni)', 'Mico acelerador (100uni)', 'Mico clutch 5/16 grande (100uni)' ]
+    }
 };
 
 // Variables globales
