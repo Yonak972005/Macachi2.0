@@ -1927,6 +1927,272 @@ const productsData = {
         image: 'ejes/EJETRASERO.png',
         sizes: ["10x235", "12x210", "12x220", "12x225", "12x230", "12x235", "12x240", "12x255", "12x265", "12x285", "14x230", "14x245", "14x250", "14x260", "14x290", "14x300", "14x320", "15x285", "15x305", "16x290"]
     },
+    //PARRILLAS
+    'PARRILLAAXCROMADA': {
+        title: 'Parrilla Ax trasera',
+        description: 'Parrilla Ax trasera cromada sencilla',
+        image: 'parrillas/PARRILLAAXCROMADA.png',
+        sizes: ['Unica']
+    },
+    'PARRILLAAXNEGRA': {
+        title: 'Parrilla Ax trasera',
+        description: 'Parrila Ax trasera negra sencilla',
+        image: 'parrillas/PARRILLAAXNEGRA.png',
+        sizes: ['Unica']
+    },
+    'PARRILLANKDNEGRA': {
+        title: 'Parrilla akt',
+        description: 'Parrilla akt nkd 125 trasera negra sencilla',
+        image: 'parrillas/PARRILLANKDNEGRA.png',
+        sizes: ['Unica']
+    },
+    'PARRILLANKDCROMADA': {
+        title: 'Parrilla akt',
+        description: 'Parrilla akt nkd 125 trasera cromada sencilla',
+        image: 'parrillas/PARRILLANKDCROMADA.png',
+        sizes: ['Unica']
+    },
+    //PATAS
+    'PLAP180': {
+        title: 'PLAP180',
+        description: 'Muleta o pata PLAP180',
+        image: 'patas/PLAP180.png',
+        sizes: ['Unica']
+    },
+    'PLDR': {
+        title: 'PLDR',
+        description: 'Muleta o pata PLDR',
+        image: 'patas/PLDR.png',
+        sizes: ['Unica']
+    },
+    'PLDR2': {
+        title: 'PLDR2',
+        description: 'Muleta o pata PLDR2',
+        image: 'patas/PLDR2.png',
+        sizes: ['Unica']
+    },
+    'PLMRX': {
+        title: 'PLMRX',
+        description: 'Muleta o pata PLMRX',
+        image: 'patas/PLMRX.png',
+        sizes: ['Unica']
+    },
+    'PLCR4': {
+        title: 'PLCR4',
+        description: 'Muleta o pata PLCR4',
+        image: 'patas/PLCR4.png',
+        sizes: ['Unica']
+    },
+    'PLCR5': {
+        title: 'PLCR5',
+        description: 'Muleta o pata PLCR5',
+        image: 'patas/PLCR5.png',
+        sizes: ['Unica']
+    },
+    'PLTTR180': {
+        title: 'PLTTR180',
+        description: 'Muleta o pata PLTTR180',
+        image: 'patas/PLTTR180.png',
+        sizes: ['Unica']
+    },
+    'PLTTR125': {
+        title: 'PLTTR125',
+        description: 'Muleta o pata PLTTR125',
+        image: 'patas/PLTTR125.png',
+        sizes: ['Unica']
+    },
+    'PLTTX': {
+        title: 'PLTTX',
+        description: 'Muleta o pata PLTTX',
+        image: 'patas/PLTTX.png',
+        sizes: ['Unica']
+    },
+    'PLNKD': {
+        title: 'PLNKD',
+        description: 'Muleta o pata PLNKD',
+        image: 'patas/PLNKD.png',
+        sizes: ['Unica']
+    },
+    'PLD': {
+        title: 'PLD',
+        description: 'Muleta o pata PLD',
+        image: 'patas/PLD.png',
+        sizes: ['Unica']
+    },
+    'PLDST': {
+        title: 'PLDST',
+        description: 'Muleta o pata PLDST',
+        image: 'patas/PLDST.png',
+        sizes: ['Unica']
+    },
+    'PLA110': {
+        title: 'PLA110',
+        description: 'Muleta o pata PLA110',
+        image: 'patas/PLA110.png',
+        sizes: ['Unica']
+    },
+    'PLSL': {
+        title: 'PLSL',
+        description: 'Muleta o pata PLSL',
+        image: 'patas/PLSL.png',
+        sizes: ['Unica']
+    },
+    'PLCB': {
+        title: 'PLCB',
+        description: 'Muleta o pata PLCB',
+        image: 'patas/PLCB.png',
+        sizes: ['Unica']
+    },
+    'PLCB125': {
+        title: 'PLCB125',
+        description: 'Muleta o pata PLCB125',
+        image: 'patas/PLCB125.png',
+        sizes: ['Unica']
+    },
+    'PLCB160': {
+        title: 'PLCB160',
+        description: 'Muleta o pata PLCB160',
+        image: 'patas/PLCB160.png',
+        sizes: ['Unica']
+    },
+    'PLCB190': {
+        title: 'PLCB190',
+        description: 'Muleta o pata PLCB190',
+        image: 'patas/PLCB190.png',
+        sizes: ['Unica']
+    },
+    'PLYBR': {
+        title: 'PLYBR',
+        description: 'Muleta o pata PLYBR',
+        image: 'patas/PLYBR.png',
+        sizes: ['Unica']
+    },
+    'PLLIB': {
+        title: 'PLLIB',
+        description: 'Muleta o pata PLLIB',
+        image: 'patas/PLLIB.png',
+        sizes: ['Unica']
+    },
+    'PLCRY115': {
+        title: 'PLCRY115',
+        description: 'Muleta o pata PLCRY115',
+        image: 'patas/PLCRY115.png',
+        sizes: ['Unica']
+    },
+    'PLGN': {
+        title: 'PLGN',
+        description: 'Muleta o pata PLGN',
+        image: 'patas/PLGN.png',
+        sizes: ['Unica']
+    },
+    'PLVIVA': {
+        title: 'PLVIVA',
+        description: 'Muleta o pata PLVIVA',
+        image: 'patas/PLVIVA.png',
+        sizes: ['Unica']
+    },
+    'PLBEST': {
+        title: 'PLBEST',
+        description: 'Muleta o pata PLBEST',
+        image: 'patas/PLBEST.png',
+        sizes: ['Unica']
+    },
+    'PLAGI': {
+        title: 'PLAGI',
+        description: 'Muleta o pata PLAGI',
+        image: 'patas/PLAGI.png',
+        sizes: ['Unica']
+    },
+    'PLBWS': {
+        title: 'PLBWS',
+        description: 'Muleta o pata PLBWS',
+        image: 'patas/PLBWS.png',
+        sizes: ['Unica']
+    },
+    'PLBWSFI': {
+        title: 'PLBWSFI',
+        description: 'Muleta o pata PLBWSFI',
+        image: 'patas/PLBWSFI.png',
+        sizes: ['Unica']
+    },
+    'PLFZ': {
+        title: 'PLFZ',
+        description: 'Muleta o pata PLFZ',
+        image: 'patas/PLFZ.png',
+        sizes: ['Unica']
+    },
+    'PLFZ25': {
+        title: 'PLFZ25',
+        description: 'Muleta o pata PLFZ25',
+        image: 'patas/PLFZ25.png',
+        sizes: ['Unica']
+    },
+    'PLAX': {
+        title: 'PLAX',
+        description: 'Muleta o pata PLAX',
+        image: 'patas/PLAX.png',
+        sizes: ['Unica']
+    },
+    'PLAX4': {
+        title: 'PLAX4',
+        description: 'Muleta o pata PLAX4',
+        image: 'patas/PLAX4.png',
+        sizes: ['Unica']
+    },
+    'PLUG': {
+        title: 'PLUG',
+        description: 'Muleta o pata PLUG',
+        image: 'patas/PLUG.png',
+        sizes: ['Unica']
+    },
+    'PLP180': {
+        title: 'PLP180',
+        description: 'Muleta o pata PLP180',
+        image: 'patas/PLP180.png',
+        sizes: ['Unica']
+    },
+    'PLP135': {
+        title: 'PLP135',
+        description: 'Muleta o pata PLP135',
+        image: 'patas/PLP135.png',
+        sizes: ['Unica']
+    },
+    'PLPNS': {
+        title: 'PLPNS',
+        description: 'Muleta o pata PLPNS',
+        image: 'patas/PLPNS.png',
+        sizes: ['Unica']
+    },
+    'PLXR': {
+        title: 'PLXR',
+        description: 'Muleta o pata PLXR',
+        image: 'patas/PLXR.png',
+        sizes: ['Unica']
+    },
+    'PLB': {
+        title: 'PLB',
+        description: 'Muleta o pata PLB',
+        image: 'patas/PLB.png',
+        sizes: ['Unica']
+    },
+    'PLDT': {
+        title: 'PLDT',
+        description: 'Muleta o pata PLDT',
+        image: 'patas/PLDT.png',
+        sizes: ['Unica']
+    },
+    'PLRTX': {
+        title: 'PLRTX',
+        description: 'Muleta o pata PLRTX',
+        image: 'patas/PLRTX.png',
+        sizes: ['Unica']
+    },
+    'PLAP150': {
+        title: 'PLAP150',
+        description: 'Muleta o pata PLAP150',
+        image: 'patas/PLAP150.png',
+        sizes: ['Unica']
+    },
 };
 
 // Variables globales
