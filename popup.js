@@ -2193,6 +2193,535 @@ const productsData = {
         image: 'patas/PLAP150.png',
         sizes: ['Unica']
     },
+    //DEFENSAS
+    'P017': {
+        title: 'Defensa Pulsar Ns 200 Aleron Logo',
+        description: 'Defensa P017',
+        image: 'defensas/P017.png',
+        sizes: ['Unica']
+    },
+    'P019': {
+        title: 'Defensa Pulsar N160 Aleron Logo',
+        description: 'Defensa P019',
+        image: 'defensas/P019.png',
+        sizes: ['Unica']
+    },
+    'F006': {
+        title: 'Defensa Stunt Yamaha Fz 2.0 Aleron Logo',
+        description: 'Defensa F006',
+        image: 'defensas/F006.png',
+        sizes: ['Unica']
+    },
+    'GIX03': {
+        title: 'Defensa Suzuki Gixxer 150',
+        description: 'Defensa GIX03',
+        image: 'defensas/GIX03.png',
+        sizes: ['Unica']
+    },
+    'CR003': {
+        title: 'Defensa Akt Cr4 Con Logo',
+        description: 'Defensa CR003',
+        image: 'defensas/CR003.png',
+        sizes: ['Unica']
+    },
+    'NKD01': {
+        title: 'Defensa Akt NKD 125',
+        description: 'Defensa NKD01',
+        image: 'defensas/NKD01.png',
+        sizes: ['Unica']
+    },
+    'XR003': {
+        title: 'Defensa Honda Xr 150/190 Aleron Logo con Tope',
+        description: 'Defensa XR003',
+        image: 'defensas/XR003.png',
+        sizes: ['Unica']
+    },
+    'XTZ05': {
+        title: 'Defensa Yamaha Xtz 125 Aleron Logo con Tope',
+        description: 'Defensa XTZ05',
+        image: 'defensas/XTZ05.png',
+        sizes: ['Unica']
+    },
+    'XTZ06': {
+        title: 'Defensa Yamaha Xtz 150 Aleron Logo con Tope',
+        description: 'Defensa XTZ06',
+        image: 'defensas/XTZ06.png',
+        sizes: ['Unica']
+    },
+    'DR02': {
+        title: 'Defensa Dr 150 Aleron Logo con Tope',
+        description: 'Defensa DR02',
+        image: 'defensas/DR02.png',
+        sizes: ['Unica']
+    },
+    'MRX02': {
+        title: 'Defensa Auteco Mrx 125/150 Aleron Logo con Tope',
+        description: 'Defensa MRX02',
+        image: 'defensas/MRX02.png',
+        sizes: ['Unica']
+    },
+    'DI01': {
+        title: 'Defensa Dominar 250',
+        description: 'Defensa DI01',
+        image: 'defensas/DI01.png',
+        sizes: ['Unica']
+    },
+    'D006': {
+        title: 'Defensa Mariposa Discover Cromada Con Logo',
+        description: 'Defensa D006',
+        image: 'defensas/D006.png',
+        sizes: ['Unica']
+    },
+    'D007': {
+        title: 'Defensa Mariposa Discover Negra Con Logo',
+        description: 'Defensa D007',
+        image: 'defensas/D007.png',
+        sizes: ['Unica']
+    },
+    'A004': {
+        title: 'Defensa Mariposa Ax 100/115 Cromada Logo',
+        description: 'Defensa A004',
+        image: 'defensas/A004.png',
+        sizes: ['Unica']
+    },
+    'A003': {
+        title: 'Defensa Mariposa Ax 100/115 Negra Logo',
+        description: 'Defensa A003',
+        image: 'defensas/A003.png',
+        sizes: ['Unica']
+    },
+    'BN01': {
+        title: 'Defensa Stunt Benelli',
+        description: 'Defensa BN01',
+        image: 'defensas/BN01.png',
+        sizes: ['Unica']
+    },
+    'P015': {
+        title: 'Defensa Stunt Ns 200',
+        description: 'Defensa P015',
+        image: 'defensas/P015.png',
+        sizes: ['Unica']
+    },
+    'P016': {
+        title: 'Defensa Stunt Pulsar 1/2/Ug/180/200/220',
+        description: 'Defensa P016',
+        image: 'defensas/P016.png',
+        sizes: ['Unica']
+    },
+    'AP02': {
+        title: 'Defensa Stunt Apache 160',
+        description: 'Defensa AP02',
+        image: 'defensas/AP02.png',
+        sizes: ['Unica']
+    },
+    'AP03': {
+        title: 'Defensa Stunt Apache 200',
+        description: 'Defensa AP03',
+        image: 'defensas/AP03.png',
+        sizes: ['Unica']
+    },
+    'H009': {
+        title: 'Defensa Stunt Honda Cb 125 F',
+        description: 'Defensa H009',
+        image: 'defensas/H009.png',
+        sizes: ['Unica']
+    },
+    'GIX01': {
+        title: 'Defensa Stunt Gixxer 150',
+        description: 'Defensa GIX01',
+        image: 'defensas/GIX01.png',
+        sizes: ['Unica']
+    },
+    'GIX02': {
+        title: 'Defensa Stunt Gixxer 250',
+        description: 'Defensa GIX02',
+        image: 'defensas/GIX02.png',
+        sizes: ['Unica']
+    },
+    'F004': {
+        title: 'Defensa Stunt Yamaha 2.0',
+        description: 'Defensa F004',
+        image: 'defensas/F004.png',
+        sizes: ['Unica']
+    },
+    'F005': {
+        title: 'Defensa Stunt Yamaha 2.5',
+        description: 'Defensa F005',
+        image: 'defensas/F005.png',
+        sizes: ['Unica']
+    },
+    'CR002': {
+        title: 'Defensa Stunt Akt Cr4',
+        description: 'Defensa CR002',
+        image: 'defensas/CR002.png',
+        sizes: ['Unica']
+    },
+    'P002': {
+        title: 'Defensa En Caucho Pulsar 180 / Ug / Pulsar 1y2 / Honda Cb 110',
+        description: 'Defensa P002',
+        image: 'defensas/P002.png',
+        sizes: ['Unica']
+    },
+    'P003': {
+        title: 'Defensa Doble Slaider Pulsar 180 / Ug / Pulsar 1y2 / Honda Cb 110',
+        description: 'Defensa P003',
+        image: 'defensas/P003.png',
+        sizes: ['Unica']
+    },
+    'P005': {
+        title: 'Defensa En Caucho Aleron Pulsar Ns 200',
+        description: 'Defensa P005',
+        image: 'defensas/P005.png',
+        sizes: ['Unica']
+    },
+    'P006': {
+        title: 'Defensa Gp En Caucho Pulsar 180',
+        description: 'Defensa P006',
+        image: 'defensas/P006.png',
+        sizes: ['Unica']
+    },
+    'P007': {
+        title: 'Defensa Slaider Dos Piesas Pulsar UG / 200/220',
+        description: 'Defensa P007',
+        image: 'defensas/P007.png',
+        sizes: ['Unica']
+    },
+    'P009': {
+        title: 'Defensa En Caucho Dos Piesas Ns 200',
+        description: 'Defensa P009',
+        image: 'defensas/P009.png',
+        sizes: ['Unica']
+    },
+    'P010': {
+        title: 'Defensa En Caucho Aleron Pulsar 180/ 1y2 / Ug / Honda Cb 110',
+        description: 'Defensa P010',
+        image: 'defensas/P010.png',
+        sizes: ['Unica']
+    },
+    'P011': {
+        title: 'Defensa En Caucho Pulsar UG / 200/220',
+        description: 'Defensa P011',
+        image: 'defensas/P011.png',
+        sizes: ['Unica']
+    },
+    'P012': {
+        title: 'Defensa En Caucho Aleron Doble Slider Pulsar 180 /1y2 / Cb100',
+        description: 'Defensa P012',
+        image: 'defensas/P012.png',
+        sizes: ['Unica']
+    },
+    'P013': {
+        title: 'Defensa En Caucho Pulsar 180/ 1y2 / Ug/ Honda Cb 110',
+        description: 'Defensa P013',
+        image: 'defensas/P013.png',
+        sizes: ['Unica']
+    },
+    'P014': {
+        title: 'Defensa Aleron Pulsar Ug Pulsar200 Pulsar 220',
+        description: 'Defensa P014',
+        image: 'defensas/P014.png',
+        sizes: ['Unica']
+    },
+    'U002': {
+        title: 'Defensa En Caucho Universal Una Barra Ax / Gn / Ybr / Cbf',
+        description: 'Defensa U002',
+        image: 'defensas/U002.png',
+        sizes: ['Unica']
+    },
+    'U003': {
+        title: 'Defensa En Caucho Universal Doble Slaider- Curva Fz16/ Cbf/ Gn/ Ybr /',
+        description: 'Defensa U003',
+        image: 'defensas/U003.png',
+        sizes: ['Unica']
+    },
+    'U004': {
+        title: 'Defensa En Caucho Universal Doble Slaider-Recta Ax / Gn / Ybr / Cbf /',
+        description: 'Defensa U004',
+        image: 'defensas/U004.png',
+        sizes: ['Unica']
+    },
+    'U005': {
+        title: 'Defensa En Caucho Universal Sencilla Chasis Ax / Gn / Ybr / Cbf / Akt',
+        description: 'Defensa U005',
+        image: 'defensas/U005.png',
+        sizes: ['Unica']
+    },
+    'U006': {
+        title: 'Defensa En Caucho Universal Curva Chasis Fz16/ Cbf/ Gn/ Ybr / Gixxer',
+        description: 'Defensa U006',
+        image: 'defensas/U006.png',
+        sizes: ['Unica']
+    },
+    'U009': {
+        title: 'Defensa En Caucho Universal 2 Piesas Suzuki / Honda / Yamaha / Akt',
+        description: 'Defensa U009',
+        image: 'defensas/U009.png',
+        sizes: ['Unica']
+    },
+    'U010': {
+        title: 'Defensa En Caucho Universal De Aro Para Chasis Gn/ Ax/ Akt100/ ',
+        description: 'Defensa U010',
+        image: 'defensas/U010.png',
+        sizes: ['Unica']
+    },
+    'U011': {
+        title: 'Defensa Gp En Caucho Pulsar 135/ Gn/ Akt 125 motos Sport',
+        description: 'Defensa U011',
+        image: 'defensas/U011.png',
+        sizes: ['Unica']
+    },
+    'U012': {
+        title: 'Defensa En Aleron Universal Chasis Akt/ Fz16/ Ybr/ Gn',
+        description: 'Defensa U012',
+        image: 'defensas/U012.png',
+        sizes: ['Unica']
+    },
+    'U013': {
+        title: 'Defensa Aleron Universal Curva Doble Slider Akt/ Fz16/ Ybr/ Cbf125f/ Gn',
+        description: 'Defensa U013',
+        image: 'defensas/U013.png',
+        sizes: ['Unica']
+    },
+    'U015': {
+        title: 'Defensa Leron Curva Honda Cb 125f',
+        description: 'Defensa U015',
+        image: 'defensas/U015.png',
+        sizes: ['Unica']
+    },
+    'AP01': {
+        title: 'Defensa en aleron Apache 160/ 180/ 200',
+        description: 'Defensa AP01',
+        image: 'defensas/AP01.png',
+        sizes: ['Unica']
+    },
+    'S001': {
+        title: 'Defensa En Caucho Boxer Ct/Yamaha Szr/Discover 135 St',
+        description: 'Defensa S001',
+        image: 'defensas/S001.png',
+        sizes: ['Unica']
+    },
+    'RT002': {
+        title: 'Defensa En Caucho Rtx 150',
+        description: 'Defensa RT002',
+        image: 'defensas/RT002.png',
+        sizes: ['Unica']
+    },
+    'E002': {
+        title: 'Defensa Eco 100 / Hero 100 Splendor',
+        description: 'Defensa E002',
+        image: 'defensas/E002.png',
+        sizes: ['Unica']
+    },
+    'E003': {
+        title: 'Defensa Mariposa Negra Eco 100/Hero 100/Splendor',
+        description: 'Defensa E003',
+        image: 'defensas/E003.png',
+        sizes: ['Unica']
+    },
+    'E004': {
+        title: 'Defensa Mariposa Cromada Eco 100/Hero 100/Splendor',
+        description: 'Defensa E004',
+        image: 'defensas/E004.png',
+        sizes: ['Unica']
+    },
+    'D002': {
+        title: 'Defensa Mariposa Discover St 125/150 / Boxer',
+        description: 'Defensa D002',
+        image: 'defensas/D002.png',
+        sizes: ['Unica']
+    },
+    'D003': {
+        title: 'Defensa En Caucho Discover 125/135 modelo viejo',
+        description: 'Defensa D003',
+        image: 'defensas/D003.png',
+        sizes: ['Unica']
+    },
+    'D004': {
+        title: 'Defensa Discover R',
+        description: 'Defensa D004',
+        image: 'defensas/D004.png',
+        sizes: ['Unica']
+    },
+    'D005': {
+        title: 'Defensa Marisposa Discover St 125/150 / Boxer Cromada',
+        description: 'Defensa D005',
+        image: 'defensas/D005.png',
+        sizes: ['Unica']
+    },
+    'H002': {
+        title: 'Defensa En Caucho Honda Cbf 160 Aleron',
+        description: 'Defensa H002',
+        image: 'defensas/H002.png',
+        sizes: ['Unica']
+    },
+    'H003': {
+        title: 'Defensa En Caucho Honda Xblade 160 Cb 190 Aleron Logo con tope',
+        description: 'Defensa H003',
+        image: 'defensas/H003.png',
+        sizes: ['Unica']
+    },
+    'H004': {
+        title: 'Defensa De Lujo Hero 110 Splendor Aleron',
+        description: 'Defensa H004',
+        image: 'defensas/H004.png',
+        sizes: ['Unica']
+    },
+    'H006': {
+        title: 'Defensa En Caucho Honda Navi Doble Slider Discover 125R Discover 150 St',
+        description: 'Defensa H006',
+        image: 'defensas/H006.png',
+        sizes: ['Unica']
+    },
+    'H007': {
+        title: 'Defensa En Caucho Honda Navi Discover 125R Discover 150 St',
+        description: 'Defensa H007',
+        image: 'defensas/H007.png',
+        sizes: ['Unica']
+    },
+    'H008': {
+        title: 'Defensa En Caucho Honda Cb 190 Aleron',
+        description: 'Defensa H008',
+        image: 'defensas/H008.png',
+        sizes: ['Unica']
+    },
+    'F002': {
+        title: 'Defensa En Caucho Fz 2.0 Aleron',
+        description: 'Defensa F002',
+        image: 'defensas/F002.png',
+        sizes: ['Unica']
+    },
+    'F003': {
+        title: 'Defensa En Caucho Fz 250 Aleron',
+        description: 'Defensa F003',
+        image: 'defensas/F003.png',
+        sizes: ['Unica']
+    },
+    'A001': {
+        title: 'Defensa Marisposa Negra Ax 100/115',
+        description: 'Defensa A001',
+        image: 'defensas/A001.png',
+        sizes: ['Unica']
+    },
+    'A002': {
+        title: 'Defensa Mariposa Cromada Ax 100/115',
+        description: 'Defensa A002',
+        image: 'defensas/A002.png',
+        sizes: ['Unica']
+    },
+    'R001': {
+        title: 'Defensa Mariposa Negra Rx 100/115',
+        description: 'Defensa R001',
+        image: 'defensas/R001.png',
+        sizes: ['Unica']
+    },
+    'R002': {
+        title: 'Defensa Mariposa Cromada Rx 100/115',
+        description: 'Defensa R002',
+        image: 'defensas/R002.png',
+        sizes: ['Unica']
+    },
+    'B001': {
+        title: 'Defensa Delantera Bws 125',
+        description: 'Defensa B001',
+        image: 'defensas/B001.png',
+        sizes: ['Unica']
+    },
+    'B002': {
+        title: 'Defensa Trasera Bws 125',
+        description: 'Defensa B002',
+        image: 'defensas/B002.png',
+        sizes: ['Unica']
+    },
+    'B003': {
+        title: 'Defensa Bws 125 Combo Delantera Y Trasera',
+        description: 'Defensa B003',
+        image: 'defensas/B003.png',
+        sizes: ['Unica']
+    },
+    'M002': {
+        title: 'Defensa Tipo Mariposa Universal Pesada tubo 2mm',
+        description: 'Defensa M002',
+        image: 'defensas/M002.png',
+        sizes: ['Unica']
+    },
+    'M003': {
+        title: 'Defensa Tipo Mariposa Negra Universal Liviana tubo 1.10 mm',
+        description: 'Defensa M003',
+        image: 'defensas/M003.png',
+        sizes: ['Unica']
+    },
+    'M004': {
+        title: 'Defensa Tipo Mariposa Cromada Universal liviana 1.10mm',
+        description: 'Defensa M004',
+        image: 'defensas/M004.png',
+        sizes: ['Unica']
+    },
+    'DR01': {
+        title: 'Defensa Suzuki Dr 150 Aleron Logo',
+        description: 'Defensa DR01',
+        image: 'defensas/DR01.png',
+        sizes: ['Unica']
+    },
+    'XTZ01': {
+        title: 'Defenza Xtz Yamaha 125 Aleron Logo',
+        description: 'Defensa XTZ01',
+        image: 'defensas/XTZ01.png',
+        sizes: ['Unica']
+    },
+    'XTZ02': {
+        title: 'Defenza Xtz Yamaha 150 Aleron Logo',
+        description: 'Defensa XTZ02',
+        image: 'defensas/XTZ02.png',
+        sizes: ['Unica']
+    },
+    'MRX01': {
+        title: 'Defensa Auteco Mrx 125/150 Aleron Logo',
+        description: 'Defensa MRX01',
+        image: 'defensas/MRX01.png',
+        sizes: ['Unica']
+    },
+    'XR01': {
+        title: 'Defensa Honda Xr 150/190 Aleron Logo',
+        description: 'Defensa XR01',
+        image: 'defensas/XR01.png',
+        sizes: ['Unica']
+    },
+    'XR002': {
+        title: 'Defensa Honda Xr 150/190 plaqueta marca',
+        description: 'Defensa XR002',
+        image: 'defensas/XR002.png',
+        sizes: ['Unica']
+    },
+    'XTZ03': {
+        title: 'Defenza Yamaha Xtz 125 plaqueta marca',
+        description: 'Defensa XTZ03',
+        image: 'defensas/XTZ03.png',
+        sizes: ['Unica']
+    },
+    'XTZ04': {
+        title: 'Defensa Mariposa Libero 110n Yamaha',
+        description: 'Defensa XTZ04',
+        image: 'defensas/XTZ04.png',
+        sizes: ['Unica']
+    },
+    'CR001': {
+        title: 'Defensa en caucho Akt Cr4 Aleron',
+        description: 'Defensa CR001',
+        image: 'defensas/CR001.png',
+        sizes: ['Unica']
+    },
+    'AY001': {
+        title: 'Defensa Ayate 100/115',
+        description: 'Defensa AY001',
+        image: 'defensas/AY001.png',
+        sizes: ['Unica']
+    },
+    'KA001': {
+        title: 'Defensa Kymco Agility',
+        description: 'Defensa KA001',
+        image: 'defensas/KA001.png',
+        sizes: ['Unica']
+    },
 };
 
 // Variables globales
