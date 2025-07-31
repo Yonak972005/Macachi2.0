@@ -1034,256 +1034,250 @@ const productsData = {
         sizes: ['Metalica colores', 'Metálica Boxer', 'sencillo acero', 'plastico colores', 'acero nkd contramarcado']
     },
     // KITS PROCKET
-    'STTRI': {
-        title: 'STTRI',
-        description: 'kitsprocket STTRI',
-        image: 'kitsprocket/STTRI.png',
-        sizes: ['Unica']
-    },
-    'SRX': {
-        title: 'SRX',
-        description: 'kitsprocket SRX',
-        image: 'kitsprocket/SRX.png',
-        sizes: ['Unica']
-    },
-    'SECO': {
-        title: 'SECO',
-        description: 'kitsprocket SECO',
-        image: 'kitsprocket/SECO.png',
-        sizes: ['Unica']
-    },
-    'SXL': {
-        title: 'SXL',
-        description: 'kitsprocket SXL',
-        image: 'kitsprocket/SXL.png',
-        sizes: ['Unica']
-    },
-    'SXTZ': {
-        title: 'SXTZ',
-        description: 'kitsprocket SXTZ',
-        image: 'kitsprocket/SXTZ.png',
-        sizes: ['Unica']
-    },
-    'SCT': {
-        title: 'SCT',
-        description: 'kitsprocket SCT',
-        image: 'kitsprocket/SCT.png',
-        sizes: ['Unica']
-    },
-    'SAX': {
-        title: 'SAX',
-        description: 'kitsprocket SAX',
-        image: 'kitsprocket/SAX.png',
-        sizes: ['Unica']
-    },
-    'SGN': {
-        title: 'SGN',
-        description: 'kitsprocket SGN',
-        image: 'kitsprocket/SGN.png',
-        sizes: ['Unica']
-    },
-    'SCR5': {
-        title: 'SCR5',
-        description: 'kitsprocket SCR5',
-        image: 'kitsprocket/SCR5.png',
-        sizes: ['Unica']
-    },
-    'SNKD': {
-        title: 'SNKD',
-        description: 'kitsprocket SNKD',
-        image: 'kitsprocket/SNKD.png',
-        sizes: ['Unica']
-    },
-    'SP180': {
-        title: 'SP180',
-        description: 'kitsprocket SP180',
-        image: 'kitsprocket/SP180.png',
-        sizes: ['Unica']
-    },
-    'SYBR': {
-        title: 'SYBR',
-        description: 'kitsprocket SYBR',
-        image: 'kitsprocket/SYBR.png',
-        sizes: ['Unica']
-    },
-    'SA110': {
+    'sa110': {
         title: 'SA110',
         description: 'kitsprocket SA110',
         image: 'kitsprocket/SA110.png',
         sizes: ['Unica']
     },
-    'SAX4': {
-        title: 'SAX4',
-        description: 'kitsprocket SAX4',
-        image: 'kitsprocket/SAX4.png',
-        sizes: ['Unica']
-    },
-    'SCB': {
-        title: 'SCB',
-        description: 'kitsprocket SCB',
-        image: 'kitsprocket/SCB.png',
-        sizes: ['Unica']
-    },
-    'SD1': {
-        title: 'SD1',
-        description: 'kitsprocket SD1',
-        image: 'kitsprocket/SD1.png',
-        sizes: ['Unica']
-    },
-    'SDT6': {
-        title: 'SDT6',
-        description: 'kitsprocket SDT6',
-        image: 'kitsprocket/SDT6.png',
-        sizes: ['Unica']
-    },
-    'SFZ1': {
-        title: 'SFZ1',
-        description: 'kitsprocket SFZ1',
-        image: 'kitsprocket/SFZ1.png',
-        sizes: ['Unica']
-    },
-    'SD': {
-        title: 'SD',
-        description: 'kitsprocket SD',
-        image: 'kitsprocket/SD.png',
-        sizes: ['Unica']
-    },
-    'SNS': {
-        title: 'SNS',
-        description: 'kitsprocket SNS',
-        image: 'kitsprocket/SNS.png',
-        sizes: ['Unica']
-    },
-    'SWAVE': {
-        title: 'SWAVE',
-        description: 'kitsprocket SWAVE',
-        image: 'kitsprocket/SWAVE.png',
-        sizes: ['Unica']
-    },
-    'SXR': {
-        title: 'SXR',
-        description: 'kitsprocket SXR',
-        image: 'kitsprocket/SXR.png',
-        sizes: ['Unica']
-    },
-    'SV80': {
-        title: 'SV80',
-        description: 'kitsprocket SV80',
-        image: 'kitsprocket/SV80.png',
-        sizes: ['Unica']
-    },
-    'SCBF': {
-        title: 'SCBF',
-        description: 'kitsprocket SCBF',
-        image: 'kitsprocket/SCBF.png',
-        sizes: ['Unica']
-    },
-    'SVIVA': {
-        title: 'SVIVA',
-        description: 'kitsprocket SVIVA',
-        image: 'kitsprocket/SVIVA.png',
-        sizes: ['Unica']
-    },
-    'STVS': {
-        title: 'STVS',
-        description: 'kitsprocket STVS',
-        image: 'kitsprocket/STVS.png',
-        sizes: ['Unica']
-    },
-    'SXCD': {
-        title: 'SXCD',
-        description: 'kitsprocket SXCD',
-        image: 'kitsprocket/SXCD.png',
-        sizes: ['Unica']
-    },
-    'SC': {
-        title: 'SC',
-        description: 'kitsprocket SC',
-        image: 'kitsprocket/SC.png',
-        sizes: ['Unica']
-    },
-    'SGI': {
-        title: 'SGI',
-        description: 'kitsprocket SGI',
-        image: 'kitsprocket/SGI.png',
-        sizes: ['Unica']
-    },
-    'SA160': {
+    'sa160': {
         title: 'SA160',
         description: 'kitsprocket SA160',
         image: 'kitsprocket/SA160.png',
         sizes: ['Unica']
     },
-    'SA200': {
+    'sa200': {
         title: 'SA200',
         description: 'kitsprocket SA200',
         image: 'kitsprocket/SA200.png',
         sizes: ['Unica']
     },
-    'SBAKT': {
+    'srx': {
+        title: 'SRX',
+        description: 'kitsprocket SRX',
+        image: 'kitsprocket/SRX.png',
+        sizes: ['Unica']
+    },
+    'sax': {
+        title: 'SAX',
+        description: 'kitsprocket SAX',
+        image: 'kitsprocket/SAX.png',
+        sizes: ['Unica']
+    },
+    'sax4': {
+        title: 'SAX4',
+        description: 'kitsprocket SAX4',
+        image: 'kitsprocket/SAX4.png',
+        sizes: ['Unica']
+    },
+    'sbakt': {
         title: 'SBAKT',
         description: 'kitsprocket SBAKT',
         image: 'kitsprocket/SBAKT.png',
         sizes: ['Unica']
     },
-    'SMRX': {
-        title: 'SMRX',
-        description: 'kitsprocket SMRX',
-        image: 'kitsprocket/SMRX.png',
+    'sc': {
+        title: 'SC',
+        description: 'kitsprocket SC',
+        image: 'kitsprocket/SC.png',
         sizes: ['Unica']
     },
-    'SCR4': {
-        title: 'SCR4',
-        description: 'kitsprocket SCR4',
-        image: 'kitsprocket/SCR4.png',
+    'scb': {
+        title: 'SCB',
+        description: 'kitsprocket SCB',
+        image: 'kitsprocket/SCB.png',
         sizes: ['Unica']
     },
-    'SDR': {
-        title: 'SDR',
-        description: 'kitsprocket SDR',
-        image: 'kitsprocket/SDR.png',
-        sizes: ['Unica']
-    },
-    'SEVO': {
-        title: 'SEVO',
-        description: 'kitsprocket SEVO',
-        image: 'kitsprocket/SEVO.png',
-        sizes: ['Unica']
-    },
-    'SFZ2': {
-        title: 'SFZ2',
-        description: 'kitsprocket SFZ2',
-        image: 'kitsprocket/SFZ2.png',
-        sizes: ['Unica']
-    },
-    'SCB160': {
+    'scb160': {
         title: 'SCB160',
         description: 'kitsprocket SCB160',
         image: 'kitsprocket/SCB160.png',
         sizes: ['Unica']
     },
-    'SNEO': {
-        title: 'SNEO',
-        description: 'kitsprocket SNEO',
-        image: 'kitsprocket/SNEO.png',
+    'scbf': {
+        title: 'SCBF',
+        description: 'kitsprocket SCBF',
+        image: 'kitsprocket/SCBF.png',
         sizes: ['Unica']
     },
-    'STTR2': {
-        title: 'STTR2',
-        description: 'kitsprocket STTR2',
-        image: 'kitsprocket/STTR2.png',
+    'scbf150': {
+        title: 'SCBF150',
+        description: 'kitsprocket SCBF150',
+        image: 'kitsprocket/SCBF150.png',
         sizes: ['Unica']
     },
-    'SDT4': {
+    'scr4': {
+        title: 'SCR4',
+        description: 'kitsprocket SCR4',
+        image: 'kitsprocket/SCR4.png',
+        sizes: ['Unica']
+    },
+    'sct': {
+        title: 'SCT',
+        description: 'kitsprocket SCT',
+        image: 'kitsprocket/SCT.png',
+        sizes: ['Unica']
+    },
+    'scr5': {
+        title: 'SCR5',
+        description: 'kitsprocket SCR5',
+        image: 'kitsprocket/SCR5.png',
+        sizes: ['Unica']
+    },
+    'sd': {
+        title: 'SD',
+        description: 'kitsprocket SD',
+        image: 'kitsprocket/SD.png',
+        sizes: ['Unica']
+    },
+    'sd1': {
+        title: 'SD1',
+        description: 'kitsprocket SD1',
+        image: 'kitsprocket/SD1.png',
+        sizes: ['Unica']
+    },
+    'sdt4': {
         title: 'SDT4',
         description: 'kitsprocket SDT4',
         image: 'kitsprocket/SDT4.png',
         sizes: ['Unica']
     },
-    'SCBF150': {
-        title: 'SCBF150',
-        description: 'kitsprocket SCBF150',
-        image: 'kitsprocket/SCBF150.png',
+    'sdt6': {
+        title: 'SDT6',
+        description: 'kitsprocket SDT6',
+        image: 'kitsprocket/SDT6.png',
+        sizes: ['Unica']
+    },
+    'sdr': {
+        title: 'SDR',
+        description: 'kitsprocket SDR',
+        image: 'kitsprocket/SDR.png',
+        sizes: ['Unica']
+    },
+    'seco': {
+        title: 'SECO',
+        description: 'kitsprocket SECO',
+        image: 'kitsprocket/SECO.png',
+        sizes: ['Unica']
+    },
+    'sevo': {
+        title: 'SEVO',
+        description: 'kitsprocket SEVO',
+        image: 'kitsprocket/SEVO.png',
+        sizes: ['Unica']
+    },
+    'sfz1': {
+        title: 'SFZ1',
+        description: 'kitsprocket SFZ1',
+        image: 'kitsprocket/SFZ1.png',
+        sizes: ['Unica']
+    },
+    'sfz2': {
+        title: 'SFZ2',
+        description: 'kitsprocket SFZ2',
+        image: 'kitsprocket/SFZ2.png',
+        sizes: ['Unica']
+    },
+    'sgi': {
+        title: 'SGI',
+        description: 'kitsprocket SGI',
+        image: 'kitsprocket/SGI.png',
+        sizes: ['Unica']
+    },
+    'sgn': {
+        title: 'SGN',
+        description: 'kitsprocket SGN',
+        image: 'kitsprocket/SGN.png',
+        sizes: ['Unica']
+    },
+    'smrx': {
+        title: 'SMRX',
+        description: 'kitsprocket SMRX',
+        image: 'kitsprocket/SMRX.png',
+        sizes: ['Unica']
+    },
+    'sneo': {
+        title: 'SNEO',
+        description: 'kitsprocket SNEO',
+        image: 'kitsprocket/SNEO.png',
+        sizes: ['Unica']
+    },
+    'snkd': {
+        title: 'SNKD',
+        description: 'kitsprocket SNKD',
+        image: 'kitsprocket/SNKD.png',
+        sizes: ['Unica']
+    },
+    'sns': {
+        title: 'SNS',
+        description: 'kitsprocket SNS',
+        image: 'kitsprocket/SNS.png',
+        sizes: ['Unica']
+    },
+    'sp180': {
+        title: 'SP180',
+        description: 'kitsprocket SP180',
+        image: 'kitsprocket/SP180.png',
+        sizes: ['Unica']
+    },
+    'sttr2': {
+        title: 'STTR2',
+        description: 'kitsprocket STTR2',
+        image: 'kitsprocket/STTR2.png',
+        sizes: ['Unica']
+    },
+    'sttri': {
+        title: 'STTRI',
+        description: 'kitsprocket STTRI',
+        image: 'kitsprocket/STTRI.png',
+        sizes: ['Unica']
+    },
+    'stvs': {
+        title: 'STVS',
+        description: 'kitsprocket STVS',
+        image: 'kitsprocket/STVS.png',
+        sizes: ['Unica']
+    },
+    'sybr': {
+        title: 'SYBR',
+        description: 'kitsprocket SYBR',
+        image: 'kitsprocket/SYBR.png',
+        sizes: ['Unica']
+    },
+    'sv80': {
+        title: 'SV80',
+        description: 'kitsprocket SV80',
+        image: 'kitsprocket/SV80.png',
+        sizes: ['Unica']
+    },
+    'sviva': {
+        title: 'SVIVA',
+        description: 'kitsprocket SVIVA',
+        image: 'kitsprocket/SVIVA.png',
+        sizes: ['Unica']
+    },
+    'swave': {
+        title: 'SWAVE',
+        description: 'kitsprocket SWAVE',
+        image: 'kitsprocket/SWAVE.png',
+        sizes: ['Unica']
+    },
+    'sxcd': {
+        title: 'SXCD',
+        description: 'kitsprocket SXCD',
+        image: 'kitsprocket/SXCD.png',
+        sizes: ['Unica']
+    },
+    'sxr': {
+        title: 'SXR',
+        description: 'kitsprocket SXR',
+        image: 'kitsprocket/SXR.png',
+        sizes: ['Unica']
+    },
+    'sxl': {
+        title: 'SXL',
+        description: 'kitsprocket SXL',
+        image: 'kitsprocket/SXL.png',
         sizes: ['Unica']
     },
     // LINEA DE PUFF
@@ -1353,6 +1347,7 @@ const productsData = {
         image: 'lineadepuff/DONASEXOSTO.png',
         sizes: ['Unica']
     },
+
     //herramientas
     'EMBUDO': {
         title: 'Embudos',
