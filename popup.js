@@ -1,3 +1,4 @@
+
 // ============================================
 // FUNCIONALIDADES DE POPUP/MODAL DE PRODUCTOS
 // ============================================
@@ -1006,6 +1007,672 @@ const productsData = {
         description: 'Partes de acelerador',
         image: 'guaya/MICO.png',
         sizes: ['Mico acelerador 3/16 pequeño (100uni)', 'Mico clutch 1/4 mediano (100uni)', 'Mico clutch 5/16 Grande (100uni)', 'Mico acelerador (100uni)', 'Mico clutch 5/16 grande (100uni)' ]
+    },
+    //PDPP
+    'punteras-defensas-pasta': {
+        title: 'Punteras para defensas',
+        description: 'Punteras para defensas',
+        image: 'pdpp/PUNTERAS PASTA.png',
+        sizes: ['Universal']
+    },
+    'punteras-defensa-colores': {
+        title: 'Punteras para defensas ',
+        description: 'Punteras para defensas',
+        image: 'pdpp/PUNTERAS.png',
+        sizes: ['Azul', 'Rojo', 'Negro', 'Verde']
+    },
+    'platinas': {
+        title: 'Platina',
+        description: 'Platinas para motocicletas, diseñadas para ofrecer seguridad.',
+        image: 'pdpp/PLATINAS.png',
+        sizes: ['Larga defensa universal', 'Corta Honda cb', 'Guarda barro trasero']
+    },
+    'porta-placas': {
+        title: 'Porta placas',
+        description: 'Porta placas para motocicletas, diseñadas para ofrecer seguridad.',
+        image: 'pdpp/PORTAPLACAS.png',
+        sizes: ['Metalica colores', 'Metálica Boxer', 'sencillo acero', 'plastico colores', 'acero nkd contramarcado']
+    },
+    // KITS PROCKET
+    'sa110': {
+        title: 'SA110',
+        description: 'kitsprocket SA110',
+        image: 'kitsprocket/SA110.png',
+        sizes: ['Unica']
+    },
+    'sa160': {
+        title: 'SA160',
+        description: 'kitsprocket SA160',
+        image: 'kitsprocket/SA160.png',
+        sizes: ['Unica']
+    },
+    'sa200': {
+        title: 'SA200',
+        description: 'kitsprocket SA200',
+        image: 'kitsprocket/SA200.png',
+        sizes: ['Unica']
+    },
+    'srx': {
+        title: 'SRX',
+        description: 'kitsprocket SRX',
+        image: 'kitsprocket/SRX.png',
+        sizes: ['Unica']
+    },
+    'sax': {
+        title: 'SAX',
+        description: 'kitsprocket SAX',
+        image: 'kitsprocket/SAX.png',
+        sizes: ['Unica']
+    },
+    'sax4': {
+        title: 'SAX4',
+        description: 'kitsprocket SAX4',
+        image: 'kitsprocket/SAX4.png',
+        sizes: ['Unica']
+    },
+    'sbakt': {
+        title: 'SBAKT',
+        description: 'kitsprocket SBAKT',
+        image: 'kitsprocket/SBAKT.png',
+        sizes: ['Unica']
+    },
+    'sc': {
+        title: 'SC',
+        description: 'kitsprocket SC',
+        image: 'kitsprocket/SC.png',
+        sizes: ['Unica']
+    },
+    'scb': {
+        title: 'SCB',
+        description: 'kitsprocket SCB',
+        image: 'kitsprocket/SCB.png',
+        sizes: ['Unica']
+    },
+    'scb160': {
+        title: 'SCB160',
+        description: 'kitsprocket SCB160',
+        image: 'kitsprocket/SCB160.png',
+        sizes: ['Unica']
+    },
+    'scbf': {
+        title: 'SCBF',
+        description: 'kitsprocket SCBF',
+        image: 'kitsprocket/SCBF.png',
+        sizes: ['Unica']
+    },
+    'scbf150': {
+        title: 'SCBF150',
+        description: 'kitsprocket SCBF150',
+        image: 'kitsprocket/SCBF150.png',
+        sizes: ['Unica']
+    },
+    'scr4': {
+        title: 'SCR4',
+        description: 'kitsprocket SCR4',
+        image: 'kitsprocket/SCR4.png',
+        sizes: ['Unica']
+    },
+    'sct': {
+        title: 'SCT',
+        description: 'kitsprocket SCT',
+        image: 'kitsprocket/SCT.png',
+        sizes: ['Unica']
+    },
+    'scr5': {
+        title: 'SCR5',
+        description: 'kitsprocket SCR5',
+        image: 'kitsprocket/SCR5.png',
+        sizes: ['Unica']
+    },
+    'sd': {
+        title: 'SD',
+        description: 'kitsprocket SD',
+        image: 'kitsprocket/SD.png',
+        sizes: ['Unica']
+    },
+    'sd1': {
+        title: 'SD1',
+        description: 'kitsprocket SD1',
+        image: 'kitsprocket/SD1.png',
+        sizes: ['Unica']
+    },
+    'sdt4': {
+        title: 'SDT4',
+        description: 'kitsprocket SDT4',
+        image: 'kitsprocket/SDT4.png',
+        sizes: ['Unica']
+    },
+    'sdt6': {
+        title: 'SDT6',
+        description: 'kitsprocket SDT6',
+        image: 'kitsprocket/SDT6.png',
+        sizes: ['Unica']
+    },
+    'sdr': {
+        title: 'SDR',
+        description: 'kitsprocket SDR',
+        image: 'kitsprocket/SDR.png',
+        sizes: ['Unica']
+    },
+    'seco': {
+        title: 'SECO',
+        description: 'kitsprocket SECO',
+        image: 'kitsprocket/SECO.png',
+        sizes: ['Unica']
+    },
+    'sevo': {
+        title: 'SEVO',
+        description: 'kitsprocket SEVO',
+        image: 'kitsprocket/SEVO.png',
+        sizes: ['Unica']
+    },
+    'sfz1': {
+        title: 'SFZ1',
+        description: 'kitsprocket SFZ1',
+        image: 'kitsprocket/SFZ1.png',
+        sizes: ['Unica']
+    },
+    'sfz2': {
+        title: 'SFZ2',
+        description: 'kitsprocket SFZ2',
+        image: 'kitsprocket/SFZ2.png',
+        sizes: ['Unica']
+    },
+    'sgi': {
+        title: 'SGI',
+        description: 'kitsprocket SGI',
+        image: 'kitsprocket/SGI.png',
+        sizes: ['Unica']
+    },
+    'sgn': {
+        title: 'SGN',
+        description: 'kitsprocket SGN',
+        image: 'kitsprocket/SGN.png',
+        sizes: ['Unica']
+    },
+    'smrx': {
+        title: 'SMRX',
+        description: 'kitsprocket SMRX',
+        image: 'kitsprocket/SMRX.png',
+        sizes: ['Unica']
+    },
+    'sneo': {
+        title: 'SNEO',
+        description: 'kitsprocket SNEO',
+        image: 'kitsprocket/SNEO.png',
+        sizes: ['Unica']
+    },
+    'snkd': {
+        title: 'SNKD',
+        description: 'kitsprocket SNKD',
+        image: 'kitsprocket/SNKD.png',
+        sizes: ['Unica']
+    },
+    'sns': {
+        title: 'SNS',
+        description: 'kitsprocket SNS',
+        image: 'kitsprocket/SNS.png',
+        sizes: ['Unica']
+    },
+    'sp180': {
+        title: 'SP180',
+        description: 'kitsprocket SP180',
+        image: 'kitsprocket/SP180.png',
+        sizes: ['Unica']
+    },
+    'sttr2': {
+        title: 'STTR2',
+        description: 'kitsprocket STTR2',
+        image: 'kitsprocket/STTR2.png',
+        sizes: ['Unica']
+    },
+    'sttri': {
+        title: 'STTRI',
+        description: 'kitsprocket STTRI',
+        image: 'kitsprocket/STTRI.png',
+        sizes: ['Unica']
+    },
+    'stvs': {
+        title: 'STVS',
+        description: 'kitsprocket STVS',
+        image: 'kitsprocket/STVS.png',
+        sizes: ['Unica']
+    },
+    'sybr': {
+        title: 'SYBR',
+        description: 'kitsprocket SYBR',
+        image: 'kitsprocket/SYBR.png',
+        sizes: ['Unica']
+    },
+    'sv80': {
+        title: 'SV80',
+        description: 'kitsprocket SV80',
+        image: 'kitsprocket/SV80.png',
+        sizes: ['Unica']
+    },
+    'sviva': {
+        title: 'SVIVA',
+        description: 'kitsprocket SVIVA',
+        image: 'kitsprocket/SVIVA.png',
+        sizes: ['Unica']
+    },
+    'swave': {
+        title: 'SWAVE',
+        description: 'kitsprocket SWAVE',
+        image: 'kitsprocket/SWAVE.png',
+        sizes: ['Unica']
+    },
+    'sxcd': {
+        title: 'SXCD',
+        description: 'kitsprocket SXCD',
+        image: 'kitsprocket/SXCD.png',
+        sizes: ['Unica']
+    },
+    'sxr': {
+        title: 'SXR',
+        description: 'kitsprocket SXR',
+        image: 'kitsprocket/SXR.png',
+        sizes: ['Unica']
+    },
+    'sxl': {
+        title: 'SXL',
+        description: 'kitsprocket SXL',
+        image: 'kitsprocket/SXL.png',
+        sizes: ['Unica']
+    },
+    // LINEA DE PUFF
+    'BASESPUFF': {
+        title: 'Bases para puff',
+        description: 'Bases para puff, corta, mediana y largo',
+        image: 'lineadepuff/BASESPUFF.png',
+        sizes: ['Corta', 'Mediana', 'Largo']
+    },
+    'REDONDOCORTO': {
+        title: 'Redondo corto original',
+        description: 'Redondo corto original',
+        image: 'lineadepuff/REDONDOCORTO.png',
+        sizes: ['Unica']
+    },
+    'REDONDOCORTOTORNASOL': {
+        title: 'Redondo corto tornasol',
+        description: 'Redondo corto tornasol',
+        image: 'lineadepuff/REDONDOCORTOTORNASOL.png',
+        sizes: ['Unica']
+    },
+    'REDONDOLARGO': {
+        title: 'Redondo largo',
+        description: 'Redondo largo',
+        image: 'lineadepuff/REDONDOLARGO.png',
+        sizes: ['Unica']
+    },
+    'REDONDOLARGOTORNASOL': {
+        title: 'Redondo largo tornasol',
+        description: 'Redondo largo tornasol',
+        image: 'lineadepuff/REDONDOLARGOTORNASOL.png',
+        sizes: ['Unica']
+    },
+    'RECTANGULOORIGINAL': {
+        title: 'Rectangular original',
+        description: 'Rectangular original',
+        image: 'lineadepuff/RECTANGULOORIGINAL.png',
+        sizes: ['Unica']
+    },
+    'RECTANGULOTORNASOL': {
+        title: 'Rectangular tornasol',
+        description: 'Rectangular tornasol',
+        image: 'lineadepuff/RECTANGULOTORNASOL.png',
+        sizes: ['Unica']
+    },
+    'CUADRADOORIGINAL': {
+        title: 'Cuadrado original',
+        description: 'Cuadrado original',
+        image: 'lineadepuff/CUADRADOORIGINAL.png',
+        sizes: ['Unica']
+    },
+    'CUADRADOTORNASOL': {
+        title: 'Cuadrado tornasol',
+        description: 'Cuadrado tornasol',
+        image: 'lineadepuff/CUADRADOTORNASOL.png',
+        sizes: ['Unica']
+    },
+    'PUFFCOLA': {
+        title: 'Puff cola',
+        description: 'Puff cola',
+        image: 'lineadepuff/PUFFCOLA.png',
+        sizes: ['Unica']
+    },
+    'DONASEXOSTO': {
+        title: 'Donas exosto',
+        description: 'Donas exosto',
+        image: 'lineadepuff/DONASEXOSTO.png',
+        sizes: ['Unica']
+    },
+    //herramientas
+    'EMBUDO': {
+        title: 'Embudos',
+        description: 'Embudo grande, pequeño',
+        image: 'herramientas/EMBUDO.png',
+        sizes: ['Embudo grande', 'Embudo pequeño']
+    },
+    'GALGAS': {
+        title: 'Galgas',
+        description: 'Galgas',
+        image: 'herramientas/GALGAS.png',
+        sizes: ['Unica']
+    },
+    'COPAS': {
+        title: 'Copas',
+        description: 'Copas Y, Copas T',
+        image: 'herramientas/COPAS.png',
+        sizes: ['Copa Y', 'Copa T']
+    },
+    'SUJETADOR': {
+        title: 'Sujetador corona',
+        description: 'Sujetador corona clutch boxer',
+        image: 'herramientas/SUJETADOR.png',
+        sizes: ['Sujetador corona clutch boxer']
+    },
+    'PESCADOR': {
+        title: 'Pescador imantado',
+        description: 'Pescador imantado',
+        image: 'herramientas/PESCADOR.png',
+        sizes: ['Pescador imantado']
+    },
+    'COPASTORRE': {
+        title: 'Copas torre',
+        description: 'Copas torre',
+        image: 'herramientas/COPASTORRE.png',
+        sizes: ['Copas torre']
+    },
+    'DESPEINADORDECADENA': {
+        title: 'Despeinadores cadena',
+        description: 'Despeinador de cadena',
+        image: 'herramientas/DESPEINADORDECADENA.png',
+        sizes: ['Despeinador de cadena']
+    },
+    'DESPEINADORDECADENILLA': {
+        title: 'Despeinador cadenilla',
+        description: 'Despeinador de cadenilla',
+        image: 'herramientas/DESPEINADORDECADENILLA.png',
+        sizes: ['Despeinador de cadenilla']
+    },
+    'O-RING': {
+        title: 'O-rings',
+        description: 'Caja de O-RING',
+        image: 'herramientas/O-RING.png',
+        sizes: ['Caja de O-RING']
+    },
+    'O-RINGS': {
+        title: 'O-RING',
+        description: 'O-RING por aplicacion',
+        image: 'herramientas/O-RINGS.png',
+        sizes: ['O-RING por aplicacion']
+    },
+    
+    // LEVAS
+    'LDAX': {
+        title: 'LDAX',
+        description: 'kit leva LDAX',
+        image: 'leva/LDAX.png',
+        sizes: ['Unica']
+    },
+    'LDCB': {
+        title: 'LDCB',
+        description: 'kit Leva LDCB',
+        image: 'leva/LDCB.png',
+        sizes: ['Unica']
+    },
+    'LDECO': {
+        title: 'LDECO',
+        description: 'Kit leva LDECO',
+        image: 'leva/LDECO.png',
+        sizes: ['Unica']
+    },
+    'LDTVS': {
+        title: 'LDTVS',
+        description: 'Kit leva LDTVS',
+        image: 'leva/LDTVS.png',
+        sizes: ['Unica']
+    },
+    'LWAVE': {
+        title: 'LWAVE',
+        description: 'Kit leva LWAVE',
+        image: 'leva/LWAVE.png',
+        sizes: ['Unica']
+    },
+    'LDAX4': {
+        title: 'LDAX4',
+        description: 'Kit leva LDAX4',
+        image: 'leva/LDAX4.png',
+        sizes: ['Unica']
+    },
+    'LDCT': {
+        title: 'LDCT',
+        description: 'Kit leva LDCT',
+        image: 'leva/LDCT.png',
+        sizes: ['Unica']
+    },
+    'LTA110': {
+        title: 'LTA110',
+        description: 'Kit leva LTA110',
+        image: 'leva/LTA110.png',
+        sizes: ['Unica']
+    },
+    'LTAX': {
+        title: 'LTAX',
+        description: 'Kit leva LTAX',
+        image: 'leva/LTAX.png',
+        sizes: ['Unica']
+    },
+    'LTCT': {
+        title: 'LTCT',
+        description: 'Kit leva LTCT',
+        image: 'leva/LTCT.png',
+        sizes: ['Unica']
+    },
+    'LTCB': {
+        title: 'LTCB',
+        description: 'Kit leva LTCB',
+        image: 'leva/LTCB.png',
+        sizes: ['Unica']
+    },
+    'LTCR4': {
+        title: 'LTCR4',
+        description: 'Kit leva LTCR4',
+        image: 'leva/LTCR4.png',
+        sizes: ['Unica']
+    },
+    'LTCBF': {
+        title: 'LTCBF',
+        description: 'Kit leva LTCBF',
+        image: 'leva/LTCBF.png',
+        sizes: ['Unica']
+    },
+    'LTDI': {
+        title: 'LTDI',
+        description: 'Kit leva LTDI',
+        image: 'leva/LTDI.png',
+        sizes: ['Unica']
+    },
+    'LTCRY': {
+        title: 'LTCRY',
+        description: 'Kit leva LTCRY',
+        image: 'leva/LTCRY.png',
+        sizes: ['Unica']
+    },
+    'LTDT': {
+        title: 'LTDT',
+        description: 'Kit leva LTDT',
+        image: 'leva/LTDT.png',
+        sizes: ['Unica']
+    },
+    'LTD': {
+        title: 'LTD',
+        description: 'Kit leva LTD',
+        image: 'leva/LTD.png',
+        sizes: ['Unica']
+    },
+    'LTECO': {
+        title: 'LTECO',
+        description: 'Kit leva LTECO',
+        image: 'leva/LTECO.png',
+        sizes: ['Unica']
+    },
+    'LTEVO': {
+        title: 'LTEVO',
+        description: 'Kit leva LTEVO',
+        image: 'leva/LTEVO.png',
+        sizes: ['Unica']
+    },
+    'LTFLEX': {
+        title: 'LTFLEX',
+        description: 'Kit leva LTFLEX',
+        image: 'leva/LTFLEX.png',
+        sizes: ['Unica']
+    },
+    'LTFZ': {
+        title: 'LTFZ',
+        description: 'Kit leva LTFZ',
+        image: 'leva/LTFZ.png',
+        sizes: ['Unica']
+    },
+    'LTGS': {
+        title: 'LTGS',
+        description: 'Kit leva LTGS',
+        image: 'leva/LTGS.png',
+        sizes: ['Unica']
+    },
+    'LTHAYATE': {
+        title: 'LTHAYATE',
+        description: 'Kit leva LTHAYATE',
+        image: 'leva/LTHAYATE.png',
+        sizes: ['Unica']
+    },
+    'LTLIB': {
+        title: 'LTLIB',
+        description: 'Kit leva LTLIB',
+        image: 'leva/LTLIB.png',
+        sizes: ['Unica']
+    },
+    'LTYD': {
+        title: 'LTYD',
+        description: 'Kit leva LTYD',
+        image: 'leva/LTYD.png',
+        sizes: ['Unica']
+    },
+    'LTNEO': {
+        title: 'LTNEO',
+        description: 'Kit leva LTNEO',
+        image: 'leva/LTNEO.png',
+        sizes: ['Unica']
+    },
+    'LTNKD': {
+        title: 'LTNKD',
+        description: 'Kit leva LTNKD',
+        image: 'leva/LTNKD.png',
+        sizes: ['Unica']
+    },
+    'LTP180': {
+        title: 'LTP180',
+        description: 'Kit leva LTP180',
+        image: 'leva/LTP180.png',
+        sizes: ['Unica']
+    },
+    'LTRTR': {
+        title: 'LTRTR',
+        description: 'Kit leva LTRTR',
+        image: 'leva/LTRTR.png',
+        sizes: ['Unica']
+    },
+    'LTRX': {
+        title: 'LTRX',
+        description: 'Kit leva LTRX',
+        image: 'leva/LTRX.png',
+        sizes: ['Unica']
+    },
+    'LTSL': {
+        title: 'LTSL',
+        description: 'Kit leva LTSL',
+        image: 'leva/LTSL.png',
+        sizes: ['Unica']
+    },
+    'LTSZR': {
+        title: 'LTSZR',
+        description: 'Kit leva LTSZR',
+        image: 'leva/LTSZR.png',
+        sizes: ['Unica']
+    },
+    'LTTTR': {
+        title: 'LTTTR',
+        description: 'Kit leva LTTTR',
+        image: 'leva/LTTTR.png',
+        sizes: ['Unica']
+    },
+    'LTTVS': {
+        title: 'LTTVS',
+        description: 'Kit leva LTTVS',
+        image: 'leva/LTTVS.png',
+        sizes: ['Unica']
+    },
+    'LTWAVE': {
+        title: 'LTWAVE',
+        description: 'Kit leva LTWAVE',
+        image: 'leva/LTWAVE.png',
+        sizes: ['Unica']
+    },
+    'LTXR': {
+        title: 'LTXR',
+        description: 'Kit leva LTXR',
+        image: 'leva/LTXR.png',
+        sizes: ['Unica']
+    },
+    'LTXTZ1': {
+        title: 'LTXTZ1',
+        description: 'Kit leva LTXTZ1',
+        image: 'leva/LTXTZ1.png',
+        sizes: ['Unica']
+    },
+    'LTAG': {
+        title: 'LTAG',
+        description: 'Kit leva LTAG',
+        image: 'leva/LTAG.png',
+        sizes: ['Unica']
+    },
+    'LTAX4': {
+        title: 'LTAX4',
+        description: 'Kit leva LTAX4',
+        image: 'leva/LTAX4.png',
+        sizes: ['Unica']
+    },
+    'LTGN': {
+        title: 'LTGN',
+        description: 'Kit leva LTGN',
+        image: 'leva/LTGN.png',
+        sizes: ['Unica']
+    },
+    'LTGIX': {
+        title: 'LTGIX',
+        description: 'Kit leva LTGIX',
+        image: 'leva/LTGIX.png',
+        sizes: ['Unica']
+    },
+    'LTCB160': {
+        title: 'LTCB160',
+        description: 'Kit leva LTCB160',
+        image: 'leva/LTCB160.png',
+        sizes: ['Unica']
+    },
+    'LTXTZ2': {
+        title: 'LTXTZ2',
+        description: 'Kit leva LTXTZ2',
+        image: 'leva/LTXTZ2.png',
+        sizes: ['Unica']
+    },
+    'LTTTX': {
+        title: 'LTTTX',
+        description: 'Kit leva LTTTX',
+        image: 'leva/LTTTX.png',
+        sizes: ['Unica']
     }
 };
 
