@@ -1679,6 +1679,241 @@ const productsData = {
         image: 'leva/LTTTX.png',
         sizes: ['Unica']
     },
+    //TENSOR CADENA
+    'TCSPORT': {
+        title: 'TCSPORT',
+        description: 'Tensor de cadena TCSPORT',
+        image: 'tensordecadena/TCSPORT.png',
+        sizes: ['Unica']
+    },
+    'TCAX': {
+        title: 'TCAX',
+        description: 'Tensor de cadena TCAX',
+        image: 'tensordecadena/TCAX.png',
+        sizes: ['Unica']
+    },
+    'TCBEST': {
+        title: 'TCBEST',
+        description: 'Tensor de cadena TCBEST',
+        image: 'tensordecadena/TCBEST.png',
+        sizes: ['Unica']
+    },
+    'TCCT': {
+        title: 'TCCT',
+        description: 'Tensor de cadena TCCT',
+        image: 'tensordecadena/TCCT.png',
+        sizes: ['Unica']
+    },
+    'TCBROSS': {
+        title: 'TCBROSS',
+        description: 'Tensor de cadena TCBROSS',
+        image: 'tensordecadena/TCBROSS.png',
+        sizes: ['Unica']
+    },
+    'TCCB110': {
+        title: 'TCCB110',
+        description: 'Tensor de cadena TCCB110',
+        image: 'tensordecadena/TCCB110.png',
+        sizes: ['Unica']
+    },
+    'TCCR4': {
+        title: 'TCCR4',
+        description: 'Tensor de cadena TCCR4',
+        image: 'tensordecadena/TCCR4.png',
+        sizes: ['Unica']
+    },
+    'TCCR5': {
+        title: 'TCCR5',
+        description: 'Tensor de cadena TCCR5',
+        image: 'tensordecadena/TCCR5.png',
+        sizes: ['Unica']
+    },
+    'TCCB190': {
+        title: 'TCCB190',
+        description: 'Tensor de cadena TCCB190',
+        image: 'tensordecadena/TCCB190.png',
+        sizes: ['Unica']
+    },
+    'TCCRY110': {
+        title: 'TCCRY110',
+        description: 'Tensor de cadena TCCRY110',
+        image: 'tensordecadena/TCCRY110.png',
+        sizes: ['Unica']
+    },
+    'TCECO': {
+        title: 'TCECO',
+        description: 'Tensor de cadena TCECO',
+        image: 'tensordecadena/TCECO.png',
+        sizes: ['Unica']
+    },
+    'TCDIS': {
+        title: 'TCDIS',
+        description: 'Tensor de cadena TCDIS',
+        image: 'tensordecadena/TCDIS.png',
+        sizes: ['Unica']
+    },
+    'TCFLEX': {
+        title: 'TCFLEX',
+        description: 'Tensor de cadena TCFLEX',
+        image: 'tensordecadena/TCFLEX.png',
+        sizes: ['Unica']
+    },
+    'TCFZ': {
+        title: 'TCFZ',
+        description: 'Tensor de cadena TCFZ',
+        image: 'tensordecadena/TCFZ.png',
+        sizes: ['Unica']
+    },
+    'TCEVO': {
+        title: 'TCEVO',
+        description: 'Tensor de cadena TCEVO',
+        image: 'tensordecadena/TCEVO.png',
+        sizes: ['Unica']
+    },
+    'TCGN': {
+        title: 'TCGN',
+        description: 'Tensor de cadena TCGN',
+        image: 'tensordecadena/TCGN.png',
+        sizes: ['Unica']
+    },
+    'TCHAYATE': {
+        title: 'TCHAYATE',
+        description: 'Tensor de cadena TCHAYATE',
+        image: 'tensordecadena/TCHAYATE.png',
+        sizes: ['Unica']
+    },
+    'TCGIX': {
+        title: 'TCGIX',
+        description: 'Tensor de cadena TCGIX',
+        image: 'tensordecadena/TCGIX.png',
+        sizes: ['Unica']
+    },
+    'TCRX': {
+        title: 'TCRX',
+        description: 'Tensor de cadena TCRX',
+        image: 'tensordecadena/TCRX.png',
+        sizes: ['Unica']
+    },
+    'TCSZR': {
+        title: 'TCSZR',
+        description: 'Tensor de cadena TCSZR',
+        image: 'tensordecadena/TCSZR.png',
+        sizes: ['Unica']
+    },
+    'TCNEO': {
+        title: 'TCNEO',
+        description: 'Tensor de cadena TCNEO',
+        image: 'tensordecadena/TCNEO.png',
+        sizes: ['Unica']
+    },
+    'TCTVS': {
+        title: 'TCTVS',
+        description: 'Tensor de cadena TCTVS',
+        image: 'tensordecadena/TCTVS.png',
+        sizes: ['Unica']
+    },
+    'TCAP': {
+        title: 'TCAP',
+        description: 'Tensor de cadena TCAP',
+        image: 'tensordecadena/TCAP.png',
+        sizes: ['Unica']
+    },
+    'TCTTR': {
+        title: 'TCTTR',
+        description: 'Tensor de cadena TCTTR',
+        image: 'tensordecadena/TCTTR.png',
+        sizes: ['Unica']
+    },
+    'TCXR': {
+        title: 'TCXR',
+        description: 'Tensor de cadena TCXR',
+        image: 'tensordecadena/TCXR.png',
+        sizes: ['Unica']
+    },
+    'TCV80': {
+        title: 'TCV80',
+        description: 'Tensor de cadena TCV80',
+        image: 'tensordecadena/TCV80.png',
+        sizes: ['Unica']
+    },
+    'TCXCD': {
+        title: 'TCXCD',
+        description: 'Tensor de cadena TCXCD',
+        image: 'tensordecadena/TCXCD.png',
+        sizes: ['Unica']
+    },
+    'TCVIVA': {
+        title: 'TCVIVA',
+        description: 'Tensor de cadena TCVIVA',
+        image: 'tensordecadena/TCVIVA.png',
+        sizes: ['Unica']
+    },
+    'TCWAVE': {
+        title: 'TCWAVE',
+        description: 'Tensor de cadena TCWAVE',
+        image: 'tensordecadena/TCWAVE.png',
+        sizes: ['Unica']
+    },
+    'TCWIND': {
+        title: 'TCWIND',
+        description: 'Tensor de cadena TCWIND',
+        image: 'tensordecadena/TCWIND.png',
+        sizes: ['Unica']
+    },
+    'TCUG': {
+        title: 'TCUG',
+        description: 'Tensor de cadena TCUG',
+        image: 'tensordecadena/TCUG.png',
+        sizes: ['Unica']
+    },
+    'TCYBR': {
+        title: 'TCYBR',
+        description: 'Tensor de cadena TCYBR',
+        image: 'tensordecadena/TCYBR.png',
+        sizes: ['Unica']
+    },
+    'TCDT': {
+        title: 'TCDT',
+        description: 'Tensor de cadena TCDT',
+        image: 'tensordecadena/TCDT.png',
+        sizes: ['Unica']
+    },
+    'TCXTZ1': {
+        title: 'TCXTZ1',
+        description: 'Tensor de cadena TCXTZ1',
+        image: 'tensordecadena/TCXTZ1.png',
+        sizes: ['Unica']
+    },
+    'TCNS': {
+        title: 'TCNS',
+        description: 'Tensor de cadena TCNS',
+        image: 'tensordecadena/TCNS.png',
+        sizes: ['Unica']
+    },
+    'TCXRE': {
+        title: 'TCXRE',
+        description: 'Tensor de cadena TCXRE',
+        image: 'tensordecadena/TCXRE.png',
+        sizes: ['Unica']
+    },
+    'TCNS160': {
+        title: 'TCNS160',
+        description: 'Tensor de cadena TCNS160',
+        image: 'tensordecadena/TCNS160.png',
+        sizes: ['Unica']
+    },
+    'TCCRY115': {
+        title: 'TCCRY115',
+        description: 'Tensor de cadena TCCRY115',
+        image: 'tensordecadena/TCCRY115.png',
+        sizes: ['Unica']
+    },
+    'TCUG2': {
+        title: 'TCUG2',
+        description: 'Tensor de cadena TCUG2',
+        image: 'tensordecadena/TCUG2.png',
+        sizes: ['Unica']
+    },
 };
 
 // Variables globales
