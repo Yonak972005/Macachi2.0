@@ -1914,6 +1914,19 @@ const productsData = {
         image: 'tensordecadena/TCUG2.png',
         sizes: ['Unica']
     },
+    //EJES
+    'EJEDELANTERO': {
+        title: 'Eje Delantero',
+        description: 'Eje delantero para Motocicletas',
+        image: 'ejes/EJEDELANTERO.png',
+        sizes: ["10x170", "10x185", "10x195", "10x200", "10x205", "10x210", "10x240", "12x175", "12x180", "12x195", "12x200", "12x210", "12x215", "12x220", "12x225", "12x235", "12x245", "12x255", "12x265", "12x270", "14x195", "14x215", "14x230", "14x240", "14x260", "15x285"]
+    },
+    'EJETRASERO': {
+        title: 'Eje Trasero',
+        description: 'Eje trasero para Motocicletas',
+        image: 'ejes/EJETRASERO.png',
+        sizes: ["10x235", "12x210", "12x220", "12x225", "12x230", "12x235", "12x240", "12x255", "12x265", "12x285", "14x230", "14x245", "14x250", "14x260", "14x290", "14x300", "14x320", "15x285", "15x305", "16x290"]
+    },
 };
 
 // Variables globales
