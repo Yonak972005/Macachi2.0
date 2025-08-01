@@ -1,3 +1,111 @@
+// ==========================
+// Buscador avanzado Macachi
+// ==========================
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('.search-form');
+    const input = document.querySelector('.search-input');
+    const productCards = Array.from(document.querySelectorAll('.product-card'));
+    let externalResultsDiv = document.getElementById('external-search-results');
+    // Colocar el div justo después del grid de productos
+    if (!externalResultsDiv) {
+        externalResultsDiv = document.createElement('div');
+        externalResultsDiv.id = 'external-search-results';
+        externalResultsDiv.style.display = 'none';
+        externalResultsDiv.style.margin = '2rem 0';
+        const productsGrid = document.querySelector('.products-grid');
+        if (productsGrid && productsGrid.parentNode) {
+            if (productsGrid.nextSibling) {
+                productsGrid.parentNode.insertBefore(externalResultsDiv, productsGrid.nextSibling);
+            } else {
+                productsGrid.parentNode.appendChild(externalResultsDiv);
+            }
+        } else {
+            document.body.appendChild(externalResultsDiv);
+        }
+    }
+    // Lista de páginas de productos a buscar (agrega/quita según tus archivos)
+    const productPages = [
+        'tornillos-de-lujo.html', 'tapa-valvulas.html', 'lujos-varios.html', 'tuercas.html',
+        'tornillos.html', 'chapetas.html', 'tornillosespeciales.html', 'esparragos.html',
+        'taponescarter.html', 'arandelasguias.html', 'resortes.html', 'fuelles.html',
+        'cauchos-internos.html', 'partes-acelerador.html', 'pdpp.html', 'kitsprocket.html',
+        'lineadepuff.html', 'herramientas.html', 'leva.html', 'tensordecadena.html',
+        'ejes.html', 'parrillas.html', 'patas.html', 'defensas.html'
+    ];
+
+    if (form && input) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const query = input.value.trim().toLowerCase();
+            if (!query) {
+                // Mostrar todos si la búsqueda está vacía
+                productCards.forEach(card => card.style.display = '');
+                externalResultsDiv.style.display = 'none';
+                externalResultsDiv.innerHTML = '';
+                return;
+            }
+            // Filtrar productos del index
+            productCards.forEach(card => {
+                const title = card.querySelector('.product-title')?.textContent.toLowerCase() || '';
+                const desc = card.querySelector('.product-description')?.textContent.toLowerCase() || '';
+                const features = Array.from(card.querySelectorAll('.product-features li')).map(li => li.textContent.toLowerCase()).join(' ');
+                if (title.includes(query) || desc.includes(query) || features.includes(query)) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+            // Buscar en los otros HTML
+            fetchExternalResults(query);
+        });
+    }
+
+    async function fetchExternalResults(query) {
+        // Si la página es local (file://), fetch no funcionará. Solo funcionará en servidor web.
+        if (location.protocol === 'file:') {
+            externalResultsDiv.style.display = 'block';
+            externalResultsDiv.innerHTML = '<div style="color:red">Para ver resultados de otras páginas, abre el sitio en un servidor web.</div>';
+            return;
+        }
+        let results = [];
+        await Promise.all(productPages.map(async (page) => {
+            try {
+                const res = await fetch(page);
+                if (!res.ok) return;
+                const text = await res.text();
+                // Extraer productos de la página
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(text, 'text/html');
+                const cards = Array.from(doc.querySelectorAll('.product-card'));
+                cards.forEach(card => {
+                    const title = card.querySelector('.product-title')?.textContent.toLowerCase() || '';
+                    const desc = card.querySelector('.product-description')?.textContent.toLowerCase() || '';
+                    const features = Array.from(card.querySelectorAll('.product-features li')).map(li => li.textContent.toLowerCase()).join(' ');
+                    if (title.includes(query) || desc.includes(query) || features.includes(query)) {
+                        // Clonar el nodo y ajustar enlaces relativos
+                        const clone = card.cloneNode(true);
+                        // Ajustar enlaces de imagen y href
+                        const a = clone.querySelector('a');
+                        if (a && !a.href.startsWith('http')) a.href = page;
+                        const img = clone.querySelector('img');
+                        if (img && img.src && !img.src.startsWith('http')) img.src = page.replace(/\.html$/, '/') + img.src;
+                        results.push(clone.outerHTML);
+                    }
+                });
+            } catch (err) { /* ignorar errores de fetch */ }
+        }));
+        if (results.length > 0) {
+            externalResultsDiv.style.display = 'block';
+            externalResultsDiv.innerHTML =
+                '<h3 style="margin-bottom:1rem; text-align:center; font-size:1.1rem; font-weight:500; color:#222;">También te puede interesar:</h3>' +
+                '<div class="products-grid">' + results.join('') + '</div>';
+        } else {
+            externalResultsDiv.style.display = 'none';
+            externalResultsDiv.innerHTML = '';
+        }
+    }
+});
+
 // Funcionalidades del slider
 let currentSlideIndex = 0;
 const slides = document.querySelectorAll('.slide');
