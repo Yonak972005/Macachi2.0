@@ -1,6 +1,21 @@
 // ==========================
 // Buscador avanzado Macachi
 // ==========================
+
+// Scroll automático al producto si hay hash en la URL
+document.addEventListener('DOMContentLoaded', function() {
+    if (window.location.hash) {
+        const id = window.location.hash.substring(1);
+        const el = document.getElementById(id);
+        if (el) {
+            setTimeout(() => {
+                el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                el.classList.add('highlight-product');
+                setTimeout(() => el.classList.remove('highlight-product'), 2000);
+            }, 300);
+        }
+    }
+});
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('.search-form');
     const input = document.querySelector('.search-input');
@@ -77,19 +92,27 @@ document.addEventListener('DOMContentLoaded', function() {
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(text, 'text/html');
                 const cards = Array.from(doc.querySelectorAll('.product-card'));
-                cards.forEach(card => {
+                cards.forEach((card, idx) => {
                     const title = card.querySelector('.product-title')?.textContent.toLowerCase() || '';
                     const desc = card.querySelector('.product-description')?.textContent.toLowerCase() || '';
                     const features = Array.from(card.querySelectorAll('.product-features li')).map(li => li.textContent.toLowerCase()).join(' ');
                     if (title.includes(query) || desc.includes(query) || features.includes(query)) {
                         // Clonar el nodo y ajustar enlaces relativos
                         const clone = card.cloneNode(true);
-                        // Ajustar enlaces de imagen y href
-                        const a = clone.querySelector('a');
-                        if (a && !a.href.startsWith('http')) a.href = page;
-                        const img = clone.querySelector('img');
-                        if (img && img.src && !img.src.startsWith('http')) img.src = page.replace(/\.html$/, '/') + img.src;
-                        results.push(clone.outerHTML);
+                        // Crear un id único para el producto en la página de origen
+                        let productId = card.getAttribute('id');
+                        if (!productId) {
+                            productId = 'product-' + idx;
+                        }
+                        // Envolver la tarjeta en un enlace a la página de origen con hash al id
+                        const wrapper = document.createElement('a');
+                        wrapper.href = page + '#' + productId;
+                        wrapper.style.textDecoration = 'none';
+                        wrapper.style.color = 'inherit';
+                        // Asegurarse de que el clon NO tenga el id (para evitar duplicados en el DOM actual)
+                        clone.removeAttribute('id');
+                        wrapper.innerHTML = clone.outerHTML;
+                        results.push(wrapper.outerHTML);
                     }
                 });
             } catch (err) { /* ignorar errores de fetch */ }
@@ -97,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (results.length > 0) {
             externalResultsDiv.style.display = 'block';
             externalResultsDiv.innerHTML =
-                '<h3 style="margin-bottom:1rem; text-align:center; font-size:1.1rem; font-weight:500; color:#222;">También te puede interesar:</h3>' +
+                '<h3 id="external-search-results-title">También te puede interesar</h3>' +
                 '<div class="products-grid">' + results.join('') + '</div>';
         } else {
             externalResultsDiv.style.display = 'none';
