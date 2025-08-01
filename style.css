@@ -1,5 +1,5 @@
 /* ============================================
-   VARIABLES DE COLOR - CLASSIC MOTO PALETTE
+    VARIABLES DE COLOR - CLASSIC MOTO PALETTE
    ============================================ */
 :root {
     --primary: #1a1a1a;      /* Negro carbón (body) */
@@ -969,8 +969,8 @@ body {
         width: 50px;
         height: 50px;
         background: var(--secondary);
-        color: var(--text-light);
-        border: none;
+        color: solid (--neutral);
+        border: 2px solid white;
         border-radius: 50%;
         cursor: pointer;
         z-index: 1000;
@@ -1927,3 +1927,137 @@ body {
     }
 }
 
+/* =============================
+   Misión y Visión - Página mision (bloque completo para referencia)
+   ============================= */
+.mission-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    padding: 40px 0 60px 0;
+    background: var(--primary);
+}
+
+.mision, .vision {
+    background: #232323;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.13), 0 0 0 3px var(--secondary);
+    padding: 36px 32px 32px 32px;
+    max-width: 600px;
+    min-width: 320px;
+    flex: 1 1 320px;
+    color: var(--text-light);
+    margin: 0 10px;
+    transition: box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+}
+.mision:hover, .vision:hover {
+    box-shadow: 0 8px 32px rgba(197,48,48,0.18), 0 0 0 4px var(--hover);
+}
+.titulo_mision, .titulo_vision {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--secondary);
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mision p, .vision p {
+    font-size: 1.15rem;
+    color: #e0e0e0;
+    line-height: 1.7;
+    text-align: justify;
+    margin: 0;
+}
+@media (max-width: 900px) {
+    .mission-section {
+        flex-direction: column;
+        gap: 24px;
+        padding: 24px 0 40px 0;
+    }
+    .mision, .vision {
+        max-width: 98vw;
+        min-width: 0;
+        padding: 24px 10px 20px 10px;
+        min-height: unset;
+    }
+    .titulo_mision, .titulo_vision {
+        font-size: 1.5rem;
+    }
+    .mision p, .vision p {
+        font-size: 1rem;
+    }
+}
+/* =============================
+    Misión y Visión - Página mision
+   ============================= */
+.mission-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    padding: 40px 0 60px 0;
+    background: var(--primary);
+}
+
+.mision, .vision {
+    background: #232323;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.13), 0 0 0 3px var(--secondary);
+    padding: 36px 32px 32px 32px;
+    max-width: 600px;
+    min-width: 320px;
+    flex: 1 1 320px;
+    color: var(--text-light);
+    margin: 0 10px;
+    transition: box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+}
+.mision:hover, .vision:hover {
+    box-shadow: 0 8px 32px rgba(197,48,48,0.18), 0 0 0 4px var(--hover);
+}
+.titulo_mision, .titulo_vision {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--secondary);
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mision p, .vision p {
+    font-size: 1.15rem;
+    color: #e0e0e0;
+    line-height: 1.7;
+    text-align: justify;
+    margin: 0;
+}
+@media (max-width: 900px) {
+    .mission-section {
+        flex-direction: column;
+        gap: 24px;
+        padding: 24px 0 40px 0;
+    }
+    .mision, .vision {
+        max-width: 98vw;
+        min-width: 0;
+        padding: 24px 10px 20px 10px;
+        min-height: unset;
+    }
+    .titulo_mision, .titulo_vision {
+        font-size: 1.5rem;
+    }
+    .mision p, .vision p {
+        font-size: 1rem;
+    }
+}
