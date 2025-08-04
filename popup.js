@@ -1,11 +1,19 @@
 
+
 // ============================================
 // FUNCIONALIDADES DE POPUP/MODAL DE PRODUCTOS
 // ============================================
 
-// Base de datos de productos con medidas
+/**
+ * Este archivo gestiona la apertura, cierre y funcionamiento del modal de productos.
+ * Incluye la base de datos de productos, selección de medidas, cantidad y la integración con el carrito.
+ * Todas las funciones principales están comentadas para facilitar el mantenimiento.
+ */
 
-//TORNILLOS DE LUJO
+// --------------------------------------------
+// Base de datos de productos con medidas
+// --------------------------------------------
+
 const productsData = {
     // TORNILLOS DE LUJO
     'tornillos-boton5mm': {
@@ -2724,11 +2732,19 @@ const productsData = {
     },
 };
 
+// --------------------------------------------
 // Variables globales
-let selectedSize = null;
-let currentProductId = null;
+// --------------------------------------------
+let selectedSize = null; // Medida seleccionada
+let currentProductId = null; // Producto actual
 
+// --------------------------------------------
 // Función para abrir el modal de producto
+// --------------------------------------------
+/**
+ * Abre el modal de producto y muestra la información correspondiente
+ * @param {string} productId - ID del producto a mostrar
+ */
 function openProductModal(productId) {
     const product = productsData[productId];
     if (!product) {
@@ -2781,7 +2797,12 @@ function openProductModal(productId) {
     }
 }
 
+// --------------------------------------------
 // Función para cerrar el modal
+// --------------------------------------------
+/**
+ * Cierra el modal de producto y resetea selección
+ */
 function closeProductModal() {
     const modal = document.getElementById('productModal');
     if (modal) {
@@ -2791,7 +2812,14 @@ function closeProductModal() {
     currentProductId = null;
 }
 
+// --------------------------------------------
 // Función para seleccionar tamaño
+// --------------------------------------------
+/**
+ * Selecciona una medida/tamaño para el producto
+ * @param {HTMLElement} element - Elemento de la medida
+ * @param {string} size - Medida seleccionada
+ */
 function selectSize(element, size) {
     // Remover selección anterior
     document.querySelectorAll('.size-option').forEach(option => {
@@ -2803,7 +2831,12 @@ function selectSize(element, size) {
     selectedSize = size;
 }
 
+// --------------------------------------------
 // Funciones para controlar la cantidad
+// --------------------------------------------
+/**
+ * Incrementa la cantidad seleccionada
+ */
 function incrementQuantity() {
     const quantityInput = document.getElementById('quantity');
     if (quantityInput) {
@@ -2814,6 +2847,9 @@ function incrementQuantity() {
     }
 }
 
+/**
+ * Decrementa la cantidad seleccionada
+ */
 function decrementQuantity() {
     const quantityInput = document.getElementById('quantity');
     if (quantityInput) {
@@ -2824,7 +2860,12 @@ function decrementQuantity() {
     }
 }
 
+// --------------------------------------------
 // Función para añadir al carrito
+// --------------------------------------------
+/**
+ * Añade el producto seleccionado al carrito
+ */
 function addToCart() {
     if (!currentProductId) {
         alert('Error: No hay producto seleccionado');
@@ -2899,7 +2940,12 @@ function addToCart() {
     closeProductModal();
 }
 
+// --------------------------------------------
 // Función para mostrar notificación de carrito
+// --------------------------------------------
+/**
+ * Muestra una notificación visual cuando se añade un producto al carrito
+ */
 function showCartNotification() {
     // Crear notificación
     const notification = document.createElement('div');
@@ -2937,7 +2983,12 @@ function showCartNotification() {
     }, 3000);
 }
 
-// --- Estilos para barra de desplazamiento en medidas (inserta en el head si no existe) ---
+// --------------------------------------------
+// Estilos para barra de desplazamiento en medidas
+// --------------------------------------------
+/**
+ * Inserta estilos CSS para el scroll de medidas en el modal
+ */
 function injectSizesScrollStyle() {
     if (document.getElementById('sizes-scroll-style')) return;
     const style = document.createElement('style');
@@ -2989,9 +3040,11 @@ function injectSizesScrollStyle() {
 }
 injectSizesScrollStyle();
 
-// Eventos para cerrar modal
+// --------------------------------------------
+// Eventos para cerrar modal y accesibilidad
+// --------------------------------------------
 document.addEventListener('DOMContentLoaded', function() {
-    // Cargar carrito desde localStorage
+    // Cargar carrito desde localStorage (si existe)
     try {
         const savedCart = localStorage.getItem('macachi_cart');
         if (savedCart) {
@@ -3018,7 +3071,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Verificar que las funciones estén disponibles globalmente
+    // Exponer funciones globalmente para uso en HTML
     window.openProductModal = openProductModal;
     window.closeProductModal = closeProductModal;
     window.selectSize = selectSize;

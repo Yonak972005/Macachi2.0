@@ -1,20 +1,39 @@
+
 // ============================================
 // FUNCIONALIDADES DEL CARRITO DE COMPRAS
 // ============================================
 
+/**
+ * Este archivo gestiona el carrito de compras: agregar, eliminar, actualizar productos,
+ * mostrar notificaciones, abrir/cerrar el modal y enviar el pedido por WhatsApp.
+ * Todas las funciones principales están comentadas para facilitar el mantenimiento.
+ */
+
+// --------------------------------------------
+// Clase principal del carrito de compras
+// --------------------------------------------
 class ShoppingCart {
+
+    /**
+     * Constructor: carga el carrito y lo inicializa
+     */
     constructor() {
         this.items = this.loadCartFromStorage();
         this.init();
     }
 
-    // Inicializar el carrito
+
+    /**
+     * Inicializa el carrito: contador y eventos
+     */
     init() {
         this.updateCartCounter();
         this.bindEvents();
     }
 
-    // Cargar carrito desde localStorage
+    /**
+     * Carga el carrito desde localStorage
+     */
     loadCartFromStorage() {
         try {
             const savedCart = localStorage.getItem('macachi_cart');
@@ -25,7 +44,9 @@ class ShoppingCart {
         }
     }
 
-    // Guardar carrito en localStorage
+    /**
+     * Guarda el carrito en localStorage
+     */
     saveCartToStorage() {
         try {
             localStorage.setItem('macachi_cart', JSON.stringify(this.items));
@@ -34,7 +55,9 @@ class ShoppingCart {
         }
     }
 
-    // Añadir producto al carrito
+    /**
+     * Añade un producto al carrito
+     */
     addItem(product, quantity = 1, selectedSize = null) {
         const existingItem = this.items.find(item => 
             item.id === product.id && item.selectedSize === selectedSize
@@ -58,7 +81,9 @@ class ShoppingCart {
         this.showAddToCartNotification(product.title);
     }
 
-    // Remover producto del carrito
+    /**
+     * Elimina un producto del carrito
+     */
     removeItem(productId, selectedSize = null) {
         this.items = this.items.filter(item => 
             !(item.id === productId && item.selectedSize === selectedSize)
@@ -68,7 +93,9 @@ class ShoppingCart {
         this.updateCartModal();
     }
 
-    // Actualizar cantidad de un producto
+    /**
+     * Actualiza la cantidad de un producto
+     */
     updateQuantity(productId, selectedSize, newQuantity) {
         const item = this.items.find(item => 
             item.id === productId && item.selectedSize === selectedSize
@@ -86,12 +113,16 @@ class ShoppingCart {
         }
     }
 
-    // Obtener total de productos en el carrito
+    /**
+     * Devuelve el total de productos en el carrito
+     */
     getTotalItems() {
         return this.items.reduce((total, item) => total + item.quantity, 0);
     }
 
-    // Limpiar carrito
+    /**
+     * Vacía el carrito
+     */
     clearCart() {
         this.items = [];
         this.saveCartToStorage();
@@ -99,7 +130,9 @@ class ShoppingCart {
         this.updateCartModal();
     }
 
-    // Actualizar contador del carrito en la interfaz
+    /**
+     * Actualiza el contador visual del carrito
+     */
     updateCartCounter() {
         const cartCounter = document.querySelector('.cart-counter');
         const totalItems = this.getTotalItems();
@@ -110,7 +143,9 @@ class ShoppingCart {
         }
     }
 
-    // Mostrar notificación de producto añadido
+    /**
+     * Muestra una notificación cuando se añade un producto
+     */
     showAddToCartNotification(productTitle) {
         // Remover notificación existente si la hay
         const existingNotification = document.querySelector('.cart-notification');
@@ -142,7 +177,9 @@ class ShoppingCart {
         }, 3000);
     }
 
-    // Abrir modal del carrito
+    /**
+     * Abre el modal del carrito
+     */
     openCartModal() {
         this.updateCartModal();
         const cartModal = document.getElementById('cartModal');
@@ -152,7 +189,9 @@ class ShoppingCart {
         }
     }
 
-    // Cerrar modal del carrito
+    /**
+     * Cierra el modal del carrito
+     */
     closeCartModal() {
         const cartModal = document.getElementById('cartModal');
         if (cartModal) {
@@ -161,7 +200,9 @@ class ShoppingCart {
         }
     }
 
-    // Actualizar contenido del modal del carrito
+    /**
+     * Actualiza el contenido del modal del carrito
+     */
     updateCartModal() {
         const cartItems = document.getElementById('cartItems');
         const cartTotal = document.getElementById('cartTotal');
@@ -214,7 +255,9 @@ class ShoppingCart {
         }
     }
 
-    // Proceder al checkout (enviar por WhatsApp)
+    /**
+     * Envía el pedido por WhatsApp
+     */
     checkout() {
         if (this.items.length === 0) {
             alert('Tu carrito está vacío');
@@ -238,7 +281,9 @@ class ShoppingCart {
         window.open(whatsappUrl, '_blank');
     }
 
-    // Vincular eventos
+    /**
+     * Vincula los eventos de la interfaz al carrito
+     */
     bindEvents() {
         // Evento para abrir carrito
         document.addEventListener('click', (e) => {
@@ -268,13 +313,18 @@ class ShoppingCart {
     }
 }
 
-// Inicializar carrito cuando el DOM esté cargado
+
+// --------------------------------------------
+// Inicialización global del carrito
+// --------------------------------------------
 let cart;
 document.addEventListener('DOMContentLoaded', () => {
     cart = new ShoppingCart();
 });
 
-// Función para añadir al carrito desde el modal de producto
+/**
+ * Añade al carrito desde el modal de producto
+ */
 function addToCart() {
     const modal = document.getElementById('productModal');
     if (!modal || modal.style.display === 'none') return;
@@ -304,7 +354,9 @@ function addToCart() {
     closeProductModal();
 }
 
-// Función para añadir producto rápido al carrito (sin modal)
+/**
+ * Añade producto rápido al carrito (sin modal)
+ */
 function addQuickToCart(productId, productTitle, productImage) {
     if (!cart) {
         console.error('Carrito no inicializado');
@@ -324,5 +376,7 @@ function addQuickToCart(productId, productTitle, productImage) {
     cart.addItem(product, 1, defaultSize);
 }
 
+// --------------------------------------------
 // Exportar funciones globalmente
+// --------------------------------------------
 window.addQuickToCart = addQuickToCart;
